@@ -27,34 +27,14 @@ DEFAULT_MODELS = ["lfm2.5-1.2b", "qwen3.5-2b", "gemma-4-e2b", "ministral-3-3b"]
 LANG_NAME = {"en": "English", "cs": "Czech"}
 CHUNK = 25
 
-# task -> (tab label, radar axis label, headline name, description)
+# task -> (tab label, radar axis label, headline name)
 BENCH = {
-    "nexus": ("Tool calling", "Tool calling", "call accuracy",
-              "BenchMAX Nexus (318 queries per language, 2–12 tools in context). A call counts when the function "
-              "and every argument match exactly, with defaults filled in, as in BenchMAX. Tool descriptions stay in "
-              "English. Each model uses its native tool format; tiny-aya, whose template has no tools, gets "
-              "BenchMAX's JSON tool prompt."),
-    "jsonmode": ("Structured output", "Structured output", "structured score",
-                 "NousResearch json-mode-eval (100 requests); the Czech set is a Kimi K3 translation that keeps the "
-                 "schema, the keys and the values that must be copied verbatim. Score = mean of valid JSON, valid "
-                 "against the schema, and the share of gold fields reproduced. No constrained decoding."),
-    "eurlex": ("Summarization", "Summarization", "judge score",
-               "EUR-Lex-Sum, the same 50 EU legal acts in both languages (≤ 16k tokens). Prompt and listwise "
-               "judge follow “Summarization Is Not Dead Yet” (arXiv 2606.08000): Kimi K3 scores informativeness, "
-               "faithfulness, coherence and conciseness 1–5 against the source, with the official EUR-Lex summary "
-               "in every group as a human reference. Score = harmonic mean of informativeness and faithfulness "
-               "(coverage and precision), rescaled to 0–100, so a short but correct one-liner does not score well; "
-               "a summary in the wrong language scores 0. Up to 2,048 output tokens. tiny-aya (8k context) sees "
-               "truncated documents."),
-    "minds": ("Classification", "Classification", "accuracy",
-              "MInDS-14 banking intents, natively collected in en-US (563) and cs-CZ (574): pick one of 14 intents "
-              "from the label list. Chance is 7 %."),
-    "gmmlu": ("Knowledge", "Knowledge", "accuracy",
-              "Global-MMLU-Lite, 400 parallel questions per language (human-translated Czech), 200 culturally "
-              "sensitive and 200 culturally agnostic. Zero-shot, letter answer. Chance is 25 %."),
-    "ifeval": ("Instruction following", "Instructions", "IFEval strict",
-               "BenchMAX IFEval (429 prompts per language) with BenchMAX's language-aware checkers. Score = mean "
-               "of prompt-level and instruction-level strict accuracy."),
+    "nexus": ("Tool calling", "Tool calling", "call accuracy"),
+    "jsonmode": ("Structured output", "Structured output", "structured score"),
+    "eurlex": ("Summarization", "Summarization", "judge score"),
+    "minds": ("Classification", "Classification", "accuracy"),
+    "gmmlu": ("Knowledge", "Knowledge", "accuracy"),
+    "ifeval": ("Instruction following", "Instructions", "IFEval strict"),
 }
 # per-bench table columns: (metric key in scores.csv, column header, scale) - scale 1 = already 0-100
 TABLE_METRICS = {
@@ -124,6 +104,12 @@ def mean(xs):
 
 # ---------------------------------------------------------------------------------------------- charts
 
+def tip_attrs(v, label: str) -> str:
+    """Hover tooltip for app.js: the value leads, the label follows. (A native SVG <title> only shows after a
+    delay and gives no visible response, so it read as "hovering does nothing".)"""
+    return f"data-v='{f1(v) if v is not None else 'no data'}' data-l='{esc(label)}'"
+
+
 def marker(lang: str, x: float, y: float, r: float = 4) -> str:
     """Shape is the second channel next to colour: the house teal/purple pair is only ΔE 7.2 apart under
     deuteranopia (validate_palette.js), which is legal only with a secondary encoding."""
@@ -175,9 +161,8 @@ def radar_svg(model: str, params: str, vals: dict) -> str:
         s.append(f"<path class='rd-{lang}' d='{d}'/>")
         for (x, y), t in zip(pts, tasks):
             v = vals[t][lang]
-            tip = f"{model} · {LANG_NAME[lang]} · {BENCH[t][0]}: {f1(v) if v is not None else 'no data'}"
-            dots.append(f"<g><title>{esc(tip)}</title><circle class='rd-hit' cx='{x:.1f}' cy='{y:.1f}' r='9'/>"
-                        f"{marker(lang, x, y)}</g>")
+            dots.append(f"<g class='tip' {tip_attrs(v, f'{model} · {LANG_NAME[lang]} · {BENCH[t][0]}')}>"
+                        f"<circle class='rd-hit' cx='{x:.1f}' cy='{y:.1f}' r='12'/>{marker(lang, x, y)}</g>")
     s += dots
     s.append("</svg>")
     return "".join(s)
@@ -227,8 +212,47 @@ def bars_svg(title: str, rows: list, ref_rows: list = ()) -> str:
             if v is None:
                 s.append(f"<text class='ct-val na' x='{x0 + 4}' y='{by + 6.5}'>n/a</text>")
                 continue
-            s.append(f"<g><title>{esc(name)} · {LANG_NAME[lang]}: {f1(v)}</title>{_bar(lang, x0, sc(v), by)}</g>"
+            s.append(f"<g class='tip' {tip_attrs(v, f'{name} · {LANG_NAME[lang]}')}>{_bar(lang, x0, sc(v), by)}"
+                     f"<rect class='rd-hit' x='{x0}' y='{by - 1.5}' width='{x1 - x0}' height='11'/></g>"
                      f"<text class='ct-val' x='{sc(v) + 4:.1f}' y='{by + 6.5}'>{f1(v)}</text>")
+        y += block
+    s.append("</svg>")
+    return "".join(s)
+
+
+def bars_compact_svg(title: str, rows: list, ref_rows: list = ()) -> str:
+    """The per-skill chart, sized to sit beside its table: one row per model, Czech above English."""
+    W, x0, x1 = 440, 132, 400
+    sc = lambda v: x0 + (x1 - x0) * max(0.0, min(v, 100)) / 100  # noqa: E731
+    block, top = 25, 30  # 9px between the Czech and English bars, so their tip labels never touch
+    n = len(rows) + len(ref_rows)
+    plot_h = n * block + (8 if ref_rows else 0)
+    H = top + plot_h + 18
+    s = [f"<svg class='ctchart' viewBox='0 0 {W} {H}' role='img' aria-label='{esc(title)}: score by model and language'>"]
+    s.append(f"<text class='ct-title' x='4' y='12'>{esc(title)}</text>")
+    for k, lang in enumerate(("cs", "en")):
+        x = W - 104 + 54 * k
+        s.append(f"<rect class='{lang}' x='{x}' y='4' width='10' height='8' rx='2'/>"
+                 f"<text class='ct-lgd' x='{x + 14}' y='12'>{LANG_NAME[lang]}</text>")
+    for v in (0, 50, 100):
+        cls = "ct-base" if v == 0 else "ct-grid"
+        s.append(f"<line class='{cls}' x1='{sc(v):.1f}' y1='{top - 6}' x2='{sc(v):.1f}' y2='{top + plot_h}'/>"
+                 f"<text class='ct-tick' x='{sc(v):.1f}' y='{top + plot_h + 11}' text-anchor='middle'>{v}</text>")
+    y = top
+    for i, (name, _, vals) in enumerate(list(rows) + list(ref_rows)):
+        if i == len(rows) and ref_rows:
+            y += 8
+            s.append(f"<rect class='ct-band' x='0' y='{y - 4}' width='{W}' height='{len(ref_rows) * block}' rx='4'/>")
+        s.append(f"<text class='ct-name' x='4' y='{y + 12}'>{esc(name)}</text>")
+        for k, lang in enumerate(("cs", "en")):
+            by = y + 2 + 9 * k
+            v = vals.get(lang)
+            s.append(f"<rect class='ct-track' x='{x0}' y='{by}' width='{x1 - x0}' height='6' rx='2'/>")
+            if v is None:
+                continue
+            s.append(f"<g class='tip' {tip_attrs(v, f'{name} · {LANG_NAME[lang]}')}>{_bar(lang, x0, sc(v), by, h=6, r=2)}"
+                     f"<rect class='rd-hit' x='{x0}' y='{by - 1.5}' width='{x1 - x0}' height='9'/></g>"
+                     f"<text class='ct-val' x='{sc(v) + 3:.1f}' y='{by + 5.5}'>{f1(v)}</text>")
         y += block
     s.append("</svg>")
     return "".join(s)
@@ -464,12 +488,20 @@ def build(outputs: Path, results: Path, site: Path):
     v = format(abs(hash((tuple(sorted(map(str, scores.items()))), (static / "app.js").stat().st_mtime))) % 16**8, "08x")
 
     page = [HEAD.replace("{v}", v), MAST.format(url=esc(POST_URL), title=esc(POST_TITLE)),
-            f"<div class='sub lede'>{esc(LEDE)}</div>", "<nav class='tabs'><button class='tabbtn' data-tab='overall'>overall</button>"]
+            f"<div class='sub lede'>{esc(LEDE)}</div>", "<nav class='tabs'>",
+            "<button class='tabbtn' data-tab='overall'>overall</button>",
+            "<button class='tabbtn' data-tab='all'>all results</button>"]
     page += [f"<button class='tabbtn' data-tab='{t}'>{esc(BENCH[t][0])}</button>" for t in TASKS]
     page.append("</nav><main>")
 
-    # overall
-    page.append("<section class='tabpane' data-tab='overall'>" + KEYROW + "<div class='radargrid'>")
+    # overall: one interactive radar, drawn by app.js from index.js
+    page.append("<section class='tabpane' data-tab='overall'><div class='ovctl'></div><div class='ovgrid'>"
+                "<figure class='chartblock ovfig'><svg class='ctchart ovradar' viewBox='0 0 560 470' role='img' "
+                "aria-label='Score per skill for the selected models'></svg><div class='ovtip' hidden></div></figure>"
+                "<div class='ovside'></div></div></section>")
+
+    # all results: small multiples, the full table, means, method
+    page.append("<section class='tabpane' data-tab='all'>" + KEYROW + "<div class='radargrid'>")
     page += [figure(radar_svg(m, cfgs[m].get("params", ""), rv[m]), f"radar-{m}") for m in models]
     page.append("</div><h2>models side by side</h2>" + overall_table(models, cfgs, rv))
     gap_rows = [(m, cfgs[m].get("params", ""), {l: mean(rv[m][t][l] for t in TASKS) for l in LANGS}) for m in models]
@@ -477,17 +509,19 @@ def build(outputs: Path, results: Path, site: Path):
                 figure(bars_svg("Mean score over the six skills", gap_rows), "mean-by-language") + "</div>")
     page.append("<h2>how it was run</h2>" + METHOD + "</section>")
 
-    # one tab per skill
+    # one tab per skill: compact chart beside its table, then the samples
     for t in TASKS:
-        label, _, _, desc = BENCH[t]
-        rows = [(m, cfgs[m].get("params", ""), {l: rv[m][t][l] for l in LANGS}) for m in models]
+        label = BENCH[t][0]
+        rows = [(m, "", {l: rv[m][t][l] for l in LANGS}) for m in models]
         ref = []
         if t == "eurlex" and any(("human", t, l) in scores for l in LANGS):
-            ref = [("official EUR-Lex summary", "human-written", {l: scores.get(("human", t, l), {}).get("radar") for l in LANGS})]
-        page.append(f"<section class='tabpane' data-tab='{t}'><div class='sub'>{esc(desc)}</div>")
-        page.append("<div class='viz'>" + figure(bars_svg(label, rows, ref), f"{t}-by-model") + "</div>")
-        page.append(bench_table(t, models, scores, ["human"] if ref else []))
-        page.append("<h2>samples</h2><div class='ctlbox'></div><div class='body'></div></section>")
+            ref = [("EUR-Lex (human)", "", {l: scores.get(("human", t, l), {}).get("radar") for l in LANGS})]
+        page.append(f"<section class='tabpane' data-tab='{t}'><div class='taskgrid'>"
+                    + figure(bars_compact_svg(label, rows, ref), f"{t}-by-model", "chartblock ctfig compact")
+                    + "<div class='tasktable'>" + bench_table(t, models, scores, ["human"] if ref else []) + "</div></div>"
+                    f"<button class='tosamples' type='button' data-scroll='{t}'>↓ samples below: every input with each "
+                    "model's answer</button>"
+                    "<h2 class='samples'>samples</h2><div class='ctlbox'></div><div class='body'></div></section>")
     page.append(FOOT.replace("{v}", v).replace("{{", "{").replace("}}", "}"))
     (site / "index.html").write_text("".join(page), encoding="utf-8")
 
@@ -507,6 +541,11 @@ def build(outputs: Path, results: Path, site: Path):
                     sc_idx[t][l][m] = d
     index = {"models": [{"tag": m, "params": cfgs[m].get("params", "")} for m in models], "order": models,
              "default_models": DEFAULT_MODELS, "benches": bench_meta, "scores": sc_idx,
+             "axes": [{"id": t, "label": BENCH[t][1], "name": BENCH[t][0]} for t in TASKS],
+             # rounded here, so the browser shows exactly the numbers of the tables (JS rounds ties differently)
+             "radar": {m: {t: {l: None if rv[m][t][l] is None else float(f1(rv[m][t][l])) for l in LANGS}
+                           for t in TASKS} for m in models},
+             "radar_mean": {m: {l: float(f1(mean(rv[m][t][l] for t in TASKS))) for l in LANGS} for m in models},
              "svg_export": {"styles": SVG_STYLES, "font": "Barlow, Helvetica, Arial, sans-serif"}}
     write_js(site / "data" / "index.js", "index", index)
     n_files = sum(1 for _ in (site / "data").rglob("*.js"))

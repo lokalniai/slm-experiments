@@ -443,6 +443,223 @@ var BM = (function () {
     setTimeout(function () { URL.revokeObjectURL(url); }, 2000);
   }
 
+  // ---- overall: one interactive radar -------------------------------------
+  // Colour means model here (the house teal/purple mean language elsewhere).
+  // A model takes the first free slot when selected and keeps it, and its colour,
+  // until it is deselected. Four slots, each with its own marker shape as the
+  // second channel next to colour. State is in the hash as positional slots
+  // (models=a,,c), so a link reproduces the colours too.
+
+  var OV = null;
+  var NSLOT = 4;
+  var OVW = 560, OVH = 470, OVCX = 280, OVCY = 238, OVR = 168;
+
+  function ovParse(p) {
+    var lang = p && p.get("lang") === "cs" ? "cs" : "en";
+    var slots = [null, null, null, null];
+    if (p && p.has("models")) {
+      p.get("models").split(",").slice(0, NSLOT).forEach(function (t, i) {
+        if (META.radar[t] && slots.indexOf(t) < 0) slots[i] = t;
+      });
+    } else {
+      (META.default_models || []).filter(function (t) { return META.radar[t]; })
+        .slice(0, NSLOT).forEach(function (t, i) { slots[i] = t; });
+    }
+    return {lang: lang, slots: slots};
+  }
+
+  function ovHash() {
+    var p = new URLSearchParams();
+    p.set("lang", OV.lang);
+    p.set("models", OV.slots.map(function (t) { return t || ""; }).join(","));
+    setHash("#overall?" + p.toString());
+  }
+
+  function ovPt(i, v) {
+    var a = -Math.PI / 2 + 2 * Math.PI * i / META.axes.length;
+    return [OVCX + OVR * v / 100 * Math.cos(a), OVCY + OVR * v / 100 * Math.sin(a)];
+  }
+
+  function ovMarker(slot, x, y, r, extra) {
+    var f = ' style="fill:var(--m' + (slot + 1) + ')"' + (extra || "");
+    var X = x.toFixed(1), Y = y.toFixed(1);
+    if (slot === 0) return '<circle class="ov-mk" cx="' + X + '" cy="' + Y + '" r="' + r + '"' + f + "/>";
+    if (slot === 1) {
+      var h = r * 0.9;
+      return '<rect class="ov-mk" x="' + (x - h).toFixed(1) + '" y="' + (y - h).toFixed(1) + '" width="' +
+             (2 * h).toFixed(1) + '" height="' + (2 * h).toFixed(1) + '" rx="1"' + f + "/>";
+    }
+    var d = slot === 2
+      ? "M" + X + " " + (y - 1.2 * r).toFixed(1) + "L" + (x + 1.1 * r).toFixed(1) + " " + (y + 0.8 * r).toFixed(1) +
+        "L" + (x - 1.1 * r).toFixed(1) + " " + (y + 0.8 * r).toFixed(1) + "Z"
+      : "M" + X + " " + (y - 1.3 * r).toFixed(1) + "L" + (x + 1.3 * r).toFixed(1) + " " + Y +
+        "L" + X + " " + (y + 1.3 * r).toFixed(1) + "L" + (x - 1.3 * r).toFixed(1) + " " + Y + "Z";
+    return '<path class="ov-mk" d="' + d + '"' + f + "/>";
+  }
+
+  function ovKey(slot) {
+    return '<svg class="mkr" width="11" height="11" viewBox="0 0 11 11" aria-hidden="true">' +
+           ovMarker(slot, 5.5, 5.5, 3.6) + "</svg>";
+  }
+
+  function ovMean(tag, lang) { return META.radar_mean[tag][lang]; }  // precomputed, matches the tables
+
+  function ovSVG() {
+    var n = META.axes.length, h = [];
+    [25, 50, 75, 100].forEach(function (ring) {
+      var d = "";
+      for (var i = 0; i < n; i++) { var p = ovPt(i, ring); d += (i ? "L" : "M") + p[0].toFixed(1) + " " + p[1].toFixed(1); }
+      h.push('<path class="ct-grid" d="' + d + 'Z" fill="none"/>');
+      var t = ovPt(0, ring);
+      h.push('<text class="ct-tick" x="' + (t[0] + 4).toFixed(1) + '" y="' + (t[1] + 3).toFixed(1) + '">' + ring + "</text>");
+    });
+    META.axes.forEach(function (ax, i) {
+      var e = ovPt(i, 100), l = ovPt(i, 113);
+      h.push('<line class="ct-grid" x1="' + OVCX + '" y1="' + OVCY + '" x2="' + e[0].toFixed(1) + '" y2="' + e[1].toFixed(1) + '"/>');
+      var anchor = Math.abs(l[0] - OVCX) < 8 ? "middle" : (l[0] > OVCX ? "start" : "end");
+      var dy = l[1] < OVCY - OVR * 0.9 ? -3 : (l[1] > OVCY + OVR * 0.9 ? 12 : 4);
+      h.push('<g class="ov-axisg" tabindex="0" data-axis="' + i + '"><text class="ov-axis" x="' + l[0].toFixed(1) +
+             '" y="' + (l[1] + dy).toFixed(1) + '" text-anchor="' + anchor + '">' + esc(ax.label) + "</text></g>");
+    });
+    var marks = [], hits = [];
+    OV.slots.forEach(function (tag, slot) {
+      if (!tag) return;
+      var pts = META.axes.map(function (ax, i) { return ovPt(i, META.radar[tag][ax.id][OV.lang] || 0); });
+      h.push('<path class="ov-poly" style="fill:var(--m' + (slot + 1) + ');stroke:var(--m' + (slot + 1) + ')" d="M' +
+             pts.map(function (p) { return p[0].toFixed(1) + " " + p[1].toFixed(1); }).join("L") + 'Z"/>');
+      pts.forEach(function (p, i) {
+        marks.push(ovMarker(slot, p[0], p[1], 4.5, ' data-axis="' + i + '"'));
+        hits.push('<circle class="ov-hit" data-axis="' + i + '" cx="' + p[0].toFixed(1) + '" cy="' + p[1].toFixed(1) + '" r="13"/>');
+      });
+    });
+    if (!OV.slots.some(Boolean)) {
+      h.push('<text class="ov-empty" x="' + OVCX + '" y="' + OVCY + '" text-anchor="middle">pick up to four models above</text>');
+    }
+    return h.join("") + marks.join("") + hits.join("");
+  }
+
+  function ovRender() {
+    var el = pane("overall");
+    var free = OV.slots.indexOf(null) >= 0;
+    var ctl = '<div class="controls"><div class="ctl"><span class="lbl">language</span>' +
+              seg("ovlang", [{v: "en", t: "English"}, {v: "cs", t: "Czech"}], OV.lang) + "</div>" +
+              '<span class="dim">scores 0–100; up to four models at once</span></div>' +
+              '<div class="controls"><span class="lbl">models</span>';
+    META.models.forEach(function (m) {
+      var slot = OV.slots.indexOf(m.tag), on = slot >= 0;
+      ctl += '<button class="chip' + (on ? " on" : "") + '" data-ovtag="' + esc(m.tag) + '" title="' + esc(m.params) + '"' +
+             (!on && !free ? " disabled" : "") + ">" + (on ? ovKey(slot) : "") + esc(m.tag) + "</button>";
+    });
+    ctl += '<button class="chip lite" data-ovclear="1">clear</button></div>';
+    el.querySelector(".ovctl").innerHTML = ctl;
+    el.querySelector(".ovradar").innerHTML = ovSVG();
+
+    var side = '<span class="lbl">mean over the six skills · ' + (OV.lang === "cs" ? "Czech" : "English") + "</span>";
+    OV.slots.forEach(function (tag, slot) {
+      if (!tag) return;
+      var m = META.models.filter(function (x) { return x.tag === tag; })[0];
+      var other = OV.lang === "cs" ? "en" : "cs";
+      side += '<div class="row">' + ovKey(slot) + '<span class="nm">' + esc(tag) + '</span><span class="mn">' +
+              ovMean(tag, OV.lang).toFixed(1) + "<small>" + other + " " + ovMean(tag, other).toFixed(1) + "</small></span>" +
+              '<span class="sz">' + esc(m.params) + "</span></div>";
+    });
+    if (!OV.slots.some(Boolean)) side += '<p class="note">No model selected.</p>';
+    side += '<p class="note">Hover or focus a skill for its values. Every number, for all twelve models, is in ' +
+            '<a href="#all">all results</a>.</p>';
+    el.querySelector(".ovside").innerHTML = side;
+    ovTip(null);
+    ovHash();
+  }
+
+  // One tooltip per skill, listing every selected model: value first, then the name.
+  function ovTip(axis, anchorEl) {
+    var el = pane("overall"), tip = el.querySelector(".ovtip"), svg = el.querySelector(".ovradar");
+    svg.querySelectorAll(".ov-hot").forEach(function (x) { x.classList.remove("ov-hot"); });
+    if (axis == null || !OV.slots.some(Boolean)) { tip.hidden = true; return; }
+    var ax = META.axes[axis];
+    tip.textContent = "";
+    var hd = document.createElement("div");
+    hd.className = "h";
+    hd.textContent = ax.name + " · " + (OV.lang === "cs" ? "Czech" : "English");
+    tip.appendChild(hd);
+    OV.slots.forEach(function (tag, slot) {
+      if (!tag) return;
+      var r = document.createElement("div"), k = document.createElement("i"), b = document.createElement("b"),
+          s = document.createElement("span"), v = META.radar[tag][ax.id][OV.lang];
+      r.className = "r";
+      k.className = "k";
+      k.style.background = "var(--m" + (slot + 1) + ")";
+      b.textContent = v == null ? "–" : v.toFixed(1);
+      s.textContent = tag;
+      r.appendChild(k); r.appendChild(b); r.appendChild(s);
+      tip.appendChild(r);
+    });
+    svg.querySelectorAll('.ov-mk[data-axis="' + axis + '"]').forEach(function (x) { x.classList.add("ov-hot"); });
+    tip.hidden = false;
+    var fig = el.querySelector(".ovfig").getBoundingClientRect(), a = anchorEl.getBoundingClientRect();
+    var x = a.left + a.width / 2 - fig.left + 14, y = a.top + a.height / 2 - fig.top + 14;
+    if (x + tip.offsetWidth > fig.width) x = a.left - fig.left - tip.offsetWidth - 10;
+    if (y + tip.offsetHeight > fig.height) y = fig.height - tip.offsetHeight - 4;
+    tip.style.left = Math.max(4, x) + "px";
+    tip.style.top = Math.max(4, y) + "px";
+  }
+
+  function bindOverall() {
+    var el = pane("overall");
+    el.addEventListener("click", function (ev) {
+      var b = ev.target.closest('.seg[data-role="ovlang"] button');
+      if (b) { OV.lang = b.dataset.v; ovRender(); return; }
+      var c = ev.target.closest("[data-ovtag]");
+      if (c && !c.disabled) {
+        var i = OV.slots.indexOf(c.dataset.ovtag);
+        if (i >= 0) OV.slots[i] = null;
+        else { var f = OV.slots.indexOf(null); if (f >= 0) OV.slots[f] = c.dataset.ovtag; }
+        ovRender(); return;
+      }
+      if (ev.target.closest("[data-ovclear]")) { OV.slots = [null, null, null, null]; ovRender(); }
+    });
+    var svg = el.querySelector(".ovradar");
+    function over(ev) {
+      var t = ev.target.closest && ev.target.closest("[data-axis]");
+      if (t) ovTip(parseInt(t.dataset.axis, 10), t);
+    }
+    svg.addEventListener("pointerover", over);
+    svg.addEventListener("focusin", over);
+    svg.addEventListener("pointerleave", function () { ovTip(null); });
+    svg.addEventListener("focusout", function () { ovTip(null); });
+  }
+
+  // ---- tooltips on the static charts ---------------------------------------
+  // Every radar point and bar the build marked with data-v / data-l gets the same
+  // instant tooltip, value first, and the hovered mark lifts. One floating box for
+  // the whole page; text goes in with textContent.
+
+  function bindTips() {
+    var tip = document.createElement("div"), hot = null;
+    tip.className = "cttip";
+    tip.hidden = true;
+    var v = document.createElement("b"), l = document.createElement("span");
+    tip.appendChild(v); tip.appendChild(l);
+    document.body.appendChild(tip);
+    function place(ev) {
+      var x = ev.clientX + 14, y = ev.clientY + 14;
+      if (x + tip.offsetWidth > window.innerWidth - 8) x = ev.clientX - tip.offsetWidth - 10;
+      if (y + tip.offsetHeight > window.innerHeight - 8) y = ev.clientY - tip.offsetHeight - 10;
+      tip.style.left = x + "px"; tip.style.top = y + "px";
+    }
+    document.addEventListener("pointerover", function (ev) {
+      var g = ev.target.closest && ev.target.closest("g.tip");
+      if (g === hot) return;
+      if (hot) hot.classList.remove("hot");
+      hot = g;
+      if (!g) { tip.hidden = true; return; }
+      g.classList.add("hot");
+      v.textContent = g.dataset.v; l.textContent = g.dataset.l;
+      tip.hidden = false; place(ev);
+    });
+    document.addEventListener("pointermove", function (ev) { if (hot) place(ev); });
+  }
+
   // ---- events -------------------------------------------------------------
 
   function bindPane(id) {
@@ -492,15 +709,18 @@ var BM = (function () {
     });
   }
 
+  var STATIC_TABS = {overall: 1, all: 1};   // static HTML, no sample browser
+
   function show(tab, params) {
-    if (tab !== "overall" && !BENCH[tab]) tab = "overall";
+    if (!STATIC_TABS[tab] && !BENCH[tab]) tab = "overall";
     document.querySelectorAll(".tabbtn").forEach(function (b) {
       b.classList.toggle("on", b.dataset.tab === tab);
     });
     document.querySelectorAll(".tabpane").forEach(function (p) {
       p.classList.toggle("on", p.dataset.tab === tab);
     });
-    if (tab === "overall") { pushHash(tab, null); return; }
+    if (tab === "overall") { if (!OV) OV = ovParse(params); ovRender(); return; }
+    if (tab === "all") { pushHash(tab, null); return; }
     if (!STATE[tab]) { STATE[tab] = defaultState(BENCH[tab], params); bindPane(tab); }
     load(tab);
   }
@@ -520,7 +740,11 @@ var BM = (function () {
     document.addEventListener("click", function (ev) {
       var btn = ev.target.closest && ev.target.closest(".svgdl");
       if (btn) downloadSVG(btn.closest("figure"));
+      var down = ev.target.closest && ev.target.closest("[data-scroll]");
+      if (down) pane(down.dataset.scroll).querySelector("h2.samples").scrollIntoView({behavior: "smooth", block: "start"});
     });
+    bindOverall();
+    bindTips();
     // Paging with the arrow keys, since browsing is the whole point of these
     // tabs -- but never while the search box has focus.
     document.addEventListener("keydown", function (ev) {
