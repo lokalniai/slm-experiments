@@ -1,0 +1,429 @@
+{"id": "1000", "finish_reason": "stop", "score": 0.0, "inst_strict": [true, false, false], "prompt_loose": 0.0, "inst_loose": [true, false, false]}
+{"id": "1001", "finish_reason": "length", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1005", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1012", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "102", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1069", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, false, false], "prompt_loose": 0.0, "inst_loose": [false, false, false]}
+{"id": "1072", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1075", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1082", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1092", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1094", "finish_reason": "length", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "1098", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "1107", "finish_reason": "stop", "score": 0.0, "inst_strict": [true, false], "prompt_loose": 0.0, "inst_loose": [true, false]}
+{"id": "1108", "finish_reason": "length", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1127", "finish_reason": "length", "score": 0.0, "inst_strict": [false, false], "prompt_loose": 0.0, "inst_loose": [false, true]}
+{"id": "1128", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1131", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1137", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, true], "prompt_loose": 0.0, "inst_loose": [false, true]}
+{"id": "1139", "finish_reason": "length", "score": 0.0, "inst_strict": [false, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "1147", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "1148", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1154", "finish_reason": "length", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1162", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1180", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "1187", "finish_reason": "length", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1203", "finish_reason": "length", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "1216", "finish_reason": "length", "score": 0.0, "inst_strict": [false, true], "prompt_loose": 0.0, "inst_loose": [false, true]}
+{"id": "1217", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "122", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1220", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1233", "finish_reason": "length", "score": 0.0, "inst_strict": [false, true], "prompt_loose": 0.0, "inst_loose": [false, true]}
+{"id": "1236", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1237", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "1242", "finish_reason": "stop", "score": 0.0, "inst_strict": [true, false], "prompt_loose": 0.0, "inst_loose": [true, false]}
+{"id": "1246", "finish_reason": "length", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "1248", "finish_reason": "length", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "1251", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1258", "finish_reason": "length", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1259", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1262", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "1265", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, false], "prompt_loose": 0.0, "inst_loose": [false, false]}
+{"id": "1268", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "127", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "1281", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "1286", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "13", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1305", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "1307", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1322", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1325", "finish_reason": "length", "score": 0.0, "inst_strict": [false, false], "prompt_loose": 0.0, "inst_loose": [false, false]}
+{"id": "1332", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1342", "finish_reason": "stop", "score": 0.0, "inst_strict": [true, true, false], "prompt_loose": 0.0, "inst_loose": [true, true, false]}
+{"id": "1348", "finish_reason": "stop", "score": 0.0, "inst_strict": [true, false, true], "prompt_loose": 0.0, "inst_loose": [true, false, true]}
+{"id": "136", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "1367", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1372", "finish_reason": "length", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1375", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "1377", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "1379", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, true, true], "prompt_loose": 0.0, "inst_loose": [false, true, true]}
+{"id": "1381", "finish_reason": "length", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "1392", "finish_reason": "stop", "score": 0.0, "inst_strict": [true, false, true], "prompt_loose": 0.0, "inst_loose": [true, false, true]}
+{"id": "1393", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "1418", "finish_reason": "length", "score": 0.0, "inst_strict": [true, false, true], "prompt_loose": 0.0, "inst_loose": [true, false, true]}
+{"id": "142", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true, true], "prompt_loose": 1.0, "inst_loose": [true, true, true]}
+{"id": "143", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "1446", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1466", "finish_reason": "stop", "score": 0.0, "inst_strict": [true, false], "prompt_loose": 0.0, "inst_loose": [true, false]}
+{"id": "1476", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "1477", "finish_reason": "length", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1480", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1481", "finish_reason": "stop", "score": 0.0, "inst_strict": [true, false], "prompt_loose": 0.0, "inst_loose": [true, false]}
+{"id": "1498", "finish_reason": "length", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "1508", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, false], "prompt_loose": 0.0, "inst_loose": [false, false]}
+{"id": "1512", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "1518", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1531", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "1537", "finish_reason": "length", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "1546", "finish_reason": "stop", "score": 0.0, "inst_strict": [true, false], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "1548", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1551", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1561", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, false], "prompt_loose": 0.0, "inst_loose": [false, false]}
+{"id": "1580", "finish_reason": "length", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1582", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, true, false], "prompt_loose": 0.0, "inst_loose": [false, true, false]}
+{"id": "1591", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "16", "finish_reason": "stop", "score": 0.0, "inst_strict": [true, false], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "1601", "finish_reason": "stop", "score": 0.0, "inst_strict": [true, false], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "1609", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, true], "prompt_loose": 0.0, "inst_loose": [false, true]}
+{"id": "1619", "finish_reason": "stop", "score": 0.0, "inst_strict": [true, false], "prompt_loose": 0.0, "inst_loose": [true, false]}
+{"id": "1620", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1627", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, true, false], "prompt_loose": 0.0, "inst_loose": [false, true, true]}
+{"id": "1629", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1634", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "164", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1643", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, false], "prompt_loose": 0.0, "inst_loose": [false, false]}
+{"id": "1644", "finish_reason": "length", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1646", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1656", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1658", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "1659", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "167", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1675", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "168", "finish_reason": "length", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1686", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1691", "finish_reason": "length", "score": 0.0, "inst_strict": [false, false], "prompt_loose": 0.0, "inst_loose": [false, false]}
+{"id": "1705", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "1713", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, true], "prompt_loose": 0.0, "inst_loose": [false, true]}
+{"id": "1730", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "1733", "finish_reason": "length", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "1738", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "1739", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "1746", "finish_reason": "length", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1759", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1773", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1776", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "179", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "1793", "finish_reason": "length", "score": 0.0, "inst_strict": [false, false], "prompt_loose": 0.0, "inst_loose": [false, true]}
+{"id": "1800", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1802", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "181", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "1823", "finish_reason": "length", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "1825", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, true, true], "prompt_loose": 0.0, "inst_loose": [false, true, true]}
+{"id": "1837", "finish_reason": "length", "score": 0.0, "inst_strict": [true, false], "prompt_loose": 0.0, "inst_loose": [true, false]}
+{"id": "1845", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, true], "prompt_loose": 0.0, "inst_loose": [false, true]}
+{"id": "1857", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1858", "finish_reason": "length", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1879", "finish_reason": "length", "score": 0.0, "inst_strict": [true, false], "prompt_loose": 0.0, "inst_loose": [true, false]}
+{"id": "1886", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1893", "finish_reason": "length", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1897", "finish_reason": "length", "score": 0.0, "inst_strict": [true, false], "prompt_loose": 0.0, "inst_loose": [true, false]}
+{"id": "19", "finish_reason": "length", "score": 0.0, "inst_strict": [true, false], "prompt_loose": 0.0, "inst_loose": [true, false]}
+{"id": "1902", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1906", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "1908", "finish_reason": "length", "score": 0.0, "inst_strict": [true, false, false], "prompt_loose": 0.0, "inst_loose": [true, false, false]}
+{"id": "1922", "finish_reason": "length", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "1927", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "1928", "finish_reason": "stop", "score": 0.0, "inst_strict": [true, false, true], "prompt_loose": 1.0, "inst_loose": [true, true, true]}
+{"id": "1934", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1936", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "1939", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1943", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "1944", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "1954", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "1980", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true, true], "prompt_loose": 1.0, "inst_loose": [true, true, true]}
+{"id": "2010", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2015", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2023", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2028", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "2034", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "2035", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, true, false], "prompt_loose": 0.0, "inst_loose": [false, true, false]}
+{"id": "2041", "finish_reason": "length", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "2063", "finish_reason": "length", "score": 0.0, "inst_strict": [false, true], "prompt_loose": 0.0, "inst_loose": [false, true]}
+{"id": "2069", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, true], "prompt_loose": 0.0, "inst_loose": [false, true]}
+{"id": "2070", "finish_reason": "length", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "2071", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2078", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "2084", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, true], "prompt_loose": 0.0, "inst_loose": [false, true]}
+{"id": "209", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2097", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2118", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, false], "prompt_loose": 0.0, "inst_loose": [true, false]}
+{"id": "2136", "finish_reason": "length", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "2139", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "2142", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "2143", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, true], "prompt_loose": 0.0, "inst_loose": [false, true]}
+{"id": "2162", "finish_reason": "length", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "2164", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "219", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2192", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "2195", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2207", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2209", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "2215", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2225", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2229", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2230", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, false], "prompt_loose": 0.0, "inst_loose": [true, false]}
+{"id": "2239", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2243", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2245", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2246", "finish_reason": "length", "score": 0.0, "inst_strict": [true, false, false], "prompt_loose": 0.0, "inst_loose": [true, false, false]}
+{"id": "2250", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2253", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "2266", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2268", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "227", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2273", "finish_reason": "length", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "2284", "finish_reason": "stop", "score": 0.0, "inst_strict": [true, false, true], "prompt_loose": 0.0, "inst_loose": [true, false, true]}
+{"id": "2292", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "2299", "finish_reason": "length", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2303", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, true], "prompt_loose": 0.0, "inst_loose": [false, true]}
+{"id": "2304", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "2305", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, false], "prompt_loose": 0.0, "inst_loose": [false, false]}
+{"id": "2309", "finish_reason": "length", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2311", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "2314", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2323", "finish_reason": "length", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2324", "finish_reason": "length", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2328", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "2337", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, true], "prompt_loose": 0.0, "inst_loose": [false, true]}
+{"id": "2355", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "2357", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2359", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2362", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2374", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "2380", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "2381", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2383", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "2386", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "2392", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2395", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, false], "prompt_loose": 0.0, "inst_loose": [false, false]}
+{"id": "2396", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2398", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "240", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2404", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2417", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2432", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2436", "finish_reason": "stop", "score": 0.0, "inst_strict": [true, false], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "2439", "finish_reason": "length", "score": 0.0, "inst_strict": [true, false, true], "prompt_loose": 0.0, "inst_loose": [true, false, true]}
+{"id": "2441", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2457", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2464", "finish_reason": "length", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2465", "finish_reason": "length", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2467", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "247", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2471", "finish_reason": "length", "score": 0.0, "inst_strict": [false, true], "prompt_loose": 0.0, "inst_loose": [false, true]}
+{"id": "2475", "finish_reason": "length", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "2482", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "2485", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "2497", "finish_reason": "stop", "score": 0.0, "inst_strict": [true, false], "prompt_loose": 0.0, "inst_loose": [true, false]}
+{"id": "2505", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2515", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2532", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2534", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2549", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, false, true], "prompt_loose": 0.0, "inst_loose": [true, false, true]}
+{"id": "2567", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "2577", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "2583", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, true], "prompt_loose": 0.0, "inst_loose": [false, true]}
+{"id": "2585", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2589", "finish_reason": "length", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "2590", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2591", "finish_reason": "stop", "score": 0.0, "inst_strict": [true, false], "prompt_loose": 0.0, "inst_loose": [true, false]}
+{"id": "2596", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, false, false], "prompt_loose": 0.0, "inst_loose": [false, false, false]}
+{"id": "260", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "2602", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2616", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "2617", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2622", "finish_reason": "length", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "2628", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "2637", "finish_reason": "stop", "score": 0.0, "inst_strict": [true, false], "prompt_loose": 0.0, "inst_loose": [true, false]}
+{"id": "2649", "finish_reason": "stop", "score": 0.0, "inst_strict": [true, false], "prompt_loose": 0.0, "inst_loose": [true, false]}
+{"id": "2662", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "2667", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2674", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "2677", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2683", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true, true], "prompt_loose": 1.0, "inst_loose": [true, true, true]}
+{"id": "2685", "finish_reason": "length", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2691", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2704", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, true, true], "prompt_loose": 0.0, "inst_loose": [false, true, true]}
+{"id": "2713", "finish_reason": "stop", "score": 0.0, "inst_strict": [true, false], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "2716", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "2724", "finish_reason": "stop", "score": 0.0, "inst_strict": [true, false], "prompt_loose": 0.0, "inst_loose": [true, false]}
+{"id": "2739", "finish_reason": "length", "score": 0.0, "inst_strict": [false, false], "prompt_loose": 0.0, "inst_loose": [false, false]}
+{"id": "2749", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "2751", "finish_reason": "stop", "score": 0.0, "inst_strict": [true, false], "prompt_loose": 0.0, "inst_loose": [true, false]}
+{"id": "2752", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2759", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2780", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2785", "finish_reason": "stop", "score": 0.0, "inst_strict": [true, false], "prompt_loose": 0.0, "inst_loose": [true, false]}
+{"id": "2790", "finish_reason": "length", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2798", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2801", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "2807", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "281", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2811", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "2825", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "2828", "finish_reason": "length", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2829", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2832", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2844", "finish_reason": "length", "score": 0.0, "inst_strict": [false, true], "prompt_loose": 0.0, "inst_loose": [false, true]}
+{"id": "2857", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "2859", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "286", "finish_reason": "stop", "score": 0.0, "inst_strict": [true, false], "prompt_loose": 0.0, "inst_loose": [true, false]}
+{"id": "2871", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "288", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2880", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2889", "finish_reason": "length", "score": 0.0, "inst_strict": [false, false], "prompt_loose": 0.0, "inst_loose": [false, false]}
+{"id": "2904", "finish_reason": "length", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2905", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "2909", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, true], "prompt_loose": 0.0, "inst_loose": [false, true]}
+{"id": "2918", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "292", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2921", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2925", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2929", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2941", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "295", "finish_reason": "length", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2957", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2969", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "2977", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "2985", "finish_reason": "length", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "2997", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "30", "finish_reason": "length", "score": 0.0, "inst_strict": [false, true, false], "prompt_loose": 0.0, "inst_loose": [false, true, false]}
+{"id": "3001", "finish_reason": "length", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "301", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3025", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3041", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "3048", "finish_reason": "length", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "3057", "finish_reason": "length", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3063", "finish_reason": "length", "score": 0.0, "inst_strict": [false, true], "prompt_loose": 0.0, "inst_loose": [false, true]}
+{"id": "3071", "finish_reason": "length", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3073", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "3079", "finish_reason": "length", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "3081", "finish_reason": "length", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "3084", "finish_reason": "stop", "score": 0.0, "inst_strict": [true, false], "prompt_loose": 0.0, "inst_loose": [true, false]}
+{"id": "3089", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, false, true], "prompt_loose": 0.0, "inst_loose": [false, false, true]}
+{"id": "3091", "finish_reason": "length", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3109", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3112", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3114", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, false, true], "prompt_loose": 0.0, "inst_loose": [false, false, true]}
+{"id": "3126", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "3130", "finish_reason": "length", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3131", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "3156", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3166", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3191", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "3198", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "32", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "3203", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "321", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "322", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3221", "finish_reason": "length", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3223", "finish_reason": "length", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "3224", "finish_reason": "length", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3241", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3243", "finish_reason": "stop", "score": 0.0, "inst_strict": [true, false], "prompt_loose": 0.0, "inst_loose": [true, false]}
+{"id": "3245", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, false], "prompt_loose": 0.0, "inst_loose": [false, false]}
+{"id": "3256", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true, true], "prompt_loose": 1.0, "inst_loose": [true, true, true]}
+{"id": "3263", "finish_reason": "length", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3272", "finish_reason": "stop", "score": 0.0, "inst_strict": [true, true, false], "prompt_loose": 0.0, "inst_loose": [true, true, false]}
+{"id": "3280", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "3281", "finish_reason": "stop", "score": 0.0, "inst_strict": [true, false], "prompt_loose": 0.0, "inst_loose": [true, false]}
+{"id": "3287", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "3294", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "3305", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, false, true], "prompt_loose": 0.0, "inst_loose": [false, true, true]}
+{"id": "3311", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true, true], "prompt_loose": 1.0, "inst_loose": [true, true, true]}
+{"id": "3315", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "332", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, false], "prompt_loose": 0.0, "inst_loose": [false, false]}
+{"id": "3323", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3324", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "3327", "finish_reason": "length", "score": 0.0, "inst_strict": [false, true, false], "prompt_loose": 0.0, "inst_loose": [false, true, true]}
+{"id": "3329", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3335", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, true, true], "prompt_loose": 0.0, "inst_loose": [false, true, true]}
+{"id": "334", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "3345", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true, true], "prompt_loose": 1.0, "inst_loose": [true, true, true]}
+{"id": "3350", "finish_reason": "length", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "3351", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "3362", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "3367", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "3369", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, false], "prompt_loose": 0.0, "inst_loose": [false, true]}
+{"id": "337", "finish_reason": "length", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "3371", "finish_reason": "stop", "score": 0.0, "inst_strict": [true, true, false], "prompt_loose": 1.0, "inst_loose": [true, true, true]}
+{"id": "3376", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, false], "prompt_loose": 0.0, "inst_loose": [false, false]}
+{"id": "3386", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "340", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "3401", "finish_reason": "length", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3409", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, true], "prompt_loose": 0.0, "inst_loose": [false, true]}
+{"id": "3415", "finish_reason": "length", "score": 0.0, "inst_strict": [false, false, true], "prompt_loose": 0.0, "inst_loose": [false, false, true]}
+{"id": "3425", "finish_reason": "length", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3429", "finish_reason": "length", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "343", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3439", "finish_reason": "length", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3442", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "3445", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3453", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3479", "finish_reason": "length", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "3484", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "349", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, true], "prompt_loose": 0.0, "inst_loose": [false, true]}
+{"id": "3494", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "3502", "finish_reason": "length", "score": 0.0, "inst_strict": [true, false], "prompt_loose": 0.0, "inst_loose": [true, false]}
+{"id": "3505", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "3506", "finish_reason": "stop", "score": 0.0, "inst_strict": [true, false], "prompt_loose": 0.0, "inst_loose": [true, false]}
+{"id": "3518", "finish_reason": "stop", "score": 0.0, "inst_strict": [true, false], "prompt_loose": 0.0, "inst_loose": [true, false]}
+{"id": "3536", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3538", "finish_reason": "stop", "score": 0.0, "inst_strict": [true, false], "prompt_loose": 0.0, "inst_loose": [true, false]}
+{"id": "3540", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3549", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3557", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3563", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3565", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, false], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "3567", "finish_reason": "length", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3569", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "357", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3595", "finish_reason": "length", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3606", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3615", "finish_reason": "length", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3619", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, true], "prompt_loose": 0.0, "inst_loose": [false, true]}
+{"id": "3623", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "3624", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3629", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "3631", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3633", "finish_reason": "stop", "score": 0.0, "inst_strict": [true, false], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "3644", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3653", "finish_reason": "length", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "3669", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "3672", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, true, true], "prompt_loose": 0.0, "inst_loose": [false, true, true]}
+{"id": "3680", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "3682", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3690", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3691", "finish_reason": "length", "score": 0.0, "inst_strict": [false, true], "prompt_loose": 0.0, "inst_loose": [false, true]}
+{"id": "3697", "finish_reason": "length", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3709", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true], "prompt_loose": 1.0, "inst_loose": [true, true]}
+{"id": "371", "finish_reason": "length", "score": 0.0, "inst_strict": [false, false], "prompt_loose": 0.0, "inst_loose": [false, true]}
+{"id": "3710", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true, true], "prompt_loose": 1.0, "inst_loose": [true, true, true]}
+{"id": "3718", "finish_reason": "length", "score": 0.0, "inst_strict": [true, false, false], "prompt_loose": 0.0, "inst_loose": [true, false, true]}
+{"id": "3719", "finish_reason": "length", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3724", "finish_reason": "stop", "score": 1.0, "inst_strict": [true, true, true], "prompt_loose": 1.0, "inst_loose": [true, true, true]}
+{"id": "3732", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3739", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "374", "finish_reason": "stop", "score": 0.0, "inst_strict": [false, true], "prompt_loose": 0.0, "inst_loose": [false, true]}
+{"id": "3743", "finish_reason": "stop", "score": 0.0, "inst_strict": [false], "prompt_loose": 0.0, "inst_loose": [false]}
+{"id": "3744", "finish_reason": "length", "score": 0.0, "inst_strict": [false, true], "prompt_loose": 0.0, "inst_loose": [false, true]}
+{"id": "3748", "finish_reason": "length", "score": 0.0, "inst_strict": [false, false], "prompt_loose": 0.0, "inst_loose": [false, false]}
+{"id": "3749", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3750", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3751", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3752", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3753", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3754", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3755", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3756", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}
+{"id": "3757", "finish_reason": "stop", "score": 1.0, "inst_strict": [true], "prompt_loose": 1.0, "inst_loose": [true]}

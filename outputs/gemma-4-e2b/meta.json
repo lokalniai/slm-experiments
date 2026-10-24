@@ -1,0 +1,29 @@
+{
+ "model": "gemma-4-e2b",
+ "repo": "google/gemma-4-E2B-it",
+ "revision": "3e22461f65e89153144f8adb70e3b8c2cc9845a7",
+ "config": {
+  "max_model_len": 32768,
+  "extra_args": [
+   "--language-model-only"
+  ],
+  "params": "2B eff. (5.1B)",
+  "repo": "google/gemma-4-E2B-it",
+  "tool_parser": "gemma4"
+ },
+ "limit": null,
+ "startup_s": 226,
+ "nexus.en_s": 7,
+ "nexus.cs_s": 6,
+ "jsonmode.en_s": 5,
+ "jsonmode.cs_s": 5,
+ "eurlex.en_s": 41,
+ "eurlex.cs_s": 63,
+ "minds.en_s": 2,
+ "minds.cs_s": 2,
+ "gmmlu.en_s": 9,
+ "gmmlu.cs_s": 2,
+ "ifeval.en_s": 41,
+ "ifeval.cs_s": 46,
+ "vllm": "0.31.0"
+}

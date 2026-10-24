@@ -1,0 +1,953 @@
+model,task,axis,lang,metric,value,n
+functiongemma-270m,nexus,Tool calling,en,radar,9.434,318
+functiongemma-270m,nexus,Tool calling,en,text_fallback,0.0,318
+functiongemma-270m,nexus,Tool calling,en,errors,0,318
+functiongemma-270m,nexus,Tool calling,en,truncated,0,318
+functiongemma-270m,nexus,Tool calling,cs,radar,5.031,318
+functiongemma-270m,nexus,Tool calling,cs,text_fallback,0.0,318
+functiongemma-270m,nexus,Tool calling,cs,errors,0,318
+functiongemma-270m,nexus,Tool calling,cs,truncated,2,318
+functiongemma-270m,jsonmode,Structured output,en,radar,40.739,100
+functiongemma-270m,jsonmode,Structured output,en,valid_json,53.0,100
+functiongemma-270m,jsonmode,Structured output,en,schema_valid,35.0,100
+functiongemma-270m,jsonmode,Structured output,en,field_acc,34.218,100
+functiongemma-270m,jsonmode,Structured output,en,errors,0,100
+functiongemma-270m,jsonmode,Structured output,en,truncated,1,100
+functiongemma-270m,jsonmode,Structured output,cs,radar,20.304,100
+functiongemma-270m,jsonmode,Structured output,cs,valid_json,40.0,100
+functiongemma-270m,jsonmode,Structured output,cs,schema_valid,13.0,100
+functiongemma-270m,jsonmode,Structured output,cs,field_acc,7.912,100
+functiongemma-270m,jsonmode,Structured output,cs,errors,0,100
+functiongemma-270m,jsonmode,Structured output,cs,truncated,1,100
+functiongemma-270m,eurlex,Summarization,en,radar,3.695,50
+functiongemma-270m,eurlex,Summarization,en,lang_ok,96.0,50
+functiongemma-270m,eurlex,Summarization,en,informativeness,1.06,50
+functiongemma-270m,eurlex,Summarization,en,faithfulness,1.38,50
+functiongemma-270m,eurlex,Summarization,en,coherence,2.56,50
+functiongemma-270m,eurlex,Summarization,en,conciseness,1.48,50
+functiongemma-270m,eurlex,Summarization,en,errors,0,50
+functiongemma-270m,eurlex,Summarization,en,truncated,1,50
+functiongemma-270m,eurlex,Summarization,cs,radar,4.05,50
+functiongemma-270m,eurlex,Summarization,cs,lang_ok,86.0,50
+functiongemma-270m,eurlex,Summarization,cs,informativeness,1.02,50
+functiongemma-270m,eurlex,Summarization,cs,faithfulness,1.62,50
+functiongemma-270m,eurlex,Summarization,cs,coherence,1.8,50
+functiongemma-270m,eurlex,Summarization,cs,conciseness,1.58,50
+functiongemma-270m,eurlex,Summarization,cs,errors,0,50
+functiongemma-270m,eurlex,Summarization,cs,truncated,9,50
+functiongemma-270m,minds,Classification,en,radar,6.927,563
+functiongemma-270m,minds,Classification,en,errors,0,563
+functiongemma-270m,minds,Classification,en,truncated,2,563
+functiongemma-270m,minds,Classification,cs,radar,0.871,574
+functiongemma-270m,minds,Classification,cs,errors,0,574
+functiongemma-270m,minds,Classification,cs,truncated,143,574
+functiongemma-270m,gmmlu,Knowledge,en,radar,20.75,400
+functiongemma-270m,gmmlu,Knowledge,en,cultural:CA,20.5,400
+functiongemma-270m,gmmlu,Knowledge,en,cultural:CS,21.0,400
+functiongemma-270m,gmmlu,Knowledge,en,category:Business,25.862,400
+functiongemma-270m,gmmlu,Knowledge,en,category:Humanities,21.569,400
+functiongemma-270m,gmmlu,Knowledge,en,category:Medical,36.111,400
+functiongemma-270m,gmmlu,Knowledge,en,category:Other,19.643,400
+functiongemma-270m,gmmlu,Knowledge,en,category:STEM,4.348,400
+functiongemma-270m,gmmlu,Knowledge,en,category:Social Sciences,19.608,400
+functiongemma-270m,gmmlu,Knowledge,en,errors,0,400
+functiongemma-270m,gmmlu,Knowledge,en,truncated,15,400
+functiongemma-270m,gmmlu,Knowledge,cs,radar,10.25,400
+functiongemma-270m,gmmlu,Knowledge,cs,cultural:CA,12.5,400
+functiongemma-270m,gmmlu,Knowledge,cs,cultural:CS,8.0,400
+functiongemma-270m,gmmlu,Knowledge,cs,category:Business,18.966,400
+functiongemma-270m,gmmlu,Knowledge,cs,category:Humanities,10.784,400
+functiongemma-270m,gmmlu,Knowledge,cs,category:Medical,19.444,400
+functiongemma-270m,gmmlu,Knowledge,cs,category:Other,7.143,400
+functiongemma-270m,gmmlu,Knowledge,cs,category:STEM,2.174,400
+functiongemma-270m,gmmlu,Knowledge,cs,category:Social Sciences,6.863,400
+functiongemma-270m,gmmlu,Knowledge,cs,errors,0,400
+functiongemma-270m,gmmlu,Knowledge,cs,truncated,9,400
+functiongemma-270m,ifeval,Instruction following,en,radar,21.35,429
+functiongemma-270m,ifeval,Instruction following,en,prompt_strict,16.317,429
+functiongemma-270m,ifeval,Instruction following,en,inst_strict,26.382,429
+functiongemma-270m,ifeval,Instruction following,en,prompt_loose,17.249,429
+functiongemma-270m,ifeval,Instruction following,en,inst_loose,27.014,429
+functiongemma-270m,ifeval,Instruction following,en,errors,0,429
+functiongemma-270m,ifeval,Instruction following,en,truncated,8,429
+functiongemma-270m,ifeval,Instruction following,cs,radar,17.111,429
+functiongemma-270m,ifeval,Instruction following,cs,prompt_strict,13.054,429
+functiongemma-270m,ifeval,Instruction following,cs,inst_strict,21.169,429
+functiongemma-270m,ifeval,Instruction following,cs,prompt_loose,14.219,429
+functiongemma-270m,ifeval,Instruction following,cs,inst_loose,22.591,429
+functiongemma-270m,ifeval,Instruction following,cs,errors,0,429
+functiongemma-270m,ifeval,Instruction following,cs,truncated,21,429
+granite-4.0-h-350m,nexus,Tool calling,en,radar,50.629,318
+granite-4.0-h-350m,nexus,Tool calling,en,text_fallback,0.0,318
+granite-4.0-h-350m,nexus,Tool calling,en,errors,0,318
+granite-4.0-h-350m,nexus,Tool calling,en,truncated,0,318
+granite-4.0-h-350m,nexus,Tool calling,cs,radar,32.704,318
+granite-4.0-h-350m,nexus,Tool calling,cs,text_fallback,0.0,318
+granite-4.0-h-350m,nexus,Tool calling,cs,errors,0,318
+granite-4.0-h-350m,nexus,Tool calling,cs,truncated,1,318
+granite-4.0-h-350m,jsonmode,Structured output,en,radar,94.063,100
+granite-4.0-h-350m,jsonmode,Structured output,en,valid_json,98.0,100
+granite-4.0-h-350m,jsonmode,Structured output,en,schema_valid,97.0,100
+granite-4.0-h-350m,jsonmode,Structured output,en,field_acc,87.189,100
+granite-4.0-h-350m,jsonmode,Structured output,en,errors,0,100
+granite-4.0-h-350m,jsonmode,Structured output,en,truncated,0,100
+granite-4.0-h-350m,jsonmode,Structured output,cs,radar,78.838,100
+granite-4.0-h-350m,jsonmode,Structured output,cs,valid_json,86.0,100
+granite-4.0-h-350m,jsonmode,Structured output,cs,schema_valid,82.0,100
+granite-4.0-h-350m,jsonmode,Structured output,cs,field_acc,68.515,100
+granite-4.0-h-350m,jsonmode,Structured output,cs,errors,0,100
+granite-4.0-h-350m,jsonmode,Structured output,cs,truncated,0,100
+granite-4.0-h-350m,eurlex,Summarization,en,radar,21.229,50
+granite-4.0-h-350m,eurlex,Summarization,en,lang_ok,100.0,50
+granite-4.0-h-350m,eurlex,Summarization,en,informativeness,1.18,50
+granite-4.0-h-350m,eurlex,Summarization,en,faithfulness,4.76,50
+granite-4.0-h-350m,eurlex,Summarization,en,coherence,4.52,50
+granite-4.0-h-350m,eurlex,Summarization,en,conciseness,4.56,50
+granite-4.0-h-350m,eurlex,Summarization,en,errors,0,50
+granite-4.0-h-350m,eurlex,Summarization,en,truncated,1,50
+granite-4.0-h-350m,eurlex,Summarization,cs,radar,1.0,50
+granite-4.0-h-350m,eurlex,Summarization,cs,lang_ok,14.0,50
+granite-4.0-h-350m,eurlex,Summarization,cs,informativeness,1.083,50
+granite-4.0-h-350m,eurlex,Summarization,cs,faithfulness,1.667,50
+granite-4.0-h-350m,eurlex,Summarization,cs,coherence,1.833,50
+granite-4.0-h-350m,eurlex,Summarization,cs,conciseness,1.5,50
+granite-4.0-h-350m,eurlex,Summarization,cs,errors,0,50
+granite-4.0-h-350m,eurlex,Summarization,cs,truncated,1,50
+granite-4.0-h-350m,minds,Classification,en,radar,53.819,563
+granite-4.0-h-350m,minds,Classification,en,errors,0,563
+granite-4.0-h-350m,minds,Classification,en,truncated,0,563
+granite-4.0-h-350m,minds,Classification,cs,radar,4.878,574
+granite-4.0-h-350m,minds,Classification,cs,errors,0,574
+granite-4.0-h-350m,minds,Classification,cs,truncated,0,574
+granite-4.0-h-350m,gmmlu,Knowledge,en,radar,30.5,400
+granite-4.0-h-350m,gmmlu,Knowledge,en,cultural:CA,32.5,400
+granite-4.0-h-350m,gmmlu,Knowledge,en,cultural:CS,28.5,400
+granite-4.0-h-350m,gmmlu,Knowledge,en,category:Business,24.138,400
+granite-4.0-h-350m,gmmlu,Knowledge,en,category:Humanities,36.275,400
+granite-4.0-h-350m,gmmlu,Knowledge,en,category:Medical,27.778,400
+granite-4.0-h-350m,gmmlu,Knowledge,en,category:Other,25.0,400
+granite-4.0-h-350m,gmmlu,Knowledge,en,category:STEM,41.304,400
+granite-4.0-h-350m,gmmlu,Knowledge,en,category:Social Sciences,27.451,400
+granite-4.0-h-350m,gmmlu,Knowledge,en,errors,0,400
+granite-4.0-h-350m,gmmlu,Knowledge,en,truncated,0,400
+granite-4.0-h-350m,gmmlu,Knowledge,cs,radar,22.0,400
+granite-4.0-h-350m,gmmlu,Knowledge,cs,cultural:CA,22.5,400
+granite-4.0-h-350m,gmmlu,Knowledge,cs,cultural:CS,21.5,400
+granite-4.0-h-350m,gmmlu,Knowledge,cs,category:Business,18.966,400
+granite-4.0-h-350m,gmmlu,Knowledge,cs,category:Humanities,24.51,400
+granite-4.0-h-350m,gmmlu,Knowledge,cs,category:Medical,27.778,400
+granite-4.0-h-350m,gmmlu,Knowledge,cs,category:Other,14.286,400
+granite-4.0-h-350m,gmmlu,Knowledge,cs,category:STEM,30.435,400
+granite-4.0-h-350m,gmmlu,Knowledge,cs,category:Social Sciences,19.608,400
+granite-4.0-h-350m,gmmlu,Knowledge,cs,errors,0,400
+granite-4.0-h-350m,gmmlu,Knowledge,cs,truncated,0,400
+granite-4.0-h-350m,ifeval,Instruction following,en,radar,64.122,429
+granite-4.0-h-350m,ifeval,Instruction following,en,prompt_strict,59.207,429
+granite-4.0-h-350m,ifeval,Instruction following,en,inst_strict,69.036,429
+granite-4.0-h-350m,ifeval,Instruction following,en,prompt_loose,61.538,429
+granite-4.0-h-350m,ifeval,Instruction following,en,inst_loose,70.774,429
+granite-4.0-h-350m,ifeval,Instruction following,en,errors,0,429
+granite-4.0-h-350m,ifeval,Instruction following,en,truncated,11,429
+granite-4.0-h-350m,ifeval,Instruction following,cs,radar,36.467,429
+granite-4.0-h-350m,ifeval,Instruction following,cs,prompt_strict,31.702,429
+granite-4.0-h-350m,ifeval,Instruction following,cs,inst_strict,41.232,429
+granite-4.0-h-350m,ifeval,Instruction following,cs,prompt_loose,34.266,429
+granite-4.0-h-350m,ifeval,Instruction following,cs,inst_loose,44.708,429
+granite-4.0-h-350m,ifeval,Instruction following,cs,errors,0,429
+granite-4.0-h-350m,ifeval,Instruction following,cs,truncated,9,429
+lfm2.5-350m,nexus,Tool calling,en,radar,36.792,318
+lfm2.5-350m,nexus,Tool calling,en,text_fallback,0.0,318
+lfm2.5-350m,nexus,Tool calling,en,errors,0,318
+lfm2.5-350m,nexus,Tool calling,en,truncated,0,318
+lfm2.5-350m,nexus,Tool calling,cs,radar,16.352,318
+lfm2.5-350m,nexus,Tool calling,cs,text_fallback,0.0,318
+lfm2.5-350m,nexus,Tool calling,cs,errors,0,318
+lfm2.5-350m,nexus,Tool calling,cs,truncated,0,318
+lfm2.5-350m,jsonmode,Structured output,en,radar,71.277,100
+lfm2.5-350m,jsonmode,Structured output,en,valid_json,99.0,100
+lfm2.5-350m,jsonmode,Structured output,en,schema_valid,59.0,100
+lfm2.5-350m,jsonmode,Structured output,en,field_acc,55.831,100
+lfm2.5-350m,jsonmode,Structured output,en,errors,0,100
+lfm2.5-350m,jsonmode,Structured output,en,truncated,0,100
+lfm2.5-350m,jsonmode,Structured output,cs,radar,47.758,100
+lfm2.5-350m,jsonmode,Structured output,cs,valid_json,98.0,100
+lfm2.5-350m,jsonmode,Structured output,cs,schema_valid,25.0,100
+lfm2.5-350m,jsonmode,Structured output,cs,field_acc,20.274,100
+lfm2.5-350m,jsonmode,Structured output,cs,errors,0,100
+lfm2.5-350m,jsonmode,Structured output,cs,truncated,0,100
+lfm2.5-350m,eurlex,Summarization,en,radar,15.6,50
+lfm2.5-350m,eurlex,Summarization,en,lang_ok,100.0,50
+lfm2.5-350m,eurlex,Summarization,en,informativeness,1.94,50
+lfm2.5-350m,eurlex,Summarization,en,faithfulness,1.46,50
+lfm2.5-350m,eurlex,Summarization,en,coherence,2.56,50
+lfm2.5-350m,eurlex,Summarization,en,conciseness,2.22,50
+lfm2.5-350m,eurlex,Summarization,en,errors,0,50
+lfm2.5-350m,eurlex,Summarization,en,truncated,1,50
+lfm2.5-350m,eurlex,Summarization,cs,radar,0.967,50
+lfm2.5-350m,eurlex,Summarization,cs,lang_ok,88.0,50
+lfm2.5-350m,eurlex,Summarization,cs,informativeness,1.02,50
+lfm2.5-350m,eurlex,Summarization,cs,faithfulness,1.1,50
+lfm2.5-350m,eurlex,Summarization,cs,coherence,1.06,50
+lfm2.5-350m,eurlex,Summarization,cs,conciseness,1.22,50
+lfm2.5-350m,eurlex,Summarization,cs,errors,0,50
+lfm2.5-350m,eurlex,Summarization,cs,truncated,1,50
+lfm2.5-350m,minds,Classification,en,radar,69.982,563
+lfm2.5-350m,minds,Classification,en,errors,0,563
+lfm2.5-350m,minds,Classification,en,truncated,0,563
+lfm2.5-350m,minds,Classification,cs,radar,0.871,574
+lfm2.5-350m,minds,Classification,cs,errors,0,574
+lfm2.5-350m,minds,Classification,cs,truncated,1,574
+lfm2.5-350m,gmmlu,Knowledge,en,radar,42.25,400
+lfm2.5-350m,gmmlu,Knowledge,en,cultural:CA,46.5,400
+lfm2.5-350m,gmmlu,Knowledge,en,cultural:CS,38.0,400
+lfm2.5-350m,gmmlu,Knowledge,en,category:Business,46.552,400
+lfm2.5-350m,gmmlu,Knowledge,en,category:Humanities,47.059,400
+lfm2.5-350m,gmmlu,Knowledge,en,category:Medical,33.333,400
+lfm2.5-350m,gmmlu,Knowledge,en,category:Other,39.286,400
+lfm2.5-350m,gmmlu,Knowledge,en,category:STEM,43.478,400
+lfm2.5-350m,gmmlu,Knowledge,en,category:Social Sciences,39.216,400
+lfm2.5-350m,gmmlu,Knowledge,en,errors,0,400
+lfm2.5-350m,gmmlu,Knowledge,en,truncated,1,400
+lfm2.5-350m,gmmlu,Knowledge,cs,radar,29.25,400
+lfm2.5-350m,gmmlu,Knowledge,cs,cultural:CA,30.0,400
+lfm2.5-350m,gmmlu,Knowledge,cs,cultural:CS,28.5,400
+lfm2.5-350m,gmmlu,Knowledge,cs,category:Business,29.31,400
+lfm2.5-350m,gmmlu,Knowledge,cs,category:Humanities,24.51,400
+lfm2.5-350m,gmmlu,Knowledge,cs,category:Medical,16.667,400
+lfm2.5-350m,gmmlu,Knowledge,cs,category:Other,23.214,400
+lfm2.5-350m,gmmlu,Knowledge,cs,category:STEM,41.304,400
+lfm2.5-350m,gmmlu,Knowledge,cs,category:Social Sciences,36.275,400
+lfm2.5-350m,gmmlu,Knowledge,cs,errors,0,400
+lfm2.5-350m,gmmlu,Knowledge,cs,truncated,1,400
+lfm2.5-350m,ifeval,Instruction following,en,radar,77.821,429
+lfm2.5-350m,ifeval,Instruction following,en,prompt_strict,74.126,429
+lfm2.5-350m,ifeval,Instruction following,en,inst_strict,81.517,429
+lfm2.5-350m,ifeval,Instruction following,en,prompt_loose,75.991,429
+lfm2.5-350m,ifeval,Instruction following,en,inst_loose,82.938,429
+lfm2.5-350m,ifeval,Instruction following,en,errors,0,429
+lfm2.5-350m,ifeval,Instruction following,en,truncated,19,429
+lfm2.5-350m,ifeval,Instruction following,cs,radar,26.52,429
+lfm2.5-350m,ifeval,Instruction following,cs,prompt_strict,21.445,429
+lfm2.5-350m,ifeval,Instruction following,cs,inst_strict,31.596,429
+lfm2.5-350m,ifeval,Instruction following,cs,prompt_loose,23.31,429
+lfm2.5-350m,ifeval,Instruction following,cs,inst_loose,33.807,429
+lfm2.5-350m,ifeval,Instruction following,cs,errors,0,429
+lfm2.5-350m,ifeval,Instruction following,cs,truncated,1,429
+qwen3.5-0.8b,nexus,Tool calling,en,radar,45.597,318
+qwen3.5-0.8b,nexus,Tool calling,en,text_fallback,0.0,318
+qwen3.5-0.8b,nexus,Tool calling,en,errors,0,318
+qwen3.5-0.8b,nexus,Tool calling,en,truncated,4,318
+qwen3.5-0.8b,nexus,Tool calling,cs,radar,27.358,318
+qwen3.5-0.8b,nexus,Tool calling,cs,text_fallback,0.0,318
+qwen3.5-0.8b,nexus,Tool calling,cs,errors,0,318
+qwen3.5-0.8b,nexus,Tool calling,cs,truncated,56,318
+qwen3.5-0.8b,jsonmode,Structured output,en,radar,94.731,100
+qwen3.5-0.8b,jsonmode,Structured output,en,valid_json,100.0,100
+qwen3.5-0.8b,jsonmode,Structured output,en,schema_valid,97.0,100
+qwen3.5-0.8b,jsonmode,Structured output,en,field_acc,87.192,100
+qwen3.5-0.8b,jsonmode,Structured output,en,errors,0,100
+qwen3.5-0.8b,jsonmode,Structured output,en,truncated,0,100
+qwen3.5-0.8b,jsonmode,Structured output,cs,radar,55.911,100
+qwen3.5-0.8b,jsonmode,Structured output,cs,valid_json,100.0,100
+qwen3.5-0.8b,jsonmode,Structured output,cs,schema_valid,38.0,100
+qwen3.5-0.8b,jsonmode,Structured output,cs,field_acc,29.733,100
+qwen3.5-0.8b,jsonmode,Structured output,cs,errors,0,100
+qwen3.5-0.8b,jsonmode,Structured output,cs,truncated,0,100
+qwen3.5-0.8b,eurlex,Summarization,en,radar,52.973,50
+qwen3.5-0.8b,eurlex,Summarization,en,lang_ok,100.0,50
+qwen3.5-0.8b,eurlex,Summarization,en,informativeness,3.34,50
+qwen3.5-0.8b,eurlex,Summarization,en,faithfulness,3.28,50
+qwen3.5-0.8b,eurlex,Summarization,en,coherence,3.28,50
+qwen3.5-0.8b,eurlex,Summarization,en,conciseness,2.38,50
+qwen3.5-0.8b,eurlex,Summarization,en,errors,0,50
+qwen3.5-0.8b,eurlex,Summarization,en,truncated,25,50
+qwen3.5-0.8b,eurlex,Summarization,cs,radar,38.548,50
+qwen3.5-0.8b,eurlex,Summarization,cs,lang_ok,100.0,50
+qwen3.5-0.8b,eurlex,Summarization,cs,informativeness,2.24,50
+qwen3.5-0.8b,eurlex,Summarization,cs,faithfulness,3.28,50
+qwen3.5-0.8b,eurlex,Summarization,cs,coherence,2.4,50
+qwen3.5-0.8b,eurlex,Summarization,cs,conciseness,1.62,50
+qwen3.5-0.8b,eurlex,Summarization,cs,errors,0,50
+qwen3.5-0.8b,eurlex,Summarization,cs,truncated,46,50
+qwen3.5-0.8b,minds,Classification,en,radar,85.968,563
+qwen3.5-0.8b,minds,Classification,en,errors,0,563
+qwen3.5-0.8b,minds,Classification,en,truncated,0,563
+qwen3.5-0.8b,minds,Classification,cs,radar,88.676,574
+qwen3.5-0.8b,minds,Classification,cs,errors,0,574
+qwen3.5-0.8b,minds,Classification,cs,truncated,0,574
+qwen3.5-0.8b,gmmlu,Knowledge,en,radar,47.0,400
+qwen3.5-0.8b,gmmlu,Knowledge,en,cultural:CA,54.5,400
+qwen3.5-0.8b,gmmlu,Knowledge,en,cultural:CS,39.5,400
+qwen3.5-0.8b,gmmlu,Knowledge,en,category:Business,51.724,400
+qwen3.5-0.8b,gmmlu,Knowledge,en,category:Humanities,51.961,400
+qwen3.5-0.8b,gmmlu,Knowledge,en,category:Medical,38.889,400
+qwen3.5-0.8b,gmmlu,Knowledge,en,category:Other,50.0,400
+qwen3.5-0.8b,gmmlu,Knowledge,en,category:STEM,36.957,400
+qwen3.5-0.8b,gmmlu,Knowledge,en,category:Social Sciences,45.098,400
+qwen3.5-0.8b,gmmlu,Knowledge,en,errors,0,400
+qwen3.5-0.8b,gmmlu,Knowledge,en,truncated,13,400
+qwen3.5-0.8b,gmmlu,Knowledge,cs,radar,35.0,400
+qwen3.5-0.8b,gmmlu,Knowledge,cs,cultural:CA,39.0,400
+qwen3.5-0.8b,gmmlu,Knowledge,cs,cultural:CS,31.0,400
+qwen3.5-0.8b,gmmlu,Knowledge,cs,category:Business,44.828,400
+qwen3.5-0.8b,gmmlu,Knowledge,cs,category:Humanities,39.216,400
+qwen3.5-0.8b,gmmlu,Knowledge,cs,category:Medical,44.444,400
+qwen3.5-0.8b,gmmlu,Knowledge,cs,category:Other,35.714,400
+qwen3.5-0.8b,gmmlu,Knowledge,cs,category:STEM,19.565,400
+qwen3.5-0.8b,gmmlu,Knowledge,cs,category:Social Sciences,28.431,400
+qwen3.5-0.8b,gmmlu,Knowledge,cs,errors,0,400
+qwen3.5-0.8b,gmmlu,Knowledge,cs,truncated,18,400
+qwen3.5-0.8b,ifeval,Instruction following,en,radar,60.549,429
+qwen3.5-0.8b,ifeval,Instruction following,en,prompt_strict,56.643,429
+qwen3.5-0.8b,ifeval,Instruction following,en,inst_strict,64.455,429
+qwen3.5-0.8b,ifeval,Instruction following,en,prompt_loose,61.538,429
+qwen3.5-0.8b,ifeval,Instruction following,en,inst_loose,69.668,429
+qwen3.5-0.8b,ifeval,Instruction following,en,errors,0,429
+qwen3.5-0.8b,ifeval,Instruction following,en,truncated,98,429
+qwen3.5-0.8b,ifeval,Instruction following,cs,radar,38.938,429
+qwen3.5-0.8b,ifeval,Instruction following,cs,prompt_strict,33.8,429
+qwen3.5-0.8b,ifeval,Instruction following,cs,inst_strict,44.076,429
+qwen3.5-0.8b,ifeval,Instruction following,cs,prompt_loose,37.529,429
+qwen3.5-0.8b,ifeval,Instruction following,cs,inst_loose,47.709,429
+qwen3.5-0.8b,ifeval,Instruction following,cs,errors,0,429
+qwen3.5-0.8b,ifeval,Instruction following,cs,truncated,185,429
+lfm2.5-1.2b,nexus,Tool calling,en,radar,33.962,318
+lfm2.5-1.2b,nexus,Tool calling,en,text_fallback,0.0,318
+lfm2.5-1.2b,nexus,Tool calling,en,errors,0,318
+lfm2.5-1.2b,nexus,Tool calling,en,truncated,0,318
+lfm2.5-1.2b,nexus,Tool calling,cs,radar,9.748,318
+lfm2.5-1.2b,nexus,Tool calling,cs,text_fallback,0.629,318
+lfm2.5-1.2b,nexus,Tool calling,cs,errors,0,318
+lfm2.5-1.2b,nexus,Tool calling,cs,truncated,0,318
+lfm2.5-1.2b,jsonmode,Structured output,en,radar,74.349,100
+lfm2.5-1.2b,jsonmode,Structured output,en,valid_json,99.0,100
+lfm2.5-1.2b,jsonmode,Structured output,en,schema_valid,65.0,100
+lfm2.5-1.2b,jsonmode,Structured output,en,field_acc,59.046,100
+lfm2.5-1.2b,jsonmode,Structured output,en,errors,0,100
+lfm2.5-1.2b,jsonmode,Structured output,en,truncated,0,100
+lfm2.5-1.2b,jsonmode,Structured output,cs,radar,63.115,100
+lfm2.5-1.2b,jsonmode,Structured output,cs,valid_json,100.0,100
+lfm2.5-1.2b,jsonmode,Structured output,cs,schema_valid,51.0,100
+lfm2.5-1.2b,jsonmode,Structured output,cs,field_acc,38.345,100
+lfm2.5-1.2b,jsonmode,Structured output,cs,errors,0,100
+lfm2.5-1.2b,jsonmode,Structured output,cs,truncated,0,100
+lfm2.5-1.2b,eurlex,Summarization,en,radar,45.701,50
+lfm2.5-1.2b,eurlex,Summarization,en,lang_ok,100.0,50
+lfm2.5-1.2b,eurlex,Summarization,en,informativeness,2.68,50
+lfm2.5-1.2b,eurlex,Summarization,en,faithfulness,3.2,50
+lfm2.5-1.2b,eurlex,Summarization,en,coherence,4.48,50
+lfm2.5-1.2b,eurlex,Summarization,en,conciseness,4.54,50
+lfm2.5-1.2b,eurlex,Summarization,en,errors,0,50
+lfm2.5-1.2b,eurlex,Summarization,en,truncated,0,50
+lfm2.5-1.2b,eurlex,Summarization,cs,radar,1.5,50
+lfm2.5-1.2b,eurlex,Summarization,cs,lang_ok,100.0,50
+lfm2.5-1.2b,eurlex,Summarization,cs,informativeness,1.04,50
+lfm2.5-1.2b,eurlex,Summarization,cs,faithfulness,1.1,50
+lfm2.5-1.2b,eurlex,Summarization,cs,coherence,1.22,50
+lfm2.5-1.2b,eurlex,Summarization,cs,conciseness,1.12,50
+lfm2.5-1.2b,eurlex,Summarization,cs,errors,0,50
+lfm2.5-1.2b,eurlex,Summarization,cs,truncated,12,50
+lfm2.5-1.2b,minds,Classification,en,radar,74.067,563
+lfm2.5-1.2b,minds,Classification,en,errors,0,563
+lfm2.5-1.2b,minds,Classification,en,truncated,0,563
+lfm2.5-1.2b,minds,Classification,cs,radar,17.596,574
+lfm2.5-1.2b,minds,Classification,cs,errors,0,574
+lfm2.5-1.2b,minds,Classification,cs,truncated,13,574
+lfm2.5-1.2b,gmmlu,Knowledge,en,radar,53.25,400
+lfm2.5-1.2b,gmmlu,Knowledge,en,cultural:CA,57.0,400
+lfm2.5-1.2b,gmmlu,Knowledge,en,cultural:CS,49.5,400
+lfm2.5-1.2b,gmmlu,Knowledge,en,category:Business,53.448,400
+lfm2.5-1.2b,gmmlu,Knowledge,en,category:Humanities,56.863,400
+lfm2.5-1.2b,gmmlu,Knowledge,en,category:Medical,58.333,400
+lfm2.5-1.2b,gmmlu,Knowledge,en,category:Other,48.214,400
+lfm2.5-1.2b,gmmlu,Knowledge,en,category:STEM,36.957,400
+lfm2.5-1.2b,gmmlu,Knowledge,en,category:Social Sciences,57.843,400
+lfm2.5-1.2b,gmmlu,Knowledge,en,errors,0,400
+lfm2.5-1.2b,gmmlu,Knowledge,en,truncated,1,400
+lfm2.5-1.2b,gmmlu,Knowledge,cs,radar,26.75,400
+lfm2.5-1.2b,gmmlu,Knowledge,cs,cultural:CA,28.0,400
+lfm2.5-1.2b,gmmlu,Knowledge,cs,cultural:CS,25.5,400
+lfm2.5-1.2b,gmmlu,Knowledge,cs,category:Business,29.31,400
+lfm2.5-1.2b,gmmlu,Knowledge,cs,category:Humanities,32.353,400
+lfm2.5-1.2b,gmmlu,Knowledge,cs,category:Medical,16.667,400
+lfm2.5-1.2b,gmmlu,Knowledge,cs,category:Other,19.643,400
+lfm2.5-1.2b,gmmlu,Knowledge,cs,category:STEM,39.13,400
+lfm2.5-1.2b,gmmlu,Knowledge,cs,category:Social Sciences,21.569,400
+lfm2.5-1.2b,gmmlu,Knowledge,cs,errors,0,400
+lfm2.5-1.2b,gmmlu,Knowledge,cs,truncated,0,400
+lfm2.5-1.2b,ifeval,Instruction following,en,radar,86.034,429
+lfm2.5-1.2b,ifeval,Instruction following,en,prompt_strict,83.916,429
+lfm2.5-1.2b,ifeval,Instruction following,en,inst_strict,88.152,429
+lfm2.5-1.2b,ifeval,Instruction following,en,prompt_loose,85.548,429
+lfm2.5-1.2b,ifeval,Instruction following,en,inst_loose,89.573,429
+lfm2.5-1.2b,ifeval,Instruction following,en,errors,0,429
+lfm2.5-1.2b,ifeval,Instruction following,en,truncated,6,429
+lfm2.5-1.2b,ifeval,Instruction following,cs,radar,38.705,429
+lfm2.5-1.2b,ifeval,Instruction following,cs,prompt_strict,33.333,429
+lfm2.5-1.2b,ifeval,Instruction following,cs,inst_strict,44.076,429
+lfm2.5-1.2b,ifeval,Instruction following,cs,prompt_loose,36.364,429
+lfm2.5-1.2b,ifeval,Instruction following,cs,inst_loose,47.235,429
+lfm2.5-1.2b,ifeval,Instruction following,cs,errors,0,429
+lfm2.5-1.2b,ifeval,Instruction following,cs,truncated,3,429
+qwen3.5-2b,nexus,Tool calling,en,radar,67.296,318
+qwen3.5-2b,nexus,Tool calling,en,text_fallback,0.0,318
+qwen3.5-2b,nexus,Tool calling,en,errors,0,318
+qwen3.5-2b,nexus,Tool calling,en,truncated,0,318
+qwen3.5-2b,nexus,Tool calling,cs,radar,51.258,318
+qwen3.5-2b,nexus,Tool calling,cs,text_fallback,0.0,318
+qwen3.5-2b,nexus,Tool calling,cs,errors,0,318
+qwen3.5-2b,nexus,Tool calling,cs,truncated,3,318
+qwen3.5-2b,jsonmode,Structured output,en,radar,95.662,100
+qwen3.5-2b,jsonmode,Structured output,en,valid_json,99.0,100
+qwen3.5-2b,jsonmode,Structured output,en,schema_valid,98.0,100
+qwen3.5-2b,jsonmode,Structured output,en,field_acc,89.986,100
+qwen3.5-2b,jsonmode,Structured output,en,errors,0,100
+qwen3.5-2b,jsonmode,Structured output,en,truncated,1,100
+qwen3.5-2b,jsonmode,Structured output,cs,radar,95.535,100
+qwen3.5-2b,jsonmode,Structured output,cs,valid_json,100.0,100
+qwen3.5-2b,jsonmode,Structured output,cs,schema_valid,98.0,100
+qwen3.5-2b,jsonmode,Structured output,cs,field_acc,88.604,100
+qwen3.5-2b,jsonmode,Structured output,cs,errors,0,100
+qwen3.5-2b,jsonmode,Structured output,cs,truncated,0,100
+qwen3.5-2b,eurlex,Summarization,en,radar,72.043,50
+qwen3.5-2b,eurlex,Summarization,en,lang_ok,100.0,50
+qwen3.5-2b,eurlex,Summarization,en,informativeness,4.36,50
+qwen3.5-2b,eurlex,Summarization,en,faithfulness,3.6,50
+qwen3.5-2b,eurlex,Summarization,en,coherence,4.6,50
+qwen3.5-2b,eurlex,Summarization,en,conciseness,3.64,50
+qwen3.5-2b,eurlex,Summarization,en,errors,0,50
+qwen3.5-2b,eurlex,Summarization,en,truncated,5,50
+qwen3.5-2b,eurlex,Summarization,cs,radar,62.834,50
+qwen3.5-2b,eurlex,Summarization,cs,lang_ok,100.0,50
+qwen3.5-2b,eurlex,Summarization,cs,informativeness,3.54,50
+qwen3.5-2b,eurlex,Summarization,cs,faithfulness,3.72,50
+qwen3.5-2b,eurlex,Summarization,cs,coherence,3.5,50
+qwen3.5-2b,eurlex,Summarization,cs,conciseness,2.78,50
+qwen3.5-2b,eurlex,Summarization,cs,errors,0,50
+qwen3.5-2b,eurlex,Summarization,cs,truncated,37,50
+qwen3.5-2b,minds,Classification,en,radar,85.613,563
+qwen3.5-2b,minds,Classification,en,errors,0,563
+qwen3.5-2b,minds,Classification,en,truncated,0,563
+qwen3.5-2b,minds,Classification,cs,radar,87.631,574
+qwen3.5-2b,minds,Classification,cs,errors,0,574
+qwen3.5-2b,minds,Classification,cs,truncated,0,574
+qwen3.5-2b,gmmlu,Knowledge,en,radar,63.75,400
+qwen3.5-2b,gmmlu,Knowledge,en,cultural:CA,68.0,400
+qwen3.5-2b,gmmlu,Knowledge,en,cultural:CS,59.5,400
+qwen3.5-2b,gmmlu,Knowledge,en,category:Business,68.966,400
+qwen3.5-2b,gmmlu,Knowledge,en,category:Humanities,65.686,400
+qwen3.5-2b,gmmlu,Knowledge,en,category:Medical,55.556,400
+qwen3.5-2b,gmmlu,Knowledge,en,category:Other,69.643,400
+qwen3.5-2b,gmmlu,Knowledge,en,category:STEM,56.522,400
+qwen3.5-2b,gmmlu,Knowledge,en,category:Social Sciences,61.765,400
+qwen3.5-2b,gmmlu,Knowledge,en,errors,0,400
+qwen3.5-2b,gmmlu,Knowledge,en,truncated,0,400
+qwen3.5-2b,gmmlu,Knowledge,cs,radar,47.75,400
+qwen3.5-2b,gmmlu,Knowledge,cs,cultural:CA,53.5,400
+qwen3.5-2b,gmmlu,Knowledge,cs,cultural:CS,42.0,400
+qwen3.5-2b,gmmlu,Knowledge,cs,category:Business,56.897,400
+qwen3.5-2b,gmmlu,Knowledge,cs,category:Humanities,50.98,400
+qwen3.5-2b,gmmlu,Knowledge,cs,category:Medical,41.667,400
+qwen3.5-2b,gmmlu,Knowledge,cs,category:Other,50.0,400
+qwen3.5-2b,gmmlu,Knowledge,cs,category:STEM,34.783,400
+qwen3.5-2b,gmmlu,Knowledge,cs,category:Social Sciences,46.078,400
+qwen3.5-2b,gmmlu,Knowledge,cs,errors,0,400
+qwen3.5-2b,gmmlu,Knowledge,cs,truncated,1,400
+qwen3.5-2b,ifeval,Instruction following,en,radar,71.319,429
+qwen3.5-2b,ifeval,Instruction following,en,prompt_strict,67.599,429
+qwen3.5-2b,ifeval,Instruction following,en,inst_strict,75.039,429
+qwen3.5-2b,ifeval,Instruction following,en,prompt_loose,73.193,429
+qwen3.5-2b,ifeval,Instruction following,en,inst_loose,79.779,429
+qwen3.5-2b,ifeval,Instruction following,en,errors,0,429
+qwen3.5-2b,ifeval,Instruction following,en,truncated,43,429
+qwen3.5-2b,ifeval,Instruction following,cs,radar,51.746,429
+qwen3.5-2b,ifeval,Instruction following,cs,prompt_strict,46.62,429
+qwen3.5-2b,ifeval,Instruction following,cs,inst_strict,56.872,429
+qwen3.5-2b,ifeval,Instruction following,cs,prompt_loose,51.049,429
+qwen3.5-2b,ifeval,Instruction following,cs,inst_loose,60.821,429
+qwen3.5-2b,ifeval,Instruction following,cs,errors,0,429
+qwen3.5-2b,ifeval,Instruction following,cs,truncated,111,429
+gemma-4-e2b,nexus,Tool calling,en,radar,61.95,318
+gemma-4-e2b,nexus,Tool calling,en,text_fallback,0.0,318
+gemma-4-e2b,nexus,Tool calling,en,errors,0,318
+gemma-4-e2b,nexus,Tool calling,en,truncated,0,318
+gemma-4-e2b,nexus,Tool calling,cs,radar,54.717,318
+gemma-4-e2b,nexus,Tool calling,cs,text_fallback,0.0,318
+gemma-4-e2b,nexus,Tool calling,cs,errors,0,318
+gemma-4-e2b,nexus,Tool calling,cs,truncated,1,318
+gemma-4-e2b,jsonmode,Structured output,en,radar,95.152,100
+gemma-4-e2b,jsonmode,Structured output,en,valid_json,100.0,100
+gemma-4-e2b,jsonmode,Structured output,en,schema_valid,96.0,100
+gemma-4-e2b,jsonmode,Structured output,en,field_acc,89.456,100
+gemma-4-e2b,jsonmode,Structured output,en,errors,0,100
+gemma-4-e2b,jsonmode,Structured output,en,truncated,0,100
+gemma-4-e2b,jsonmode,Structured output,cs,radar,95.034,100
+gemma-4-e2b,jsonmode,Structured output,cs,valid_json,100.0,100
+gemma-4-e2b,jsonmode,Structured output,cs,schema_valid,96.0,100
+gemma-4-e2b,jsonmode,Structured output,cs,field_acc,89.102,100
+gemma-4-e2b,jsonmode,Structured output,cs,errors,0,100
+gemma-4-e2b,jsonmode,Structured output,cs,truncated,0,100
+gemma-4-e2b,eurlex,Summarization,en,radar,80.292,50
+gemma-4-e2b,eurlex,Summarization,en,lang_ok,100.0,50
+gemma-4-e2b,eurlex,Summarization,en,informativeness,4.08,50
+gemma-4-e2b,eurlex,Summarization,en,faithfulness,4.44,50
+gemma-4-e2b,eurlex,Summarization,en,coherence,4.96,50
+gemma-4-e2b,eurlex,Summarization,en,conciseness,4.16,50
+gemma-4-e2b,eurlex,Summarization,en,errors,0,50
+gemma-4-e2b,eurlex,Summarization,en,truncated,1,50
+gemma-4-e2b,eurlex,Summarization,cs,radar,79.268,50
+gemma-4-e2b,eurlex,Summarization,cs,lang_ok,100.0,50
+gemma-4-e2b,eurlex,Summarization,cs,informativeness,4.26,50
+gemma-4-e2b,eurlex,Summarization,cs,faithfulness,4.18,50
+gemma-4-e2b,eurlex,Summarization,cs,coherence,4.28,50
+gemma-4-e2b,eurlex,Summarization,cs,conciseness,3.74,50
+gemma-4-e2b,eurlex,Summarization,cs,errors,0,50
+gemma-4-e2b,eurlex,Summarization,cs,truncated,16,50
+gemma-4-e2b,minds,Classification,en,radar,93.961,563
+gemma-4-e2b,minds,Classification,en,errors,0,563
+gemma-4-e2b,minds,Classification,en,truncated,0,563
+gemma-4-e2b,minds,Classification,cs,radar,92.334,574
+gemma-4-e2b,minds,Classification,cs,errors,0,574
+gemma-4-e2b,minds,Classification,cs,truncated,0,574
+gemma-4-e2b,gmmlu,Knowledge,en,radar,58.25,400
+gemma-4-e2b,gmmlu,Knowledge,en,cultural:CA,60.5,400
+gemma-4-e2b,gmmlu,Knowledge,en,cultural:CS,56.0,400
+gemma-4-e2b,gmmlu,Knowledge,en,category:Business,70.69,400
+gemma-4-e2b,gmmlu,Knowledge,en,category:Humanities,65.686,400
+gemma-4-e2b,gmmlu,Knowledge,en,category:Medical,52.778,400
+gemma-4-e2b,gmmlu,Knowledge,en,category:Other,57.143,400
+gemma-4-e2b,gmmlu,Knowledge,en,category:STEM,17.391,400
+gemma-4-e2b,gmmlu,Knowledge,en,category:Social Sciences,64.706,400
+gemma-4-e2b,gmmlu,Knowledge,en,errors,0,400
+gemma-4-e2b,gmmlu,Knowledge,en,truncated,123,400
+gemma-4-e2b,gmmlu,Knowledge,cs,radar,54.25,400
+gemma-4-e2b,gmmlu,Knowledge,cs,cultural:CA,57.0,400
+gemma-4-e2b,gmmlu,Knowledge,cs,cultural:CS,51.5,400
+gemma-4-e2b,gmmlu,Knowledge,cs,category:Business,62.069,400
+gemma-4-e2b,gmmlu,Knowledge,cs,category:Humanities,61.765,400
+gemma-4-e2b,gmmlu,Knowledge,cs,category:Medical,44.444,400
+gemma-4-e2b,gmmlu,Knowledge,cs,category:Other,51.786,400
+gemma-4-e2b,gmmlu,Knowledge,cs,category:STEM,36.957,400
+gemma-4-e2b,gmmlu,Knowledge,cs,category:Social Sciences,54.902,400
+gemma-4-e2b,gmmlu,Knowledge,cs,errors,0,400
+gemma-4-e2b,gmmlu,Knowledge,cs,truncated,0,400
+gemma-4-e2b,ifeval,Instruction following,en,radar,84.977,429
+gemma-4-e2b,ifeval,Instruction following,en,prompt_strict,82.751,429
+gemma-4-e2b,ifeval,Instruction following,en,inst_strict,87.204,429
+gemma-4-e2b,ifeval,Instruction following,en,prompt_loose,84.615,429
+gemma-4-e2b,ifeval,Instruction following,en,inst_loose,88.942,429
+gemma-4-e2b,ifeval,Instruction following,en,errors,0,429
+gemma-4-e2b,ifeval,Instruction following,en,truncated,3,429
+gemma-4-e2b,ifeval,Instruction following,cs,radar,69.834,429
+gemma-4-e2b,ifeval,Instruction following,cs,prompt_strict,65.734,429
+gemma-4-e2b,ifeval,Instruction following,cs,inst_strict,73.934,429
+gemma-4-e2b,ifeval,Instruction following,cs,prompt_loose,70.629,429
+gemma-4-e2b,ifeval,Instruction following,cs,inst_loose,77.567,429
+gemma-4-e2b,ifeval,Instruction following,cs,errors,0,429
+gemma-4-e2b,ifeval,Instruction following,cs,truncated,6,429
+smollm3-3b,nexus,Tool calling,en,radar,56.604,318
+smollm3-3b,nexus,Tool calling,en,text_fallback,7.233,318
+smollm3-3b,nexus,Tool calling,en,errors,0,318
+smollm3-3b,nexus,Tool calling,en,truncated,1,318
+smollm3-3b,nexus,Tool calling,cs,radar,51.258,318
+smollm3-3b,nexus,Tool calling,cs,text_fallback,14.78,318
+smollm3-3b,nexus,Tool calling,cs,errors,0,318
+smollm3-3b,nexus,Tool calling,cs,truncated,3,318
+smollm3-3b,jsonmode,Structured output,en,radar,90.792,100
+smollm3-3b,jsonmode,Structured output,en,valid_json,100.0,100
+smollm3-3b,jsonmode,Structured output,en,schema_valid,88.0,100
+smollm3-3b,jsonmode,Structured output,en,field_acc,84.375,100
+smollm3-3b,jsonmode,Structured output,en,errors,0,100
+smollm3-3b,jsonmode,Structured output,en,truncated,0,100
+smollm3-3b,jsonmode,Structured output,cs,radar,85.889,100
+smollm3-3b,jsonmode,Structured output,cs,valid_json,100.0,100
+smollm3-3b,jsonmode,Structured output,cs,schema_valid,81.0,100
+smollm3-3b,jsonmode,Structured output,cs,field_acc,76.667,100
+smollm3-3b,jsonmode,Structured output,cs,errors,0,100
+smollm3-3b,jsonmode,Structured output,cs,truncated,2,100
+smollm3-3b,eurlex,Summarization,en,radar,64.549,50
+smollm3-3b,eurlex,Summarization,en,lang_ok,100.0,50
+smollm3-3b,eurlex,Summarization,en,informativeness,3.32,50
+smollm3-3b,eurlex,Summarization,en,faithfulness,4.04,50
+smollm3-3b,eurlex,Summarization,en,coherence,3.94,50
+smollm3-3b,eurlex,Summarization,en,conciseness,3.08,50
+smollm3-3b,eurlex,Summarization,en,errors,0,50
+smollm3-3b,eurlex,Summarization,en,truncated,12,50
+smollm3-3b,eurlex,Summarization,cs,radar,24.536,50
+smollm3-3b,eurlex,Summarization,cs,lang_ok,78.0,50
+smollm3-3b,eurlex,Summarization,cs,informativeness,2.0,50
+smollm3-3b,eurlex,Summarization,cs,faithfulness,2.54,50
+smollm3-3b,eurlex,Summarization,cs,coherence,2.2,50
+smollm3-3b,eurlex,Summarization,cs,conciseness,1.58,50
+smollm3-3b,eurlex,Summarization,cs,errors,0,50
+smollm3-3b,eurlex,Summarization,cs,truncated,41,50
+smollm3-3b,minds,Classification,en,radar,90.941,563
+smollm3-3b,minds,Classification,en,errors,0,563
+smollm3-3b,minds,Classification,en,truncated,0,563
+smollm3-3b,minds,Classification,cs,radar,70.557,574
+smollm3-3b,minds,Classification,cs,errors,0,574
+smollm3-3b,minds,Classification,cs,truncated,0,574
+smollm3-3b,gmmlu,Knowledge,en,radar,65.5,400
+smollm3-3b,gmmlu,Knowledge,en,cultural:CA,67.5,400
+smollm3-3b,gmmlu,Knowledge,en,cultural:CS,63.5,400
+smollm3-3b,gmmlu,Knowledge,en,category:Business,63.793,400
+smollm3-3b,gmmlu,Knowledge,en,category:Humanities,65.686,400
+smollm3-3b,gmmlu,Knowledge,en,category:Medical,66.667,400
+smollm3-3b,gmmlu,Knowledge,en,category:Other,75.0,400
+smollm3-3b,gmmlu,Knowledge,en,category:STEM,58.696,400
+smollm3-3b,gmmlu,Knowledge,en,category:Social Sciences,63.725,400
+smollm3-3b,gmmlu,Knowledge,en,errors,0,400
+smollm3-3b,gmmlu,Knowledge,en,truncated,32,400
+smollm3-3b,gmmlu,Knowledge,cs,radar,40.0,400
+smollm3-3b,gmmlu,Knowledge,cs,cultural:CA,40.5,400
+smollm3-3b,gmmlu,Knowledge,cs,cultural:CS,39.5,400
+smollm3-3b,gmmlu,Knowledge,cs,category:Business,41.379,400
+smollm3-3b,gmmlu,Knowledge,cs,category:Humanities,45.098,400
+smollm3-3b,gmmlu,Knowledge,cs,category:Medical,36.111,400
+smollm3-3b,gmmlu,Knowledge,cs,category:Other,35.714,400
+smollm3-3b,gmmlu,Knowledge,cs,category:STEM,52.174,400
+smollm3-3b,gmmlu,Knowledge,cs,category:Social Sciences,32.353,400
+smollm3-3b,gmmlu,Knowledge,cs,errors,0,400
+smollm3-3b,gmmlu,Knowledge,cs,truncated,1,400
+smollm3-3b,ifeval,Instruction following,en,radar,74.764,429
+smollm3-3b,ifeval,Instruction following,en,prompt_strict,71.329,429
+smollm3-3b,ifeval,Instruction following,en,inst_strict,78.199,429
+smollm3-3b,ifeval,Instruction following,en,prompt_loose,76.224,429
+smollm3-3b,ifeval,Instruction following,en,inst_loose,82.622,429
+smollm3-3b,ifeval,Instruction following,en,errors,0,429
+smollm3-3b,ifeval,Instruction following,en,truncated,28,429
+smollm3-3b,ifeval,Instruction following,cs,radar,47.989,429
+smollm3-3b,ifeval,Instruction following,cs,prompt_strict,42.424,429
+smollm3-3b,ifeval,Instruction following,cs,inst_strict,53.555,429
+smollm3-3b,ifeval,Instruction following,cs,prompt_loose,45.921,429
+smollm3-3b,ifeval,Instruction following,cs,inst_loose,57.03,429
+smollm3-3b,ifeval,Instruction following,cs,errors,0,429
+smollm3-3b,ifeval,Instruction following,cs,truncated,175,429
+tiny-aya-global,nexus,Tool calling,en,radar,49.057,318
+tiny-aya-global,nexus,Tool calling,en,text_fallback,100.0,318
+tiny-aya-global,nexus,Tool calling,en,errors,0,318
+tiny-aya-global,nexus,Tool calling,en,truncated,0,318
+tiny-aya-global,nexus,Tool calling,cs,radar,43.711,318
+tiny-aya-global,nexus,Tool calling,cs,text_fallback,99.686,318
+tiny-aya-global,nexus,Tool calling,cs,errors,0,318
+tiny-aya-global,nexus,Tool calling,cs,truncated,2,318
+tiny-aya-global,jsonmode,Structured output,en,radar,90.022,100
+tiny-aya-global,jsonmode,Structured output,en,valid_json,99.0,100
+tiny-aya-global,jsonmode,Structured output,en,schema_valid,88.0,100
+tiny-aya-global,jsonmode,Structured output,en,field_acc,83.067,100
+tiny-aya-global,jsonmode,Structured output,en,errors,0,100
+tiny-aya-global,jsonmode,Structured output,en,truncated,0,100
+tiny-aya-global,jsonmode,Structured output,cs,radar,92.32,100
+tiny-aya-global,jsonmode,Structured output,cs,valid_json,100.0,100
+tiny-aya-global,jsonmode,Structured output,cs,schema_valid,92.0,100
+tiny-aya-global,jsonmode,Structured output,cs,field_acc,84.961,100
+tiny-aya-global,jsonmode,Structured output,cs,errors,0,100
+tiny-aya-global,jsonmode,Structured output,cs,truncated,0,100
+tiny-aya-global,eurlex,Summarization,en,radar,48.567,50
+tiny-aya-global,eurlex,Summarization,en,lang_ok,100.0,50
+tiny-aya-global,eurlex,Summarization,en,informativeness,3.16,50
+tiny-aya-global,eurlex,Summarization,en,faithfulness,2.86,50
+tiny-aya-global,eurlex,Summarization,en,coherence,4.44,50
+tiny-aya-global,eurlex,Summarization,en,conciseness,3.72,50
+tiny-aya-global,eurlex,Summarization,en,errors,0,50
+tiny-aya-global,eurlex,Summarization,en,truncated,0,50
+tiny-aya-global,eurlex,Summarization,cs,radar,49.805,50
+tiny-aya-global,eurlex,Summarization,cs,lang_ok,100.0,50
+tiny-aya-global,eurlex,Summarization,cs,informativeness,3.14,50
+tiny-aya-global,eurlex,Summarization,cs,faithfulness,2.94,50
+tiny-aya-global,eurlex,Summarization,cs,coherence,4.58,50
+tiny-aya-global,eurlex,Summarization,cs,conciseness,4.38,50
+tiny-aya-global,eurlex,Summarization,cs,errors,0,50
+tiny-aya-global,eurlex,Summarization,cs,truncated,0,50
+tiny-aya-global,minds,Classification,en,radar,89.52,563
+tiny-aya-global,minds,Classification,en,errors,0,563
+tiny-aya-global,minds,Classification,en,truncated,0,563
+tiny-aya-global,minds,Classification,cs,radar,91.986,574
+tiny-aya-global,minds,Classification,cs,errors,0,574
+tiny-aya-global,minds,Classification,cs,truncated,0,574
+tiny-aya-global,gmmlu,Knowledge,en,radar,59.75,400
+tiny-aya-global,gmmlu,Knowledge,en,cultural:CA,64.5,400
+tiny-aya-global,gmmlu,Knowledge,en,cultural:CS,55.0,400
+tiny-aya-global,gmmlu,Knowledge,en,category:Business,60.345,400
+tiny-aya-global,gmmlu,Knowledge,en,category:Humanities,61.765,400
+tiny-aya-global,gmmlu,Knowledge,en,category:Medical,63.889,400
+tiny-aya-global,gmmlu,Knowledge,en,category:Other,60.714,400
+tiny-aya-global,gmmlu,Knowledge,en,category:STEM,43.478,400
+tiny-aya-global,gmmlu,Knowledge,en,category:Social Sciences,62.745,400
+tiny-aya-global,gmmlu,Knowledge,en,errors,0,400
+tiny-aya-global,gmmlu,Knowledge,en,truncated,0,400
+tiny-aya-global,gmmlu,Knowledge,cs,radar,55.0,400
+tiny-aya-global,gmmlu,Knowledge,cs,cultural:CA,58.0,400
+tiny-aya-global,gmmlu,Knowledge,cs,cultural:CS,52.0,400
+tiny-aya-global,gmmlu,Knowledge,cs,category:Business,48.276,400
+tiny-aya-global,gmmlu,Knowledge,cs,category:Humanities,56.863,400
+tiny-aya-global,gmmlu,Knowledge,cs,category:Medical,58.333,400
+tiny-aya-global,gmmlu,Knowledge,cs,category:Other,60.714,400
+tiny-aya-global,gmmlu,Knowledge,cs,category:STEM,41.304,400
+tiny-aya-global,gmmlu,Knowledge,cs,category:Social Sciences,58.824,400
+tiny-aya-global,gmmlu,Knowledge,cs,errors,0,400
+tiny-aya-global,gmmlu,Knowledge,cs,truncated,0,400
+tiny-aya-global,ifeval,Instruction following,en,radar,84.861,429
+tiny-aya-global,ifeval,Instruction following,en,prompt_strict,82.517,429
+tiny-aya-global,ifeval,Instruction following,en,inst_strict,87.204,429
+tiny-aya-global,ifeval,Instruction following,en,prompt_loose,85.082,429
+tiny-aya-global,ifeval,Instruction following,en,inst_loose,89.573,429
+tiny-aya-global,ifeval,Instruction following,en,errors,0,429
+tiny-aya-global,ifeval,Instruction following,en,truncated,5,429
+tiny-aya-global,ifeval,Instruction following,cs,radar,74.531,429
+tiny-aya-global,ifeval,Instruction following,cs,prompt_strict,70.862,429
+tiny-aya-global,ifeval,Instruction following,cs,inst_strict,78.199,429
+tiny-aya-global,ifeval,Instruction following,cs,prompt_loose,75.291,429
+tiny-aya-global,ifeval,Instruction following,cs,inst_loose,81.675,429
+tiny-aya-global,ifeval,Instruction following,cs,errors,0,429
+tiny-aya-global,ifeval,Instruction following,cs,truncated,11,429
+granite-4.2-3b,nexus,Tool calling,en,radar,33.019,318
+granite-4.2-3b,nexus,Tool calling,en,text_fallback,3.459,318
+granite-4.2-3b,nexus,Tool calling,en,errors,0,318
+granite-4.2-3b,nexus,Tool calling,en,truncated,3,318
+granite-4.2-3b,nexus,Tool calling,cs,radar,19.811,318
+granite-4.2-3b,nexus,Tool calling,cs,text_fallback,11.321,318
+granite-4.2-3b,nexus,Tool calling,cs,errors,0,318
+granite-4.2-3b,nexus,Tool calling,cs,truncated,32,318
+granite-4.2-3b,jsonmode,Structured output,en,radar,96.253,100
+granite-4.2-3b,jsonmode,Structured output,en,valid_json,100.0,100
+granite-4.2-3b,jsonmode,Structured output,en,schema_valid,98.0,100
+granite-4.2-3b,jsonmode,Structured output,en,field_acc,90.758,100
+granite-4.2-3b,jsonmode,Structured output,en,errors,0,100
+granite-4.2-3b,jsonmode,Structured output,en,truncated,0,100
+granite-4.2-3b,jsonmode,Structured output,cs,radar,96.197,100
+granite-4.2-3b,jsonmode,Structured output,cs,valid_json,100.0,100
+granite-4.2-3b,jsonmode,Structured output,cs,schema_valid,100.0,100
+granite-4.2-3b,jsonmode,Structured output,cs,field_acc,88.591,100
+granite-4.2-3b,jsonmode,Structured output,cs,errors,0,100
+granite-4.2-3b,jsonmode,Structured output,cs,truncated,1,100
+granite-4.2-3b,eurlex,Summarization,en,radar,60.712,50
+granite-4.2-3b,eurlex,Summarization,en,lang_ok,100.0,50
+granite-4.2-3b,eurlex,Summarization,en,informativeness,3.88,50
+granite-4.2-3b,eurlex,Summarization,en,faithfulness,3.18,50
+granite-4.2-3b,eurlex,Summarization,en,coherence,3.52,50
+granite-4.2-3b,eurlex,Summarization,en,conciseness,2.7,50
+granite-4.2-3b,eurlex,Summarization,en,errors,0,50
+granite-4.2-3b,eurlex,Summarization,en,truncated,12,50
+granite-4.2-3b,eurlex,Summarization,cs,radar,50.842,50
+granite-4.2-3b,eurlex,Summarization,cs,lang_ok,100.0,50
+granite-4.2-3b,eurlex,Summarization,cs,informativeness,3.44,50
+granite-4.2-3b,eurlex,Summarization,cs,faithfulness,2.76,50
+granite-4.2-3b,eurlex,Summarization,cs,coherence,3.18,50
+granite-4.2-3b,eurlex,Summarization,cs,conciseness,3.1,50
+granite-4.2-3b,eurlex,Summarization,cs,errors,0,50
+granite-4.2-3b,eurlex,Summarization,cs,truncated,36,50
+granite-4.2-3b,minds,Classification,en,radar,91.297,563
+granite-4.2-3b,minds,Classification,en,errors,0,563
+granite-4.2-3b,minds,Classification,en,truncated,5,563
+granite-4.2-3b,minds,Classification,cs,radar,89.373,574
+granite-4.2-3b,minds,Classification,cs,errors,0,574
+granite-4.2-3b,minds,Classification,cs,truncated,0,574
+granite-4.2-3b,gmmlu,Knowledge,en,radar,65.25,400
+granite-4.2-3b,gmmlu,Knowledge,en,cultural:CA,71.0,400
+granite-4.2-3b,gmmlu,Knowledge,en,cultural:CS,59.5,400
+granite-4.2-3b,gmmlu,Knowledge,en,category:Business,56.897,400
+granite-4.2-3b,gmmlu,Knowledge,en,category:Humanities,67.647,400
+granite-4.2-3b,gmmlu,Knowledge,en,category:Medical,66.667,400
+granite-4.2-3b,gmmlu,Knowledge,en,category:Other,71.429,400
+granite-4.2-3b,gmmlu,Knowledge,en,category:STEM,50.0,400
+granite-4.2-3b,gmmlu,Knowledge,en,category:Social Sciences,70.588,400
+granite-4.2-3b,gmmlu,Knowledge,en,errors,0,400
+granite-4.2-3b,gmmlu,Knowledge,en,truncated,18,400
+granite-4.2-3b,gmmlu,Knowledge,cs,radar,46.75,400
+granite-4.2-3b,gmmlu,Knowledge,cs,cultural:CA,51.5,400
+granite-4.2-3b,gmmlu,Knowledge,cs,cultural:CS,42.0,400
+granite-4.2-3b,gmmlu,Knowledge,cs,category:Business,46.552,400
+granite-4.2-3b,gmmlu,Knowledge,cs,category:Humanities,48.039,400
+granite-4.2-3b,gmmlu,Knowledge,cs,category:Medical,50.0,400
+granite-4.2-3b,gmmlu,Knowledge,cs,category:Other,51.786,400
+granite-4.2-3b,gmmlu,Knowledge,cs,category:STEM,34.783,400
+granite-4.2-3b,gmmlu,Knowledge,cs,category:Social Sciences,47.059,400
+granite-4.2-3b,gmmlu,Knowledge,cs,errors,0,400
+granite-4.2-3b,gmmlu,Knowledge,cs,truncated,99,400
+granite-4.2-3b,ifeval,Instruction following,en,radar,82.007,429
+granite-4.2-3b,ifeval,Instruction following,en,prompt_strict,79.021,429
+granite-4.2-3b,ifeval,Instruction following,en,inst_strict,84.992,429
+granite-4.2-3b,ifeval,Instruction following,en,prompt_loose,81.818,429
+granite-4.2-3b,ifeval,Instruction following,en,inst_loose,87.204,429
+granite-4.2-3b,ifeval,Instruction following,en,errors,0,429
+granite-4.2-3b,ifeval,Instruction following,en,truncated,27,429
+granite-4.2-3b,ifeval,Instruction following,cs,radar,63.294,429
+granite-4.2-3b,ifeval,Instruction following,cs,prompt_strict,58.974,429
+granite-4.2-3b,ifeval,Instruction following,cs,inst_strict,67.615,429
+granite-4.2-3b,ifeval,Instruction following,cs,prompt_loose,64.569,429
+granite-4.2-3b,ifeval,Instruction following,cs,inst_loose,72.038,429
+granite-4.2-3b,ifeval,Instruction following,cs,errors,0,429
+granite-4.2-3b,ifeval,Instruction following,cs,truncated,45,429
+ministral-3-3b,nexus,Tool calling,en,radar,64.465,318
+ministral-3-3b,nexus,Tool calling,en,text_fallback,0.0,318
+ministral-3-3b,nexus,Tool calling,en,errors,0,318
+ministral-3-3b,nexus,Tool calling,en,truncated,0,318
+ministral-3-3b,nexus,Tool calling,cs,radar,57.233,318
+ministral-3-3b,nexus,Tool calling,cs,text_fallback,0.314,318
+ministral-3-3b,nexus,Tool calling,cs,errors,0,318
+ministral-3-3b,nexus,Tool calling,cs,truncated,5,318
+ministral-3-3b,jsonmode,Structured output,en,radar,78.528,100
+ministral-3-3b,jsonmode,Structured output,en,valid_json,98.0,100
+ministral-3-3b,jsonmode,Structured output,en,schema_valid,53.0,100
+ministral-3-3b,jsonmode,Structured output,en,field_acc,84.583,100
+ministral-3-3b,jsonmode,Structured output,en,errors,0,100
+ministral-3-3b,jsonmode,Structured output,en,truncated,1,100
+ministral-3-3b,jsonmode,Structured output,cs,radar,60.213,100
+ministral-3-3b,jsonmode,Structured output,cs,valid_json,95.0,100
+ministral-3-3b,jsonmode,Structured output,cs,schema_valid,25.0,100
+ministral-3-3b,jsonmode,Structured output,cs,field_acc,60.639,100
+ministral-3-3b,jsonmode,Structured output,cs,errors,0,100
+ministral-3-3b,jsonmode,Structured output,cs,truncated,1,100
+ministral-3-3b,eurlex,Summarization,en,radar,60.633,50
+ministral-3-3b,eurlex,Summarization,en,lang_ok,100.0,50
+ministral-3-3b,eurlex,Summarization,en,informativeness,4.56,50
+ministral-3-3b,eurlex,Summarization,en,faithfulness,2.82,50
+ministral-3-3b,eurlex,Summarization,en,coherence,4.82,50
+ministral-3-3b,eurlex,Summarization,en,conciseness,3.74,50
+ministral-3-3b,eurlex,Summarization,en,errors,0,50
+ministral-3-3b,eurlex,Summarization,en,truncated,0,50
+ministral-3-3b,eurlex,Summarization,cs,radar,69.492,50
+ministral-3-3b,eurlex,Summarization,cs,lang_ok,100.0,50
+ministral-3-3b,eurlex,Summarization,cs,informativeness,4.46,50
+ministral-3-3b,eurlex,Summarization,cs,faithfulness,3.32,50
+ministral-3-3b,eurlex,Summarization,cs,coherence,4.54,50
+ministral-3-3b,eurlex,Summarization,cs,conciseness,3.88,50
+ministral-3-3b,eurlex,Summarization,cs,errors,0,50
+ministral-3-3b,eurlex,Summarization,cs,truncated,7,50
+ministral-3-3b,minds,Classification,en,radar,92.362,563
+ministral-3-3b,minds,Classification,en,errors,0,563
+ministral-3-3b,minds,Classification,en,truncated,0,563
+ministral-3-3b,minds,Classification,cs,radar,91.115,574
+ministral-3-3b,minds,Classification,cs,errors,0,574
+ministral-3-3b,minds,Classification,cs,truncated,1,574
+ministral-3-3b,gmmlu,Knowledge,en,radar,70.75,400
+ministral-3-3b,gmmlu,Knowledge,en,cultural:CA,73.5,400
+ministral-3-3b,gmmlu,Knowledge,en,cultural:CS,68.0,400
+ministral-3-3b,gmmlu,Knowledge,en,category:Business,70.69,400
+ministral-3-3b,gmmlu,Knowledge,en,category:Humanities,70.588,400
+ministral-3-3b,gmmlu,Knowledge,en,category:Medical,80.556,400
+ministral-3-3b,gmmlu,Knowledge,en,category:Other,76.786,400
+ministral-3-3b,gmmlu,Knowledge,en,category:STEM,50.0,400
+ministral-3-3b,gmmlu,Knowledge,en,category:Social Sciences,73.529,400
+ministral-3-3b,gmmlu,Knowledge,en,errors,0,400
+ministral-3-3b,gmmlu,Knowledge,en,truncated,3,400
+ministral-3-3b,gmmlu,Knowledge,cs,radar,57.75,400
+ministral-3-3b,gmmlu,Knowledge,cs,cultural:CA,59.5,400
+ministral-3-3b,gmmlu,Knowledge,cs,cultural:CS,56.0,400
+ministral-3-3b,gmmlu,Knowledge,cs,category:Business,60.345,400
+ministral-3-3b,gmmlu,Knowledge,cs,category:Humanities,61.765,400
+ministral-3-3b,gmmlu,Knowledge,cs,category:Medical,63.889,400
+ministral-3-3b,gmmlu,Knowledge,cs,category:Other,57.143,400
+ministral-3-3b,gmmlu,Knowledge,cs,category:STEM,36.957,400
+ministral-3-3b,gmmlu,Knowledge,cs,category:Social Sciences,59.804,400
+ministral-3-3b,gmmlu,Knowledge,cs,errors,0,400
+ministral-3-3b,gmmlu,Knowledge,cs,truncated,0,400
+ministral-3-3b,ifeval,Instruction following,en,radar,64.009,429
+ministral-3-3b,ifeval,Instruction following,en,prompt_strict,58.508,429
+ministral-3-3b,ifeval,Instruction following,en,inst_strict,69.51,429
+ministral-3-3b,ifeval,Instruction following,en,prompt_loose,66.667,429
+ministral-3-3b,ifeval,Instruction following,en,inst_loose,76.145,429
+ministral-3-3b,ifeval,Instruction following,en,errors,0,429
+ministral-3-3b,ifeval,Instruction following,en,truncated,22,429
+ministral-3-3b,ifeval,Instruction following,cs,radar,55.74,429
+ministral-3-3b,ifeval,Instruction following,cs,prompt_strict,50.816,429
+ministral-3-3b,ifeval,Instruction following,cs,inst_strict,60.664,429
+ministral-3-3b,ifeval,Instruction following,cs,prompt_loose,57.809,429
+ministral-3-3b,ifeval,Instruction following,cs,inst_loose,67.141,429
+ministral-3-3b,ifeval,Instruction following,cs,errors,0,429
+ministral-3-3b,ifeval,Instruction following,cs,truncated,36,429
+nemotron-3-nano-4b,nexus,Tool calling,en,radar,54.717,318
+nemotron-3-nano-4b,nexus,Tool calling,en,text_fallback,0.0,318
+nemotron-3-nano-4b,nexus,Tool calling,en,errors,0,318
+nemotron-3-nano-4b,nexus,Tool calling,en,truncated,0,318
+nemotron-3-nano-4b,nexus,Tool calling,cs,radar,37.107,318
+nemotron-3-nano-4b,nexus,Tool calling,cs,text_fallback,0.0,318
+nemotron-3-nano-4b,nexus,Tool calling,cs,errors,0,318
+nemotron-3-nano-4b,nexus,Tool calling,cs,truncated,29,318
+nemotron-3-nano-4b,jsonmode,Structured output,en,radar,97.269,100
+nemotron-3-nano-4b,jsonmode,Structured output,en,valid_json,100.0,100
+nemotron-3-nano-4b,jsonmode,Structured output,en,schema_valid,99.0,100
+nemotron-3-nano-4b,jsonmode,Structured output,en,field_acc,92.808,100
+nemotron-3-nano-4b,jsonmode,Structured output,en,errors,0,100
+nemotron-3-nano-4b,jsonmode,Structured output,en,truncated,0,100
+nemotron-3-nano-4b,jsonmode,Structured output,cs,radar,96.634,100
+nemotron-3-nano-4b,jsonmode,Structured output,cs,valid_json,100.0,100
+nemotron-3-nano-4b,jsonmode,Structured output,cs,schema_valid,100.0,100
+nemotron-3-nano-4b,jsonmode,Structured output,cs,field_acc,89.901,100
+nemotron-3-nano-4b,jsonmode,Structured output,cs,errors,0,100
+nemotron-3-nano-4b,jsonmode,Structured output,cs,truncated,0,100
+nemotron-3-nano-4b,eurlex,Summarization,en,radar,58.058,50
+nemotron-3-nano-4b,eurlex,Summarization,en,lang_ok,100.0,50
+nemotron-3-nano-4b,eurlex,Summarization,en,informativeness,3.7,50
+nemotron-3-nano-4b,eurlex,Summarization,en,faithfulness,3.12,50
+nemotron-3-nano-4b,eurlex,Summarization,en,coherence,4.28,50
+nemotron-3-nano-4b,eurlex,Summarization,en,conciseness,4.12,50
+nemotron-3-nano-4b,eurlex,Summarization,en,errors,0,50
+nemotron-3-nano-4b,eurlex,Summarization,en,truncated,2,50
+nemotron-3-nano-4b,eurlex,Summarization,cs,radar,32.313,50
+nemotron-3-nano-4b,eurlex,Summarization,cs,lang_ok,100.0,50
+nemotron-3-nano-4b,eurlex,Summarization,cs,informativeness,2.38,50
+nemotron-3-nano-4b,eurlex,Summarization,cs,faithfulness,2.5,50
+nemotron-3-nano-4b,eurlex,Summarization,cs,coherence,2.08,50
+nemotron-3-nano-4b,eurlex,Summarization,cs,conciseness,2.0,50
+nemotron-3-nano-4b,eurlex,Summarization,cs,errors,0,50
+nemotron-3-nano-4b,eurlex,Summarization,cs,truncated,36,50
+nemotron-3-nano-4b,minds,Classification,en,radar,92.362,563
+nemotron-3-nano-4b,minds,Classification,en,errors,0,563
+nemotron-3-nano-4b,minds,Classification,en,truncated,0,563
+nemotron-3-nano-4b,minds,Classification,cs,radar,92.857,574
+nemotron-3-nano-4b,minds,Classification,cs,errors,0,574
+nemotron-3-nano-4b,minds,Classification,cs,truncated,0,574
+nemotron-3-nano-4b,gmmlu,Knowledge,en,radar,67.25,400
+nemotron-3-nano-4b,gmmlu,Knowledge,en,cultural:CA,71.0,400
+nemotron-3-nano-4b,gmmlu,Knowledge,en,cultural:CS,63.5,400
+nemotron-3-nano-4b,gmmlu,Knowledge,en,category:Business,67.241,400
+nemotron-3-nano-4b,gmmlu,Knowledge,en,category:Humanities,71.569,400
+nemotron-3-nano-4b,gmmlu,Knowledge,en,category:Medical,66.667,400
+nemotron-3-nano-4b,gmmlu,Knowledge,en,category:Other,69.643,400
+nemotron-3-nano-4b,gmmlu,Knowledge,en,category:STEM,54.348,400
+nemotron-3-nano-4b,gmmlu,Knowledge,en,category:Social Sciences,67.647,400
+nemotron-3-nano-4b,gmmlu,Knowledge,en,errors,0,400
+nemotron-3-nano-4b,gmmlu,Knowledge,en,truncated,0,400
+nemotron-3-nano-4b,gmmlu,Knowledge,cs,radar,49.25,400
+nemotron-3-nano-4b,gmmlu,Knowledge,cs,cultural:CA,51.5,400
+nemotron-3-nano-4b,gmmlu,Knowledge,cs,cultural:CS,47.0,400
+nemotron-3-nano-4b,gmmlu,Knowledge,cs,category:Business,51.724,400
+nemotron-3-nano-4b,gmmlu,Knowledge,cs,category:Humanities,53.922,400
+nemotron-3-nano-4b,gmmlu,Knowledge,cs,category:Medical,41.667,400
+nemotron-3-nano-4b,gmmlu,Knowledge,cs,category:Other,42.857,400
+nemotron-3-nano-4b,gmmlu,Knowledge,cs,category:STEM,50.0,400
+nemotron-3-nano-4b,gmmlu,Knowledge,cs,category:Social Sciences,49.02,400
+nemotron-3-nano-4b,gmmlu,Knowledge,cs,errors,0,400
+nemotron-3-nano-4b,gmmlu,Knowledge,cs,truncated,0,400
+nemotron-3-nano-4b,ifeval,Instruction following,en,radar,88.576,429
+nemotron-3-nano-4b,ifeval,Instruction following,en,prompt_strict,86.946,429
+nemotron-3-nano-4b,ifeval,Instruction following,en,inst_strict,90.205,429
+nemotron-3-nano-4b,ifeval,Instruction following,en,prompt_loose,88.811,429
+nemotron-3-nano-4b,ifeval,Instruction following,en,inst_loose,91.627,429
+nemotron-3-nano-4b,ifeval,Instruction following,en,errors,0,429
+nemotron-3-nano-4b,ifeval,Instruction following,en,truncated,21,429
+nemotron-3-nano-4b,ifeval,Instruction following,cs,radar,67.879,429
+nemotron-3-nano-4b,ifeval,Instruction following,cs,prompt_strict,63.403,429
+nemotron-3-nano-4b,ifeval,Instruction following,cs,inst_strict,72.354,429
+nemotron-3-nano-4b,ifeval,Instruction following,cs,prompt_loose,66.2,429
+nemotron-3-nano-4b,ifeval,Instruction following,cs,inst_loose,74.408,429
+nemotron-3-nano-4b,ifeval,Instruction following,cs,errors,0,429
+nemotron-3-nano-4b,ifeval,Instruction following,cs,truncated,77,429
+human,eurlex,Summarization,en,radar,71.423,50
+human,eurlex,Summarization,en,lang_ok,100.0,50
+human,eurlex,Summarization,en,informativeness,3.78,50
+human,eurlex,Summarization,en,faithfulness,4.05,50
+human,eurlex,Summarization,en,coherence,4.16,50
+human,eurlex,Summarization,en,conciseness,3.43,50
+human,eurlex,Summarization,en,errors,0,50
+human,eurlex,Summarization,en,truncated,0,50
+human,eurlex,Summarization,cs,radar,80.997,50
+human,eurlex,Summarization,cs,lang_ok,100.0,50
+human,eurlex,Summarization,cs,informativeness,4.26,50
+human,eurlex,Summarization,cs,faithfulness,4.29,50
+human,eurlex,Summarization,cs,coherence,4.26,50
+human,eurlex,Summarization,cs,conciseness,3.65,50
+human,eurlex,Summarization,cs,errors,0,50
+human,eurlex,Summarization,cs,truncated,0,50

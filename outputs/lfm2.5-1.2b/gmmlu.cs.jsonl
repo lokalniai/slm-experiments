@@ -1,0 +1,400 @@
+{"id": "astronomy/test/58", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 132, "completion_tokens": 2, "seconds": 0.37}
+{"id": "astronomy/test/107", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 112, "completion_tokens": 2, "seconds": 0.17}
+{"id": "business_ethics/test/10", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 166, "completion_tokens": 2, "seconds": 0.22}
+{"id": "business_ethics/test/14", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 138, "completion_tokens": 2, "seconds": 0.22}
+{"id": "business_ethics/test/25", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 161, "completion_tokens": 2, "seconds": 0.22}
+{"id": "business_ethics/test/27", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 193, "completion_tokens": 2, "seconds": 0.22}
+{"id": "business_ethics/test/44", "content": "D. Morální spojování", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 122, "completion_tokens": 7, "seconds": 0.32}
+{"id": "business_ethics/test/52", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 142, "completion_tokens": 2, "seconds": 0.21}
+{"id": "business_ethics/test/54", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 175, "completion_tokens": 2, "seconds": 0.21}
+{"id": "business_ethics/test/57", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 171, "completion_tokens": 2, "seconds": 0.21}
+{"id": "business_ethics/test/65", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 187, "completion_tokens": 2, "seconds": 0.21}
+{"id": "business_ethics/test/72", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 253, "completion_tokens": 2, "seconds": 0.21}
+{"id": "business_ethics/test/74", "content": "C. Relativismus, absolutismus", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 148, "completion_tokens": 9, "seconds": 0.36}
+{"id": "business_ethics/test/75", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 230, "completion_tokens": 2, "seconds": 0.2}
+{"id": "business_ethics/test/83", "content": "D. Rehumanizační", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 186, "completion_tokens": 7, "seconds": 0.31}
+{"id": "business_ethics/test/85", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 182, "completion_tokens": 2, "seconds": 0.22}
+{"id": "business_ethics/test/86", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 319, "completion_tokens": 2, "seconds": 0.22}
+{"id": "business_ethics/test/98", "content": "D. Etické kodexy, Internet – sociální média a networking", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 227, "completion_tokens": 18, "seconds": 0.53}
+{"id": "college_biology/test/80", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 160, "completion_tokens": 2, "seconds": 0.19}
+{"id": "college_biology/test/138", "content": "D. nadprodukce potomků", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 160, "completion_tokens": 10, "seconds": 0.38}
+{"id": "college_chemistry/test/20", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 107, "completion_tokens": 2, "seconds": 0.21}
+{"id": "college_chemistry/test/22", "content": "D. 4,0 × 10^-9", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 185, "completion_tokens": 12, "seconds": 0.4}
+{"id": "college_mathematics/test/6", "content": "D. 1/(2*sqrt(2))", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 226, "completion_tokens": 12, "seconds": 0.4}
+{"id": "college_mathematics/test/48", "content": "A.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 161, "completion_tokens": 3, "seconds": 0.22}
+{"id": "college_medicine/test/124", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 130, "completion_tokens": 2, "seconds": 0.21}
+{"id": "college_medicine/test/143", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 197, "completion_tokens": 2, "seconds": 0.21}
+{"id": "electrical_engineering/test/22", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 142, "completion_tokens": 2, "seconds": 0.21}
+{"id": "electrical_engineering/test/73", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 97, "completion_tokens": 2, "seconds": 0.21}
+{"id": "electrical_engineering/test/78", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 114, "completion_tokens": 2, "seconds": 0.22}
+{"id": "electrical_engineering/test/108", "content": "D. 200.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 109, "completion_tokens": 6, "seconds": 0.32}
+{"id": "elementary_mathematics/test/8", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 103, "completion_tokens": 2, "seconds": 0.22}
+{"id": "elementary_mathematics/test/18", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 120, "completion_tokens": 2, "seconds": 0.22}
+{"id": "elementary_mathematics/test/99", "content": "D. 63", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 135, "completion_tokens": 5, "seconds": 0.29}
+{"id": "elementary_mathematics/test/126", "content": "D. 13 qt", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 113, "completion_tokens": 7, "seconds": 0.34}
+{"id": "elementary_mathematics/test/132", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 105, "completion_tokens": 2, "seconds": 0.22}
+{"id": "elementary_mathematics/test/267", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 93, "completion_tokens": 2, "seconds": 0.24}
+{"id": "elementary_mathematics/test/298", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 117, "completion_tokens": 2, "seconds": 0.22}
+{"id": "elementary_mathematics/test/326", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 191, "completion_tokens": 2, "seconds": 0.22}
+{"id": "global_facts/test/7", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 193, "completion_tokens": 2, "seconds": 0.21}
+{"id": "global_facts/test/9", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 109, "completion_tokens": 2, "seconds": 0.21}
+{"id": "global_facts/test/11", "content": "D. 25 %", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 117, "completion_tokens": 6, "seconds": 0.31}
+{"id": "global_facts/test/13", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 133, "completion_tokens": 2, "seconds": 0.24}
+{"id": "global_facts/test/14", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 100, "completion_tokens": 2, "seconds": 0.24}
+{"id": "global_facts/test/24", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 276, "completion_tokens": 2, "seconds": 0.24}
+{"id": "global_facts/test/57", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 108, "completion_tokens": 2, "seconds": 0.24}
+{"id": "global_facts/test/59", "content": "A. 15,50 %", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 248, "completion_tokens": 8, "seconds": 0.37}
+{"id": "global_facts/test/60", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 118, "completion_tokens": 2, "seconds": 0.24}
+{"id": "global_facts/test/70", "content": "D. 78 %", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 124, "completion_tokens": 6, "seconds": 0.33}
+{"id": "global_facts/test/75", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 126, "completion_tokens": 2, "seconds": 0.24}
+{"id": "global_facts/test/77", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 111, "completion_tokens": 2, "seconds": 0.24}
+{"id": "global_facts/test/95", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 111, "completion_tokens": 2, "seconds": 0.24}
+{"id": "global_facts/test/96", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 234, "completion_tokens": 2, "seconds": 0.24}
+{"id": "high_school_chemistry/test/82", "content": "D. Baňku částečně naplňte vodou, poté přidejte 600 ml zásobního roztoku, krouživým pohybem promíchejte. Nakonec naplňte baňku zbytkem těsta destilovanou vodou.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 357, "completion_tokens": 71, "seconds": 1.22}
+{"id": "high_school_chemistry/test/98", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 188, "completion_tokens": 2, "seconds": 0.24}
+{"id": "high_school_computer_science/test/17", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 270, "completion_tokens": 2, "seconds": 0.24}
+{"id": "high_school_computer_science/test/54", "content": "D. heads_counter = 2", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 349, "completion_tokens": 9, "seconds": 0.38}
+{"id": "high_school_european_history/test/9", "content": "D. Záštita umění", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 438, "completion_tokens": 9, "seconds": 0.37}
+{"id": "high_school_european_history/test/11", "content": "D. Potlačit všechny řeči kromě řečí panovníků a církví, které schvalují.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 538, "completion_tokens": 34, "seconds": 0.79}
+{"id": "high_school_european_history/test/30", "content": "D. studium přírodní filozofie v církvi v sedmnáctém světě", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 855, "completion_tokens": 20, "seconds": 0.63}
+{"id": "high_school_european_history/test/37", "content": "A. Obrácení domorodců na křesťanství", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 906, "completion_tokens": 19, "seconds": 0.63}
+{"id": "high_school_european_history/test/43", "content": "C. byla nutná restrukturalizace socialistické společnosti Sovětského svazu, aby se předešlo krizi", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 372, "completion_tokens": 31, "seconds": 0.77}
+{"id": "high_school_european_history/test/55", "content": "D. Sociální zabezpečení a pojištění v nezaměstnanosti", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 503, "completion_tokens": 22, "seconds": 0.65}
+{"id": "high_school_european_history/test/66", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 864, "completion_tokens": 2, "seconds": 0.3}
+{"id": "high_school_european_history/test/93", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 348, "completion_tokens": 2, "seconds": 0.32}
+{"id": "high_school_european_history/test/122", "content": "D. Velká britská revoluce z roku 1688", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 370, "completion_tokens": 14, "seconds": 0.44}
+{"id": "high_school_european_history/test/138", "content": "D. Rakousko", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 600, "completion_tokens": 6, "seconds": 0.22}
+{"id": "high_school_geography/test/27", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 159, "completion_tokens": 2, "seconds": 0.17}
+{"id": "high_school_geography/test/60", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 120, "completion_tokens": 2, "seconds": 0.17}
+{"id": "high_school_geography/test/61", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 138, "completion_tokens": 2, "seconds": 0.17}
+{"id": "high_school_geography/test/92", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 110, "completion_tokens": 2, "seconds": 0.17}
+{"id": "high_school_geography/test/98", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 129, "completion_tokens": 2, "seconds": 0.17}
+{"id": "high_school_geography/test/102", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 141, "completion_tokens": 2, "seconds": 0.17}
+{"id": "high_school_geography/test/124", "content": "D. Násilí v jejím okolí", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 148, "completion_tokens": 12, "seconds": 0.35}
+{"id": "high_school_geography/test/125", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 145, "completion_tokens": 2, "seconds": 0.17}
+{"id": "high_school_geography/test/145", "content": "C", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 127, "completion_tokens": 2, "seconds": 0.17}
+{"id": "high_school_geography/test/148", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 130, "completion_tokens": 2, "seconds": 0.18}
+{"id": "high_school_geography/test/150", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 92, "completion_tokens": 2, "seconds": 0.16}
+{"id": "high_school_geography/test/152", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 106, "completion_tokens": 2, "seconds": 0.17}
+{"id": "high_school_government_and_politics/test/81", "content": "D. odvolávací volby", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 169, "completion_tokens": 9, "seconds": 0.26}
+{"id": "high_school_government_and_politics/test/131", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 123, "completion_tokens": 2, "seconds": 0.16}
+{"id": "high_school_government_and_politics/test/159", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 167, "completion_tokens": 2, "seconds": 0.16}
+{"id": "high_school_government_and_politics/test/173", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 233, "completion_tokens": 2, "seconds": 0.16}
+{"id": "high_school_macroeconomics/test/17", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 275, "completion_tokens": 2, "seconds": 0.16}
+{"id": "high_school_macroeconomics/test/18", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 127, "completion_tokens": 2, "seconds": 0.16}
+{"id": "high_school_macroeconomics/test/43", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 197, "completion_tokens": 2, "seconds": 0.16}
+{"id": "high_school_macroeconomics/test/133", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 148, "completion_tokens": 2, "seconds": 0.15}
+{"id": "high_school_macroeconomics/test/185", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 170, "completion_tokens": 2, "seconds": 0.16}
+{"id": "high_school_macroeconomics/test/210", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 149, "completion_tokens": 2, "seconds": 0.16}
+{"id": "high_school_macroeconomics/test/266", "content": "D. 3,3 procenta.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 140, "completion_tokens": 11, "seconds": 0.29}
+{"id": "high_school_macroeconomics/test/298", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 162, "completion_tokens": 2, "seconds": 0.15}
+{"id": "high_school_macroeconomics/test/313", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 166, "completion_tokens": 2, "seconds": 0.15}
+{"id": "high_school_macroeconomics/test/365", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 163, "completion_tokens": 2, "seconds": 0.15}
+{"id": "high_school_mathematics/test/122", "content": "D. 112875", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 175, "completion_tokens": 6, "seconds": 0.17}
+{"id": "high_school_mathematics/test/145", "content": "D. 104/3", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 120, "completion_tokens": 7, "seconds": 0.19}
+{"id": "high_school_microeconomics/test/139", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 122, "completion_tokens": 2, "seconds": 0.13}
+{"id": "high_school_microeconomics/test/169", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 183, "completion_tokens": 2, "seconds": 0.13}
+{"id": "high_school_physics/test/10", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 290, "completion_tokens": 2, "seconds": 0.13}
+{"id": "high_school_physics/test/12", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 347, "completion_tokens": 2, "seconds": 0.14}
+{"id": "high_school_physics/test/16", "content": "D. 1 m", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 152, "completion_tokens": 6, "seconds": 0.19}
+{"id": "high_school_physics/test/55", "content": "D. -5/2 cm", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 145, "completion_tokens": 8, "seconds": 0.24}
+{"id": "high_school_physics/test/72", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 209, "completion_tokens": 2, "seconds": 0.14}
+{"id": "high_school_physics/test/79", "content": "D. 600 m", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 140, "completion_tokens": 6, "seconds": 0.18}
+{"id": "high_school_physics/test/85", "content": "D. Lineární hybnost", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 157, "completion_tokens": 9, "seconds": 0.26}
+{"id": "high_school_physics/test/88", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 161, "completion_tokens": 2, "seconds": 0.14}
+{"id": "high_school_physics/test/105", "content": "D. Snížení hmotnosti míče", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 229, "completion_tokens": 11, "seconds": 0.28}
+{"id": "high_school_physics/test/119", "content": "D. 10^9 N", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 179, "completion_tokens": 8, "seconds": 0.2}
+{"id": "high_school_physics/test/140", "content": "D. Ani délka, ani plochou", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 181, "completion_tokens": 12, "seconds": 0.3}
+{"id": "high_school_physics/test/147", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 259, "completion_tokens": 2, "seconds": 0.08}
+{"id": "high_school_psychology/test/82", "content": "D. lidský", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 137, "completion_tokens": 5, "seconds": 0.12}
+{"id": "high_school_psychology/test/168", "content": "D. Přemístění", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 160, "completion_tokens": 8, "seconds": 0.2}
+{"id": "high_school_psychology/test/238", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 360, "completion_tokens": 2, "seconds": 0.07}
+{"id": "high_school_psychology/test/281", "content": "D. superego", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 220, "completion_tokens": 6, "seconds": 0.15}
+{"id": "high_school_psychology/test/309", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 142, "completion_tokens": 2, "seconds": 0.12}
+{"id": "high_school_psychology/test/314", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 119, "completion_tokens": 2, "seconds": 0.12}
+{"id": "high_school_psychology/test/404", "content": "D. PET", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 132, "completion_tokens": 4, "seconds": 0.17}
+{"id": "high_school_psychology/test/419", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 346, "completion_tokens": 2, "seconds": 0.12}
+{"id": "high_school_psychology/test/496", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 103, "completion_tokens": 2, "seconds": 0.14}
+{"id": "high_school_psychology/test/501", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 115, "completion_tokens": 2, "seconds": 0.11}
+{"id": "high_school_statistics/test/15", "content": "A. Pouze I", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 159, "completion_tokens": 6, "seconds": 0.21}
+{"id": "high_school_statistics/test/25", "content": "D. 27 300 $", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 221, "completion_tokens": 8, "seconds": 0.26}
+{"id": "high_school_statistics/test/33", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 316, "completion_tokens": 2, "seconds": 0.11}
+{"id": "high_school_statistics/test/63", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 354, "completion_tokens": 2, "seconds": 0.1}
+{"id": "high_school_statistics/test/107", "content": "A. 11 %", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 214, "completion_tokens": 6, "seconds": 0.21}
+{"id": "high_school_statistics/test/124", "content": "A. 12 - 0,99 (0,3) unce", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 249, "completion_tokens": 17, "seconds": 0.36}
+{"id": "high_school_statistics/test/158", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 166, "completion_tokens": 2, "seconds": 0.12}
+{"id": "high_school_statistics/test/191", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 123, "completion_tokens": 2, "seconds": 0.12}
+{"id": "high_school_us_history/test/8", "content": "D. Válečné cíle Spojených států se již nezaměřovaly výhradně na zachování Unie.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 506, "completion_tokens": 32, "seconds": 0.6}
+{"id": "high_school_us_history/test/10", "content": "D. zastánci i odpůrci vládní regulace obchodu.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 492, "completion_tokens": 20, "seconds": 0.4}
+{"id": "high_school_us_history/test/13", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 594, "completion_tokens": 2, "seconds": 0.15}
+{"id": "high_school_us_history/test/17", "content": "D. nedávný konflikt mezi federálními agenty a lakotskými Indiány", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 542, "completion_tokens": 22, "seconds": 0.44}
+{"id": "high_school_us_history/test/88", "content": "D. stavba lodí.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 547, "completion_tokens": 8, "seconds": 0.27}
+{"id": "high_school_us_history/test/89", "content": "C", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 592, "completion_tokens": 2, "seconds": 0.14}
+{"id": "high_school_us_history/test/115", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 747, "completion_tokens": 2, "seconds": 0.16}
+{"id": "high_school_us_history/test/123", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 596, "completion_tokens": 2, "seconds": 0.16}
+{"id": "high_school_us_history/test/130", "content": "D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 582, "completion_tokens": 3, "seconds": 0.21}
+{"id": "high_school_us_history/test/187", "content": "D. Křesťanské abolicionistické odmítání otroctví z morálních důvodů", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 536, "completion_tokens": 28, "seconds": 0.54}
+{"id": "high_school_world_history/test/33", "content": "D. Sociální třídní konflikty", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 368, "completion_tokens": 13, "seconds": 0.32}
+{"id": "high_school_world_history/test/58", "content": "D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 576, "completion_tokens": 3, "seconds": 0.19}
+{"id": "high_school_world_history/test/67", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 539, "completion_tokens": 2, "seconds": 0.19}
+{"id": "high_school_world_history/test/87", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 654, "completion_tokens": 2, "seconds": 0.19}
+{"id": "high_school_world_history/test/93", "content": "D. Kolonizace Afriky", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 568, "completion_tokens": 10, "seconds": 0.31}
+{"id": "high_school_world_history/test/115", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 229, "completion_tokens": 2, "seconds": 0.21}
+{"id": "high_school_world_history/test/145", "content": "D. Reforma", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 350, "completion_tokens": 5, "seconds": 0.26}
+{"id": "high_school_world_history/test/157", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 411, "completion_tokens": 2, "seconds": 0.21}
+{"id": "high_school_world_history/test/187", "content": "D. Búrská válka", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 557, "completion_tokens": 9, "seconds": 0.29}
+{"id": "high_school_world_history/test/225", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 628, "completion_tokens": 2, "seconds": 0.22}
+{"id": "human_aging/test/21", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 112, "completion_tokens": 2, "seconds": 0.2}
+{"id": "human_aging/test/26", "content": "D. Přátelský", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 139, "completion_tokens": 8, "seconds": 0.3}
+{"id": "human_aging/test/56", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 134, "completion_tokens": 2, "seconds": 0.22}
+{"id": "human_aging/test/59", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 180, "completion_tokens": 2, "seconds": 0.22}
+{"id": "human_aging/test/107", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 110, "completion_tokens": 2, "seconds": 0.22}
+{"id": "human_aging/test/114", "content": "D. Neurotismus", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 149, "completion_tokens": 6, "seconds": 0.26}
+{"id": "human_aging/test/121", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 105, "completion_tokens": 2, "seconds": 0.23}
+{"id": "human_aging/test/123", "content": "D. Alternativa Eden", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 146, "completion_tokens": 6, "seconds": 0.25}
+{"id": "human_aging/test/148", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 137, "completion_tokens": 2, "seconds": 0.19}
+{"id": "human_aging/test/155", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 167, "completion_tokens": 2, "seconds": 0.18}
+{"id": "human_aging/test/167", "content": "D. Zákon o informacích podle směrnice Medicaid", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 165, "completion_tokens": 15, "seconds": 0.34}
+{"id": "human_aging/test/173", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 190, "completion_tokens": 2, "seconds": 0.18}
+{"id": "human_aging/test/181", "content": "D. Nespavost", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 113, "completion_tokens": 7, "seconds": 0.21}
+{"id": "human_aging/test/186", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 131, "completion_tokens": 2, "seconds": 0.16}
+{"id": "human_aging/test/196", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 130, "completion_tokens": 2, "seconds": 0.17}
+{"id": "human_aging/test/201", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 133, "completion_tokens": 2, "seconds": 0.17}
+{"id": "human_sexuality/test/9", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 116, "completion_tokens": 2, "seconds": 0.17}
+{"id": "human_sexuality/test/13", "content": "D. hedonismus", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 147, "completion_tokens": 6, "seconds": 0.21}
+{"id": "human_sexuality/test/23", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 163, "completion_tokens": 2, "seconds": 0.17}
+{"id": "human_sexuality/test/24", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 212, "completion_tokens": 2, "seconds": 0.15}
+{"id": "human_sexuality/test/74", "content": "D. kapavka", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 229, "completion_tokens": 6, "seconds": 0.18}
+{"id": "human_sexuality/test/101", "content": "D. hypotalamus uvolňuje LH", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 131, "completion_tokens": 11, "seconds": 0.24}
+{"id": "human_sexuality/test/104", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 120, "completion_tokens": 2, "seconds": 0.14}
+{"id": "human_sexuality/test/106", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 173, "completion_tokens": 2, "seconds": 0.14}
+{"id": "human_sexuality/test/107", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 137, "completion_tokens": 2, "seconds": 0.14}
+{"id": "human_sexuality/test/128", "content": "D. stydké všech", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 165, "completion_tokens": 8, "seconds": 0.18}
+{"id": "international_law/test/7", "content": "D. Skály jsou malé ostrůvky, které mohou udržet lidské obydlí", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 218, "completion_tokens": 26, "seconds": 0.46}
+{"id": "international_law/test/17", "content": "D. Jednotlivci mohou podávat nároky pouze u mezinárodních soudů", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 195, "completion_tokens": 25, "seconds": 0.46}
+{"id": "international_law/test/19", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 292, "completion_tokens": 2, "seconds": 0.13}
+{"id": "international_law/test/42", "content": "C", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 217, "completion_tokens": 2, "seconds": 0.13}
+{"id": "international_law/test/50", "content": "D. Handyside vs. Spojené království (1976)", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 165, "completion_tokens": 19, "seconds": 0.32}
+{"id": "international_law/test/51", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 187, "completion_tokens": 2, "seconds": 0.13}
+{"id": "international_law/test/63", "content": "D. Fragmentace je, když státy nesouhlasí s dodržováním určitého pravidla mezinárodního práva", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 278, "completion_tokens": 38, "seconds": 0.64}
+{"id": "international_law/test/76", "content": "D. Doktrína účinků slouží k tomu, aby byla pravomoc udělena státu, na jehožBibliografia má jednání účinky", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 225, "completion_tokens": 40, "seconds": 0.64}
+{"id": "international_law/test/100", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 275, "completion_tokens": 2, "seconds": 0.11}
+{"id": "international_law/test/110", "content": "C", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 206, "completion_tokens": 2, "seconds": 0.09}
+{"id": "jurisprudence/test/7", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 161, "completion_tokens": 2, "seconds": 0.08}
+{"id": "jurisprudence/test/10", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 105, "completion_tokens": 2, "seconds": 0.08}
+{"id": "jurisprudence/test/33", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 181, "completion_tokens": 2, "seconds": 0.09}
+{"id": "jurisprudence/test/40", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 185, "completion_tokens": 2, "seconds": 0.09}
+{"id": "jurisprudence/test/42", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 105, "completion_tokens": 2, "seconds": 0.09}
+{"id": "jurisprudence/test/62", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 136, "completion_tokens": 2, "seconds": 0.09}
+{"id": "jurisprudence/test/69", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 161, "completion_tokens": 2, "seconds": 0.08}
+{"id": "jurisprudence/test/73", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 150, "completion_tokens": 2, "seconds": 0.07}
+{"id": "jurisprudence/test/81", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 167, "completion_tokens": 2, "seconds": 0.07}
+{"id": "jurisprudence/test/101", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 161, "completion_tokens": 2, "seconds": 0.07}
+{"id": "logical_fallacies/test/23", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 207, "completion_tokens": 2, "seconds": 0.07}
+{"id": "logical_fallacies/test/32", "content": "D. tu quoque", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 153, "completion_tokens": 6, "seconds": 0.11}
+{"id": "logical_fallacies/test/34", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 108, "completion_tokens": 2, "seconds": 0.06}
+{"id": "logical_fallacies/test/53", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 146, "completion_tokens": 2, "seconds": 0.06}
+{"id": "logical_fallacies/test/68", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 153, "completion_tokens": 2, "seconds": 0.06}
+{"id": "logical_fallacies/test/90", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 148, "completion_tokens": 2, "seconds": 0.08}
+{"id": "logical_fallacies/test/130", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 148, "completion_tokens": 2, "seconds": 0.06}
+{"id": "logical_fallacies/test/134", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 119, "completion_tokens": 2, "seconds": 0.06}
+{"id": "logical_fallacies/test/138", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 143, "completion_tokens": 2, "seconds": 0.06}
+{"id": "logical_fallacies/test/156", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 178, "completion_tokens": 2, "seconds": 0.06}
+{"id": "management/test/5", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 117, "completion_tokens": 2, "seconds": 0.06}
+{"id": "management/test/6", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 162, "completion_tokens": 2, "seconds": 0.07}
+{"id": "management/test/7", "content": "D. Legitimní", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 106, "completion_tokens": 7, "seconds": 0.14}
+{"id": "management/test/9", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 99, "completion_tokens": 2, "seconds": 0.07}
+{"id": "management/test/11", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 103, "completion_tokens": 2, "seconds": 0.07}
+{"id": "management/test/12", "content": "D. Vývojový", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 108, "completion_tokens": 7, "seconds": 0.14}
+{"id": "management/test/26", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 94, "completion_tokens": 2, "seconds": 0.07}
+{"id": "management/test/49", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 117, "completion_tokens": 2, "seconds": 0.07}
+{"id": "management/test/52", "content": "D. Finanční", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 106, "completion_tokens": 6, "seconds": 0.12}
+{"id": "management/test/59", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 96, "completion_tokens": 2, "seconds": 0.05}
+{"id": "management/test/63", "content": "D. Vývoj trhu", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 136, "completion_tokens": 8, "seconds": 0.15}
+{"id": "management/test/70", "content": "D. Individualismus", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 105, "completion_tokens": 5, "seconds": 0.12}
+{"id": "management/test/79", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 129, "completion_tokens": 2, "seconds": 0.07}
+{"id": "management/test/86", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 98, "completion_tokens": 2, "seconds": 0.07}
+{"id": "management/test/96", "content": "D. Strategická obchodní jednotka", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 138, "completion_tokens": 10, "seconds": 0.16}
+{"id": "management/test/98", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 161, "completion_tokens": 2, "seconds": 0.07}
+{"id": "marketing/test/4", "content": "D. shledán nevinným, protože maloobchodníci si mohou stanovit vlastní cenové hladiny", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 252, "completion_tokens": 31, "seconds": 0.53}
+{"id": "marketing/test/33", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 157, "completion_tokens": 2, "seconds": 0.07}
+{"id": "marketing/test/34", "content": "A. Zájem; akce.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 114, "completion_tokens": 10, "seconds": 0.16}
+{"id": "marketing/test/65", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 146, "completion_tokens": 2, "seconds": 0.07}
+{"id": "marketing/test/99", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 191, "completion_tokens": 2, "seconds": 0.07}
+{"id": "marketing/test/132", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 127, "completion_tokens": 2, "seconds": 0.07}
+{"id": "marketing/test/141", "content": "D. toleranci", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 111, "completion_tokens": 5, "seconds": 0.11}
+{"id": "marketing/test/149", "content": "D. Osobnost", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 139, "completion_tokens": 6, "seconds": 0.13}
+{"id": "marketing/test/173", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 116, "completion_tokens": 2, "seconds": 0.08}
+{"id": "marketing/test/184", "content": "D. Oprávnění", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 135, "completion_tokens": 8, "seconds": 0.14}
+{"id": "miscellaneous/test/3", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 108, "completion_tokens": 2, "seconds": 0.08}
+{"id": "miscellaneous/test/15", "content": "D. Hromnice", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 105, "completion_tokens": 6, "seconds": 0.13}
+{"id": "miscellaneous/test/26", "content": "D. Ryba", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 92, "completion_tokens": 5, "seconds": 0.12}
+{"id": "miscellaneous/test/39", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 139, "completion_tokens": 2, "seconds": 0.08}
+{"id": "miscellaneous/test/45", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 151, "completion_tokens": 2, "seconds": 0.08}
+{"id": "miscellaneous/test/51", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 109, "completion_tokens": 2, "seconds": 0.08}
+{"id": "miscellaneous/test/92", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 106, "completion_tokens": 2, "seconds": 0.08}
+{"id": "miscellaneous/test/173", "content": "D. politická efektivita", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 153, "completion_tokens": 9, "seconds": 0.15}
+{"id": "miscellaneous/test/174", "content": "D. 70 let", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 117, "completion_tokens": 6, "seconds": 0.12}
+{"id": "miscellaneous/test/210", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 111, "completion_tokens": 2, "seconds": 0.08}
+{"id": "miscellaneous/test/217", "content": "A. Třídění  \n(Nejprve je to koncept, který nechá studenty provádět, protože se zjistí vždy jednu chybou.)", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 225, "completion_tokens": 44, "seconds": 0.56}
+{"id": "miscellaneous/test/219", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 93, "completion_tokens": 2, "seconds": 0.08}
+{"id": "miscellaneous/test/268", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 109, "completion_tokens": 2, "seconds": 0.08}
+{"id": "miscellaneous/test/269", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 223, "completion_tokens": 2, "seconds": 0.08}
+{"id": "miscellaneous/test/271", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 104, "completion_tokens": 2, "seconds": 0.08}
+{"id": "miscellaneous/test/287", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 129, "completion_tokens": 2, "seconds": 0.08}
+{"id": "miscellaneous/test/309", "content": "A. Já jen  \n(Je důležité, aby to bylo konkrétní odpověď, ale v tomto kontextu je to velmi rychlé a závisí na konkrétní informaci.)", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 159, "completion_tokens": 51, "seconds": 0.58}
+{"id": "miscellaneous/test/322", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 107, "completion_tokens": 2, "seconds": 0.08}
+{"id": "miscellaneous/test/367", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 97, "completion_tokens": 2, "seconds": 0.09}
+{"id": "miscellaneous/test/430", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 116, "completion_tokens": 2, "seconds": 0.09}
+{"id": "miscellaneous/test/460", "content": "B", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 97, "completion_tokens": 2, "seconds": 0.09}
+{"id": "miscellaneous/test/469", "content": "D. Molotovův koktejl", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 114, "completion_tokens": 13, "seconds": 0.25}
+{"id": "miscellaneous/test/473", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 262, "completion_tokens": 2, "seconds": 0.08}
+{"id": "miscellaneous/test/498", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 108, "completion_tokens": 2, "seconds": 0.08}
+{"id": "miscellaneous/test/504", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 110, "completion_tokens": 2, "seconds": 0.08}
+{"id": "miscellaneous/test/550", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 183, "completion_tokens": 2, "seconds": 0.08}
+{"id": "miscellaneous/test/570", "content": "D. kupte méně jednotek X i Y", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 238, "completion_tokens": 13, "seconds": 0.24}
+{"id": "miscellaneous/test/577", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 148, "completion_tokens": 2, "seconds": 0.08}
+{"id": "miscellaneous/test/579", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 146, "completion_tokens": 2, "seconds": 0.07}
+{"id": "miscellaneous/test/602", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 177, "completion_tokens": 2, "seconds": 0.07}
+{"id": "miscellaneous/test/612", "content": "D. Venuše", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 110, "completion_tokens": 6, "seconds": 0.12}
+{"id": "miscellaneous/test/624", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 110, "completion_tokens": 2, "seconds": 0.08}
+{"id": "miscellaneous/test/627", "content": "D. antihistaminika", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 109, "completion_tokens": 8, "seconds": 0.14}
+{"id": "miscellaneous/test/629", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 114, "completion_tokens": 2, "seconds": 0.07}
+{"id": "miscellaneous/test/641", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 419, "completion_tokens": 2, "seconds": 0.07}
+{"id": "miscellaneous/test/647", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 117, "completion_tokens": 2, "seconds": 0.07}
+{"id": "miscellaneous/test/648", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 113, "completion_tokens": 2, "seconds": 0.07}
+{"id": "miscellaneous/test/662", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 107, "completion_tokens": 2, "seconds": 0.07}
+{"id": "miscellaneous/test/668", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 98, "completion_tokens": 2, "seconds": 0.06}
+{"id": "miscellaneous/test/708", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 104, "completion_tokens": 2, "seconds": 0.06}
+{"id": "miscellaneous/test/755", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 101, "completion_tokens": 2, "seconds": 0.07}
+{"id": "miscellaneous/test/760", "content": "D. činky", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 116, "completion_tokens": 6, "seconds": 0.12}
+{"id": "moral_disputes/test/14", "content": "D. ani A ani B", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 116, "completion_tokens": 7, "seconds": 0.14}
+{"id": "moral_disputes/test/30", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 160, "completion_tokens": 2, "seconds": 0.05}
+{"id": "moral_disputes/test/48", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 177, "completion_tokens": 2, "seconds": 0.06}
+{"id": "moral_disputes/test/60", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 136, "completion_tokens": 2, "seconds": 0.06}
+{"id": "moral_disputes/test/153", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 171, "completion_tokens": 2, "seconds": 0.05}
+{"id": "moral_disputes/test/162", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 202, "completion_tokens": 2, "seconds": 0.08}
+{"id": "moral_disputes/test/182", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 125, "completion_tokens": 2, "seconds": 0.08}
+{"id": "moral_disputes/test/221", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 196, "completion_tokens": 2, "seconds": 0.07}
+{"id": "moral_disputes/test/285", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 174, "completion_tokens": 2, "seconds": 0.08}
+{"id": "moral_disputes/test/321", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 174, "completion_tokens": 2, "seconds": 0.08}
+{"id": "nutrition/test/14", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 302, "completion_tokens": 2, "seconds": 0.08}
+{"id": "nutrition/test/19", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 125, "completion_tokens": 2, "seconds": 0.08}
+{"id": "nutrition/test/88", "content": "D. naltrexon/bupropion", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 115, "completion_tokens": 12, "seconds": 0.34}
+{"id": "nutrition/test/140", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 138, "completion_tokens": 2, "seconds": 0.07}
+{"id": "nutrition/test/209", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 168, "completion_tokens": 2, "seconds": 0.07}
+{"id": "nutrition/test/223", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 193, "completion_tokens": 2, "seconds": 0.07}
+{"id": "nutrition/test/243", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 149, "completion_tokens": 2, "seconds": 0.07}
+{"id": "nutrition/test/252", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 261, "completion_tokens": 2, "seconds": 0.11}
+{"id": "philosophy/test/26", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 274, "completion_tokens": 2, "seconds": 0.08}
+{"id": "philosophy/test/42", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 176, "completion_tokens": 2, "seconds": 0.07}
+{"id": "philosophy/test/45", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 131, "completion_tokens": 2, "seconds": 0.08}
+{"id": "philosophy/test/128", "content": "D. hmotnost.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 121, "completion_tokens": 7, "seconds": 0.21}
+{"id": "philosophy/test/138", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 137, "completion_tokens": 2, "seconds": 0.08}
+{"id": "philosophy/test/139", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 155, "completion_tokens": 2, "seconds": 0.08}
+{"id": "philosophy/test/163", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 148, "completion_tokens": 2, "seconds": 0.08}
+{"id": "philosophy/test/194", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 118, "completion_tokens": 2, "seconds": 0.13}
+{"id": "philosophy/test/263", "content": "A. způsobit chování", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 123, "completion_tokens": 9, "seconds": 0.32}
+{"id": "philosophy/test/277", "content": "D. materialismus", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 137, "completion_tokens": 5, "seconds": 0.21}
+{"id": "philosophy/test/290", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 169, "completion_tokens": 2, "seconds": 0.12}
+{"id": "philosophy/test/305", "content": "D. pragmatická rozhodnutí týkající se předvádění umění", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 183, "completion_tokens": 21, "seconds": 0.4}
+{"id": "prehistory/test/63", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 119, "completion_tokens": 2, "seconds": 0.12}
+{"id": "prehistory/test/80", "content": "D. stavba stupňovitých pyramid", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 141, "completion_tokens": 11, "seconds": 0.33}
+{"id": "prehistory/test/182", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 138, "completion_tokens": 2, "seconds": 0.12}
+{"id": "prehistory/test/187", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 262, "completion_tokens": 2, "seconds": 0.12}
+{"id": "prehistory/test/195", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 303, "completion_tokens": 2, "seconds": 0.12}
+{"id": "prehistory/test/211", "content": "C", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 235, "completion_tokens": 2, "seconds": 0.12}
+{"id": "prehistory/test/255", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 147, "completion_tokens": 2, "seconds": 0.12}
+{"id": "prehistory/test/261", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 100, "completion_tokens": 2, "seconds": 0.12}
+{"id": "prehistory/test/265", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 163, "completion_tokens": 2, "seconds": 0.12}
+{"id": "prehistory/test/285", "content": "C. multikulturní adaptace.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 142, "completion_tokens": 11, "seconds": 0.33}
+{"id": "professional_accounting/test/18", "content": "D. Prodávající zná konkrétní účel, ke kterému bude kupující zboží používat a prodávající je obchodníkem s tímto zbožím.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 317, "completion_tokens": 49, "seconds": 0.5}
+{"id": "professional_accounting/test/24", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 381, "completion_tokens": 2, "seconds": 0.14}
+{"id": "professional_accounting/test/36", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 249, "completion_tokens": 2, "seconds": 0.14}
+{"id": "professional_accounting/test/84", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 186, "completion_tokens": 2, "seconds": 0.14}
+{"id": "professional_accounting/test/106", "content": "D. Doplňkové finanční informace, které byly podrobeny dotazovacím a analytickým postupům.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 232, "completion_tokens": 32, "seconds": 0.43}
+{"id": "professional_accounting/test/127", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 196, "completion_tokens": 2, "seconds": 0.14}
+{"id": "professional_accounting/test/142", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 238, "completion_tokens": 2, "seconds": 0.14}
+{"id": "professional_accounting/test/151", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 143, "completion_tokens": 2, "seconds": 0.14}
+{"id": "professional_accounting/test/156", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 247, "completion_tokens": 2, "seconds": 0.16}
+{"id": "professional_accounting/test/168", "content": "D. 8,42 $", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 121, "completion_tokens": 8, "seconds": 0.31}
+{"id": "professional_accounting/test/175", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 240, "completion_tokens": 2, "seconds": 0.13}
+{"id": "professional_accounting/test/198", "content": "D. Nemusí být vyčíslena a uvedena v příloze k účetní závěrce ani ve zprávě auditora.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 284, "completion_tokens": 37, "seconds": 0.44}
+{"id": "professional_accounting/test/216", "content": "D. 33.6", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 183, "completion_tokens": 7, "seconds": 0.28}
+{"id": "professional_accounting/test/224", "content": "D. Auditujte kontroly servisní organizace, abyste otestovali práci servisní auditora.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 251, "completion_tokens": 29, "seconds": 0.4}
+{"id": "professional_accounting/test/228", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 173, "completion_tokens": 2, "seconds": 0.13}
+{"id": "professional_accounting/test/265", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 159, "completion_tokens": 2, "seconds": 0.14}
+{"id": "professional_law/test/36", "content": "A. 100 000 $. 00", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 657, "completion_tokens": 10, "seconds": 0.29}
+{"id": "professional_law/test/108", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 528, "completion_tokens": 2, "seconds": 0.13}
+{"id": "professional_law/test/273", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 798, "completion_tokens": 2, "seconds": 0.15}
+{"id": "professional_law/test/352", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 525, "completion_tokens": 2, "seconds": 0.17}
+{"id": "professional_law/test/494", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 531, "completion_tokens": 2, "seconds": 0.15}
+{"id": "professional_law/test/527", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 436, "completion_tokens": 2, "seconds": 0.17}
+{"id": "professional_law/test/1096", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 865, "completion_tokens": 2, "seconds": 0.17}
+{"id": "professional_law/test/1131", "content": "D. Advokátní kancelář mu dala knihu do péče.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 397, "completion_tokens": 19, "seconds": 0.35}
+{"id": "professional_law/test/1204", "content": "D. Ne, protože SPCA jednala v pravomoci státního statutu a spolupracovala se státními orgány při výkonu pověřených funkcí.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 534, "completion_tokens": 43, "seconds": 0.44}
+{"id": "professional_law/test/1255", "content": "D. Přestože nájemní smlouva mezi nájemcem a korporací představovala porušení smlouvy vlastníka pozemku, byl by vlastník pozemku přesto povinen uznat platnost převodu (prostorů) na společnost.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 504, "completion_tokens": 67, "seconds": 0.53}
+{"id": "professional_medicine/test/146", "content": "D. střední rychlost, střední amplituda", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 251, "completion_tokens": 16, "seconds": 0.33}
+{"id": "professional_medicine/test/254", "content": "D. Incize a drenáž", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 314, "completion_tokens": 11, "seconds": 0.3}
+{"id": "professional_psychology/test/41", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 175, "completion_tokens": 2, "seconds": 0.2}
+{"id": "professional_psychology/test/134", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 271, "completion_tokens": 2, "seconds": 0.18}
+{"id": "professional_psychology/test/170", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 182, "completion_tokens": 2, "seconds": 0.18}
+{"id": "professional_psychology/test/179", "content": "D. legální, ale neetické.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 171, "completion_tokens": 11, "seconds": 0.31}
+{"id": "professional_psychology/test/224", "content": "D. nelegálně, ale eticky.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 177, "completion_tokens": 12, "seconds": 0.31}
+{"id": "professional_psychology/test/260", "content": "B", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 112, "completion_tokens": 2, "seconds": 0.16}
+{"id": "professional_psychology/test/313", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 330, "completion_tokens": 2, "seconds": 0.18}
+{"id": "professional_psychology/test/427", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 155, "completion_tokens": 2, "seconds": 0.16}
+{"id": "professional_psychology/test/475", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 206, "completion_tokens": 2, "seconds": 0.16}
+{"id": "professional_psychology/test/536", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 195, "completion_tokens": 2, "seconds": 0.16}
+{"id": "professional_psychology/test/565", "content": "C", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 318, "completion_tokens": 2, "seconds": 0.16}
+{"id": "professional_psychology/test/579", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 148, "completion_tokens": 2, "seconds": 0.17}
+{"id": "public_relations/test/3", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 96, "completion_tokens": 2, "seconds": 0.17}
+{"id": "public_relations/test/9", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 133, "completion_tokens": 2, "seconds": 0.16}
+{"id": "public_relations/test/15", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 243, "completion_tokens": 2, "seconds": 0.16}
+{"id": "public_relations/test/16", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 112, "completion_tokens": 2, "seconds": 0.12}
+{"id": "public_relations/test/18", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 176, "completion_tokens": 2, "seconds": 0.16}
+{"id": "public_relations/test/62", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 313, "completion_tokens": 2, "seconds": 0.19}
+{"id": "public_relations/test/69", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 120, "completion_tokens": 2, "seconds": 0.17}
+{"id": "public_relations/test/84", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 118, "completion_tokens": 2, "seconds": 0.17}
+{"id": "public_relations/test/96", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 116, "completion_tokens": 2, "seconds": 0.17}
+{"id": "public_relations/test/103", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 138, "completion_tokens": 2, "seconds": 0.17}
+{"id": "security_studies/test/36", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 414, "completion_tokens": 2, "seconds": 0.17}
+{"id": "security_studies/test/37", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 194, "completion_tokens": 2, "seconds": 0.17}
+{"id": "security_studies/test/73", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 366, "completion_tokens": 2, "seconds": 0.17}
+{"id": "security_studies/test/86", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 550, "completion_tokens": 2, "seconds": 0.17}
+{"id": "security_studies/test/110", "content": "D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 575, "completion_tokens": 3, "seconds": 0.17}
+{"id": "security_studies/test/133", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 164, "completion_tokens": 2, "seconds": 0.15}
+{"id": "security_studies/test/145", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 611, "completion_tokens": 2, "seconds": 0.15}
+{"id": "security_studies/test/151", "content": "D. Vše výše uvedené", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 649, "completion_tokens": 11, "seconds": 0.21}
+{"id": "security_studies/test/198", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 429, "completion_tokens": 2, "seconds": 0.15}
+{"id": "security_studies/test/221", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 389, "completion_tokens": 2, "seconds": 0.15}
+{"id": "sociology/test/45", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 140, "completion_tokens": 2, "seconds": 0.15}
+{"id": "sociology/test/52", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 165, "completion_tokens": 2, "seconds": 0.15}
+{"id": "sociology/test/102", "content": "B. sekundární analýza dat", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 161, "completion_tokens": 11, "seconds": 0.19}
+{"id": "sociology/test/118", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 148, "completion_tokens": 2, "seconds": 0.13}
+{"id": "sociology/test/126", "content": "C", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 180, "completion_tokens": 2, "seconds": 0.13}
+{"id": "sociology/test/127", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 166, "completion_tokens": 2, "seconds": 0.13}
+{"id": "sociology/test/145", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 178, "completion_tokens": 2, "seconds": 0.11}
+{"id": "sociology/test/159", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 169, "completion_tokens": 2, "seconds": 0.11}
+{"id": "sociology/test/160", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 164, "completion_tokens": 2, "seconds": 0.11}
+{"id": "sociology/test/168", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 196, "completion_tokens": 2, "seconds": 0.09}
+{"id": "sociology/test/173", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 109, "completion_tokens": 2, "seconds": 0.09}
+{"id": "sociology/test/183", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 132, "completion_tokens": 2, "seconds": 0.09}
+{"id": "us_foreign_policy/test/5", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 174, "completion_tokens": 2, "seconds": 0.09}
+{"id": "us_foreign_policy/test/21", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 134, "completion_tokens": 2, "seconds": 0.09}
+{"id": "us_foreign_policy/test/31", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 141, "completion_tokens": 2, "seconds": 0.08}
+{"id": "us_foreign_policy/test/40", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 121, "completion_tokens": 2, "seconds": 0.08}
+{"id": "us_foreign_policy/test/46", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 124, "completion_tokens": 2, "seconds": 0.08}
+{"id": "us_foreign_policy/test/52", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 205, "completion_tokens": 2, "seconds": 0.08}
+{"id": "us_foreign_policy/test/62", "content": "A.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 132, "completion_tokens": 3, "seconds": 0.08}
+{"id": "us_foreign_policy/test/83", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 157, "completion_tokens": 2, "seconds": 0.07}
+{"id": "us_foreign_policy/test/87", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 167, "completion_tokens": 2, "seconds": 0.07}
+{"id": "us_foreign_policy/test/98", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 169, "completion_tokens": 2, "seconds": 0.08}
+{"id": "virology/test/72", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 95, "completion_tokens": 2, "seconds": 0.07}
+{"id": "virology/test/91", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 103, "completion_tokens": 2, "seconds": 0.07}
+{"id": "virology/test/99", "content": "C", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 161, "completion_tokens": 2, "seconds": 0.06}
+{"id": "virology/test/106", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 138, "completion_tokens": 2, "seconds": 0.06}
+{"id": "virology/test/122", "content": "D. Nová antivirotika", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 137, "completion_tokens": 9, "seconds": 0.08}
+{"id": "virology/test/135", "content": "A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 171, "completion_tokens": 2, "seconds": 0.06}
+{"id": "virology/test/142", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 127, "completion_tokens": 2, "seconds": 0.06}
+{"id": "virology/test/145", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 131, "completion_tokens": 2, "seconds": 0.06}

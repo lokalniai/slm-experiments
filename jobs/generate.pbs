@@ -1,0 +1,49 @@
+#!/bin/bash
+#PBS -N slm-generate
+#PBS -l select=1:ncpus=4:ngpus=1:mem=64gb:scratch_local=120gb:gpu_mem=40gb:gpu_cap=compute_80:plzen=True
+#PBS -l walltime=8:00:00
+#PBS -m a
+#PBS -o /storage/plzen1/home/kasnezde/projects/slm/logs/
+#PBS -e /storage/plzen1/home/kasnezde/projects/slm/logs/
+# Usage (from the project root):
+#   qsub -v MODELS="all",LIMIT=3,OUT=outputs_smoke jobs/generate.pbs     # smoke test
+#   qsub -v MODELS="qwen3.5-2b smollm3-3b" jobs/generate.pbs             # full run for some models
+# Models are downloaded into scratch; outputs go to scratch and are copied back after each model.
+# plzen=True: the venv and home are on plzen1, and on Brno nodes every vLLM start spent ~15 min importing over NFS.
+
+PROJ=/storage/plzen1/home/kasnezde/projects/slm
+PY=/storage/plzen1/home/kasnezde/virtualenv/vllm/bin/python
+MODELS=${MODELS:-all}
+OUT=${OUT:-outputs}
+
+trap 'clean_scratch' EXIT TERM
+test -n "$SCRATCHDIR" || { echo >&2 "no scratch"; exit 1; }
+export TMPDIR=$SCRATCHDIR
+export HF_HOME=/storage/plzen1/home/kasnezde/.cache/huggingface   # token lives here
+export HF_HUB_CACHE=$SCRATCHDIR/hf_hub                            # weights stay off the home quota
+export XDG_CACHE_HOME=$SCRATCHDIR/cache VLLM_CACHE_ROOT=$SCRATCHDIR/vllm_cache
+export TRITON_CACHE_DIR=$SCRATCHDIR/triton TORCHINDUCTOR_CACHE_DIR=$SCRATCHDIR/inductor
+export TOKENIZERS_PARALLELISM=false VLLM_NO_USAGE_STATS=1 HF_HUB_DISABLE_PROGRESS_BARS=1
+export PATH=$(dirname $PY):$PATH                 # ninja (+ pip nvcc) for FlashInfer JIT kernels
+export FLASHINFER_WORKSPACE_BASE=$SCRATCHDIR/flashinfer
+export VLLM_USE_FLASHINFER_SAMPLER=0             # decoding is greedy; avoids a JIT build per job
+
+cp -r "$PROJ/slmbench" "$PROJ/configs" "$SCRATCHDIR/" && mkdir -p "$SCRATCHDIR/data" \
+  && cp "$PROJ"/data/*.jsonl "$PROJ"/data/nexus_functions.json "$SCRATCHDIR/data/" \
+  || { echo >&2 "input copy failed"; exit 2; }
+cd "$SCRATCHDIR"
+nvidia-smi --query-gpu=name,memory.total,driver_version --format=csv > gpu.txt; cat gpu.txt
+echo "host $(hostname) job $PBS_JOBID"
+
+[ "$MODELS" = all ] && MODELS=$($PY -c "import yaml;print(' '.join(yaml.safe_load(open('configs/models.yaml'))['models']))")
+mkdir -p "$PROJ/$OUT"
+status=0
+for m in $MODELS; do
+  # resume from what a previous job already produced
+  [ -d "$PROJ/$OUT/$m" ] && mkdir -p "$OUT" && cp -r "$PROJ/$OUT/$m" "$OUT/"
+  $PY -m slmbench.generate --models "$m" --out "$OUT" ${LIMIT:+--limit $LIMIT} || status=1
+  cp gpu.txt "$OUT/$m/" 2>/dev/null
+  cp -r "$OUT/$m" "$PROJ/$OUT/" || { trap - EXIT; echo >&2 "copy-back failed for $m, scratch kept on $(hostname)"; exit 3; }
+  rm -rf "$HF_HUB_CACHE"   # free scratch for the next model (weights live in a shared blobs/ dir)
+done
+exit $status

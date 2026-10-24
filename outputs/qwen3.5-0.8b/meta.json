@@ -1,0 +1,29 @@
+{
+ "model": "qwen3.5-0.8b",
+ "repo": "Qwen/Qwen3.5-0.8B",
+ "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+ "config": {
+  "max_model_len": 32768,
+  "extra_args": [
+   "--language-model-only"
+  ],
+  "params": "0.87B",
+  "repo": "Qwen/Qwen3.5-0.8B",
+  "tool_parser": "qwen3_coder"
+ },
+ "limit": null,
+ "startup_s": 170,
+ "nexus.en_s": 8,
+ "nexus.cs_s": 13,
+ "jsonmode.en_s": 3,
+ "jsonmode.cs_s": 3,
+ "eurlex.en_s": 32,
+ "eurlex.cs_s": 45,
+ "minds.en_s": 3,
+ "minds.cs_s": 3,
+ "gmmlu.en_s": 3,
+ "gmmlu.cs_s": 3,
+ "ifeval.en_s": 45,
+ "ifeval.cs_s": 63,
+ "vllm": "0.31.0"
+}

@@ -1,0 +1,49 @@
+{
+ "model": "ministral-3-3b",
+ "repo": "mistralai/Ministral-3-3B-Instruct-2512-BF16",
+ "revision": "b6d637bef2393152b3da2b2fde72eecdee30557e",
+ "config": {
+  "max_model_len": 32768,
+  "extra_args": [
+   "--tokenizer-mode",
+   "mistral",
+   "--config-format",
+   "mistral",
+   "--load-format",
+   "mistral",
+   "--language-model-only"
+  ],
+  "params": "3.8B",
+  "repo": "mistralai/Ministral-3-3B-Instruct-2512-BF16",
+  "tool_parser": "mistral",
+  "chat_template_kwargs": false,
+  "include": [
+   "consolidated.safetensors",
+   "params.json",
+   "tekken.json",
+   "*.jinja",
+   "*.txt",
+   "config.json",
+   "generation_config.json",
+   "processor_config.json",
+   "tokenizer_config.json",
+   "special_tokens_map.json",
+   "tokenizer.json"
+  ]
+ },
+ "limit": null,
+ "startup_s": 1266,
+ "nexus.en_s": 60,
+ "nexus.cs_s": 57,
+ "jsonmode.en_s": 19,
+ "jsonmode.cs_s": 20,
+ "eurlex.en_s": 88,
+ "eurlex.cs_s": 158,
+ "minds.en_s": 103,
+ "minds.cs_s": 105,
+ "gmmlu.en_s": 72,
+ "gmmlu.cs_s": 74,
+ "ifeval.en_s": 100,
+ "ifeval.cs_s": 94,
+ "vllm": "0.31.0"
+}

@@ -1,0 +1,27 @@
+{
+ "model": "smollm3-3b",
+ "repo": "HuggingFaceTB/SmolLM3-3B",
+ "revision": "a07cc9a04f16550a088caea529712d1d335b0ac1",
+ "config": {
+  "max_model_len": 32768,
+  "extra_args": [],
+  "params": "3.1B",
+  "repo": "HuggingFaceTB/SmolLM3-3B",
+  "tool_parser": "hermes"
+ },
+ "limit": null,
+ "startup_s": 115,
+ "nexus.en_s": 12,
+ "nexus.cs_s": 12,
+ "jsonmode.en_s": 6,
+ "jsonmode.cs_s": 13,
+ "eurlex.en_s": 82,
+ "eurlex.cs_s": 183,
+ "minds.en_s": 1,
+ "minds.cs_s": 2,
+ "gmmlu.en_s": 11,
+ "gmmlu.cs_s": 5,
+ "ifeval.en_s": 56,
+ "ifeval.cs_s": 124,
+ "vllm": "0.31.0"
+}

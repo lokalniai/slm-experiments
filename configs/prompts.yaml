@@ -1,0 +1,66 @@
+# Prompt templates for the tasks we build ourselves. Placeholders are {name} and are filled by plain
+# string replacement (documents contain braces). Nexus and IFEval prompts come from BenchMAX as they are;
+# EUR-Lex prompts live in prompts/eurlex.<lang>.txt (the Czech one is a Kimi K3 translation).
+
+jsonmode:
+  # replaces the English preamble of the json-mode-eval system prompt; the <schema> block is kept
+  system_preamble:
+    en: "You are a helpful assistant that answers in JSON. Here's the json schema you must adhere to:\n"
+    cs: "Jsi užitečný asistent, který odpovídá ve formátu JSON. Zde je JSON schéma, kterého se musíš držet:\n"
+
+minds:
+  template:
+    en: |-
+      You are the intent classifier of a banking assistant. Classify the customer's request into exactly one of the following intents:
+      {labels}
+
+      Customer request: "{text}"
+
+      Answer with the intent label only.
+    cs: |-
+      Jsi klasifikátor záměrů bankovního asistenta. Zařaď požadavek zákazníka do právě jednoho z následujících záměrů:
+      {labels}
+
+      Požadavek zákazníka: „{text}“
+
+      Odpověz pouze štítkem záměru.
+  labels:
+    abroad: {en: using a card or the account abroad, cs: používání karty nebo účtu v zahraničí}
+    address: {en: changing the customer's address, cs: změna adresy klienta}
+    app_error: {en: a problem or error in the banking app, cs: problém nebo chyba v bankovní aplikaci}
+    atm_limit: {en: the ATM withdrawal limit, cs: limit pro výběr z bankomatu}
+    balance: {en: checking the account balance, cs: zjištění zůstatku na účtu}
+    business_loan: {en: a loan for a business, cs: úvěr pro podnikání}
+    card_issues: {en: a problem with a payment card, cs: problém s platební kartou}
+    cash_deposit: {en: depositing cash, cs: vklad hotovosti}
+    direct_debit: {en: setting up or cancelling a direct debit, cs: zřízení nebo zrušení inkasa}
+    freeze: {en: freezing or blocking the account, cs: zablokování (zmrazení) účtu}
+    high_value_payment: {en: making a high-value payment, cs: platba vysoké částky}
+    joint_account: {en: opening or managing a joint account, cs: založení nebo správa společného účtu}
+    latest_transactions: {en: viewing the latest transactions, cs: zobrazení posledních transakcí}
+    pay_bill: {en: paying a bill, cs: zaplacení účtu (faktury)}
+
+gmmlu:
+  template:
+    en: |-
+      The following is a multiple-choice question. Choose the correct answer.
+
+      {question}
+
+      A. {a}
+      B. {b}
+      C. {c}
+      D. {d}
+
+      Answer with the letter of the correct option only (A, B, C or D).
+    cs: |-
+      Následuje otázka s výběrem odpovědi. Vyber správnou odpověď.
+
+      {question}
+
+      A. {a}
+      B. {b}
+      C. {c}
+      D. {d}
+
+      Odpověz pouze písmenem správné možnosti (A, B, C nebo D).

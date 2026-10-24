@@ -1,0 +1,362 @@
+
+/* lokalni.AI house style: Monokai Vivid, Barlow for text, Barlow Condensed for
+   headings and short labels, JetBrains Mono for anything that is literally code,
+   an identifier or a number.
+
+   Theming follows the site's mechanism -- `data-theme` on <html>, an explicit
+   choice persisted in localStorage, NOT `prefers-color-scheme` -- but inverts
+   its default. The site is a landing page browsed in a dark room; this is a
+   document read in daylight beside a paper or a terminal, often for an hour, so
+   light is the right ground and dark is opt-in.
+
+   The neon accents do not cross over: Monokai's cyan/purple/red are tuned for
+   dark terminal chrome and fail contrast as text on a light page at any size.
+   Every one of them has a darkened same-hue counterpart below, and every token
+   defined here is redefined in the dark block -- a colour that exists in one
+   theme only is a page that renders half-unstyled the moment someone toggles.
+   Accent use stays narrow and semantic, one hue one meaning across the whole
+   page: teal is English, purple is Czech, red is what is wrong, olive links. */
+:root{
+/* Light (default). --link is deliberately not the brand's --accent-crimson
+   (#869a12): that token measures 2.88:1 on this background and fails AA at any
+   size. #5c6b0c is the same olive at 5.38:1, which reads at table sizes. */
+--bg:#f4f5f0;--fg:#1f211c;--muted:#585a54;--line:#d5d7d2;--card:#eceee9;
+--link:#5c6b0c;--good:#5c6b0c;--bad:#c2003f;--bad-text:#c2003f;--tool:#8a5a00;
+/* The two series. --cs / --en are the house purple and teal at full strength;
+   --cs-pale / --en-pale mark the non-thinking condition. The pale pair is NOT
+   the full pair with the chroma cut and nothing else: under deuteranopia purple
+   and teal both collapse toward blue, and a chroma-only derivation left the two
+   muted series 4.4 dE apart, which is no separation at all. These were searched
+   for instead -- same hues, chroma cut, lightness pushed apart -- and hold 7.7
+   dE under the worse of protanopia and deuteranopia at >=3:1 on --card. Colour
+   never carries the language alone in any case: every bar is labelled with its
+   language code and its number. */
+--cs:#8b3fa8;--en:#0e6e7a;--cs-pale:#ab73c2;--en-pale:#68888d;
+--sans:'Barlow',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+--cond:'Barlow Condensed','Barlow Semi Condensed',var(--sans);
+--mono:'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+/* --bad #ff005e is 3.86:1 on --card: a fill and border colour on dark (the tab
+   rule, chip edges), never small text. --bad-text is the same hue lightened to
+   4.66:1 for the check marks and the flagged telemetry cells, which are 600
+   weight at well under 18px and would otherwise fail. */
+:root[data-theme='dark']{
+--bg:#1f211c;--fg:#f8f8f2;--muted:#c2b889;--line:#3e3d32;--card:#252820;
+--link:#dcff00;--good:#dcff00;--bad:#ff005e;--bad-text:#ff4b7b;--tool:#ffb800;
+--cs:#f082ff;--en:#41ffff;--cs-pale:#9958a2;--en-pale:#6dacab;
+}
+*{box-sizing:border-box}
+body{margin:0;padding:1.4rem clamp(1rem,4vw,3rem) 3rem;background:var(--bg);
+color:var(--fg);font:15px/1.65 var(--sans);-webkit-font-smoothing:antialiased}
+a{color:var(--link);text-decoration:none}a:hover{text-decoration:underline}
+h1{font-family:var(--cond);font-weight:700;font-size:2rem;line-height:1.1;
+letter-spacing:-.02em;margin:0 0 .3rem;text-wrap:balance}
+/* Condensed but not uppercased and not lowercased: every second heading here is
+   a product name -- IFEval, HumanEval+, LiveCodeBench -- and a case transform
+   turns those into words nobody writes. */
+h2{font-family:var(--cond);font-weight:600;font-size:1.35rem;letter-spacing:-.01em;
+margin:1.8rem 0 .5rem;text-wrap:balance}
+.sub{color:var(--muted);margin-bottom:1rem;max-width:78ch;text-wrap:pretty}
+.sub.small{font-size:.83rem;margin:.4rem 0 0}
+.dim{color:var(--muted)}
+.empty{color:var(--muted);font-style:italic}
+code{font-family:var(--mono);font-size:.86em;color:var(--tool);background:var(--bg);
+border:1px solid var(--line);border-radius:3px;padding:.02rem .3rem}
+
+/* ── masthead ────────────────────────────────────────────────────────────── */
+/* This page is an appendix, so its masthead says what it is an appendix to: the
+   logo goes to the site, the title to the post these numbers were run for. */
+.mast{display:flex;align-items:center;gap:.7rem;padding-bottom:.9rem;
+margin-bottom:1.4rem;border-bottom:1px solid var(--line)}
+.brand{display:block;line-height:0}
+.brand img{height:2rem;width:auto;display:block}
+/* Two files, not one filtered image: the wordmark is a raster asset and the
+   site ships a light-on-dark and a dark-on-light cut of it. Both stay in the DOM
+   and the theme picks one, so toggling cannot flash a missing image. */
+:root .logo-dark{display:none}
+:root[data-theme='dark'] .logo-light{display:none}
+:root[data-theme='dark'] .logo-dark{display:block}
+.mastsep{color:var(--line)}
+.spacer{flex:1}
+/* Icon only, and square: a text label says nothing the sun/moon does not, and a
+   text button beside a sentence-length title reads as a second heading. */
+.tgl{display:flex;align-items:center;justify-content:center;flex:none;
+width:1.9rem;height:1.9rem;border:1px solid var(--line);background:var(--card);
+color:var(--muted);border-radius:4px;cursor:pointer;padding:0;
+transition:color .12s ease,border-color .12s ease}
+.tgl:hover{color:var(--fg);border-color:var(--muted)}
+.tgl svg{width:15px;height:15px;stroke:currentColor;fill:none;stroke-width:2;
+stroke-linecap:round;stroke-linejoin:round}
+:root .tgl .moon{display:none}
+:root[data-theme='dark'] .tgl .sun{display:none}
+:root[data-theme='dark'] .tgl .moon{display:block}
+/* Not uppercased and not tracked, unlike the other Condensed labels: this is a
+   sentence-length Czech title, and uppercase tracking at that length turns a
+   masthead into a banner and pushes the diacritics into the row above. */
+.proj{color:var(--muted);font-family:var(--cond);font-weight:600;
+font-size:1.15rem;letter-spacing:0;text-wrap:balance}
+.proj:hover{color:var(--fg);text-decoration:none}
+
+/* ── tabs ────────────────────────────────────────────────────────────────── */
+/* Centred, underlined, sized as navigation rather than as a control. The active
+   rule is 3px of --bad sitting ON the strip's own bottom border, so tab and line
+   read as one object instead of a tab floating above a rule.
+
+   The strip sticks, and it is the only thing that does: the benchmark browsers
+   run to thousands of items, and scrolling back up to change benchmark is the
+   one navigation cost that would be paid on every single comparison. The
+   masthead scrolls away with the rest -- it is an identity, not a control. */
+nav.tabs{position:sticky;top:0;z-index:5;display:flex;justify-content:center;
+flex-wrap:wrap;gap:0 clamp(1rem,3.5vw,2.6rem);background:var(--bg);
+border-bottom:1px solid var(--line);margin:0 0 1.6rem}
+.tabbtn{position:relative;appearance:none;border:0;background:none;cursor:pointer;
+color:var(--muted);font-family:var(--cond);font-weight:600;font-size:1.25rem;
+text-transform:uppercase;letter-spacing:.07em;padding:.5rem .3rem .8rem;
+transition:color .12s ease}
+.tabbtn:hover{color:var(--fg)}
+.tabbtn.on{color:var(--fg)}
+.tabbtn.on::after{content:"";position:absolute;left:0;right:0;bottom:-1px;
+height:3px;background:var(--bad)}
+.tabpane{display:none}.tabpane.on{display:block}
+
+/* ── tables ──────────────────────────────────────────────────────────────── */
+/* Dense by default: with both reasoning conditions plus the published baselines
+   a comparison row carries a dozen-odd numbers, and the table only works if a
+   whole row is readable without horizontal scrolling. Condensed uppercase
+   headers buy that density back -- they are narrower than the sans they
+   replaced at the same optical size. Numbers are mono and tabular so a column
+   can be read down. */
+table{border-collapse:collapse;width:100%;margin-bottom:.6rem}
+th,td{text-align:left;padding:.28rem .5rem;border-bottom:1px solid var(--line);
+vertical-align:top}
+th{color:var(--muted);font-family:var(--cond);font-weight:600;font-size:.85rem;
+text-transform:uppercase;letter-spacing:.05em;white-space:nowrap}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+td.num{font-family:var(--mono);font-size:.82rem}
+tr:hover td{background:var(--bg)}
+/* Every table scrolls inside its own container, so the page body never scrolls
+   sideways however many models a round adds. */
+.wrap{overflow-x:auto;border:1px solid var(--line);border-radius:5px;
+background:var(--card);padding:.2rem .6rem}
+.ok{color:var(--good);font-weight:600}
+.bad{color:var(--bad-text);font-weight:600}
+pre{white-space:pre-wrap;word-break:break-word;margin:.3rem 0;
+font:400 12.5px/1.5 var(--mono)}
+.pill{display:inline-block;padding:.02rem .45rem;border-radius:10px;
+border:1px solid var(--line);color:var(--muted);font-family:var(--mono);
+font-size:.74rem}
+/* One box, two uses -- a prose caveat and a legend. Both sit on --card behind a
+   3px --muted left rule; see .leg below for the legend form. */
+.caveat{background:var(--card);border-left:3px solid var(--muted);
+padding:.55rem .9rem;border-radius:0 5px 5px 0;color:var(--muted);
+font-size:.83rem;margin:.5rem 0 1.1rem;text-wrap:pretty}
+.caveat ul{margin:0;padding-left:1.1rem}
+.caveat li{margin:.25rem 0}
+.caveat li+li{margin-top:.35rem}
+
+/* Published-baseline columns. Shading separates "we measured this" from "the
+   paper reported this", but never carries the distinction alone -- the column
+   header names the model and a rule marks where our columns end. */
+td.ref,th.ref{background:var(--bg);color:var(--muted)}
+td.refstart,th.refstart{border-left:2px solid var(--line)}
+td.think{font-weight:600}
+td.nothink,th.nothink{color:var(--muted);font-weight:400}
+td.pairstart,th.pairstart{border-left:1px solid var(--line)}
+/* A model tag is an identifier, so it gets the mono voice and keeps its own
+   case rather than being uppercased along with the label headers -- ours in
+   th.grp, the paper's in th.ref, which stays muted with the rest of its block. */
+th.grp{text-align:center;color:var(--fg);font-family:var(--mono);font-size:.78rem;
+font-weight:500;text-transform:none;letter-spacing:0}
+th.ref{font-family:var(--mono);font-size:.78rem;font-weight:500;
+text-transform:none;letter-spacing:0}
+.mutedkey{color:var(--muted);font-weight:600}
+
+/* ── charts ──────────────────────────────────────────────────────────────── */
+/* Both families of chart -- vs-published and reasoning length -- are inline SVG
+   drawn by the same renderer, so all the paint lives in the svg.ctchart rules at
+   the foot of this stylesheet; what is left here is the panel around them.
+   Colour carries the language in both, the model is named on the row, the
+   condition names itself, every bar is direct-labelled, and the numbers are
+   repeated in a table beside the chart. */
+.viz{margin:1.2rem 0}
+/* min(…,100%) rather than a bare minimum: repeat(auto-fit,minmax(30rem,1fr))
+   keeps a 30rem column even in a 20rem viewport, and the overflow lands on the
+   page body, which is the one thing that must never scroll sideways. */
+.chartgrid{display:grid;gap:.7rem;
+grid-template-columns:repeat(auto-fit,minmax(min(30rem,100%),1fr))}
+.chartblock{border:1px solid var(--line);border-radius:5px;background:var(--card);
+padding:.6rem .8rem .7rem}
+.chartblock.wide{margin-bottom:.7rem}
+details.tele{margin-top:1.4rem}
+details.tele summary{cursor:pointer;color:var(--muted);font-family:var(--cond);
+font-size:1rem;text-transform:uppercase;letter-spacing:.06em}
+
+/* A legend, not prose: term plus one clause, running inline across the full
+   width of the box. A term and its definition can be consulted for the one
+   column heading a reader does not recognise; a paragraph has to be read. Do
+   not cap this at 78ch or stack it one per line -- five short definitions in a
+   tall narrow column leave most of the box empty and push the page down for
+   nothing. The space between a term and its definition is a real space in the
+   markup, because generated ::after content is invisible to copy-paste and
+   selecting the legend would otherwise yield "barslanguage of the benchmark". */
+.leg{margin:0;display:block}
+.leg dt{display:inline;font-weight:600;color:var(--fg);white-space:nowrap}
+.leg dd{display:inline;margin:0}
+/* Sits on the dt rather than the preceding dd so a wrap cannot orphan it onto a
+   line of its own. */
+.leg dt:not(:first-child)::before{content:"\2022";color:var(--line);
+margin:0 .5rem 0 .35rem;font-weight:400}
+
+/* ── sample browser ──────────────────────────────────────────────────────── */
+.controls{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1.1rem;
+margin:.2rem 0 .9rem}
+.ctl{display:flex;align-items:center;gap:.35rem}
+.ctl>.lbl{margin-bottom:0}
+.lbl{font-family:var(--cond);font-weight:600;font-size:.8rem;color:var(--muted);
+text-transform:uppercase;letter-spacing:.06em;margin-bottom:.1rem}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:4px;
+overflow:hidden}
+.seg button{appearance:none;border:0;background:var(--bg);color:var(--muted);
+font:500 .78rem/1.6 var(--mono);padding:.2rem .6rem;cursor:pointer;
+transition:color .12s ease}
+.seg button+button{border-left:1px solid var(--line)}
+.seg button:hover{color:var(--fg)}
+.seg button.on{background:var(--fg);color:var(--bg)}
+/* Model chips: mono because a run tag is an identifier, and the current
+   selection is a fill rather than a border tint -- a row of tinted outlines is a
+   texture, and the eye needs "which models am I looking at" to win at a glance.
+   The condition is spelled out in the label and italicised, never colour. */
+.chip{appearance:none;font:500 .78rem/1.5 var(--mono);padding:.15rem .55rem;
+border-radius:3px;border:1px solid var(--line);background:var(--bg);
+color:var(--muted);cursor:pointer;transition:color .12s ease,border-color .12s ease}
+.chip:hover{color:var(--fg);border-color:var(--muted)}
+.chip.on{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.chip.lite{border-style:dashed;font-family:var(--cond);font-weight:600;
+font-size:.8rem;text-transform:uppercase;letter-spacing:.06em}
+.chip.nothink{font-style:italic}
+input.q{font:400 .85rem var(--sans);padding:.22rem .5rem;border-radius:4px;
+border:1px solid var(--line);background:var(--bg);color:var(--fg);min-width:14rem}
+input.q:focus{outline:none;border-color:var(--muted)}
+.pager{display:flex;align-items:center;gap:.7rem;margin:.7rem 0;
+font-size:.82rem;color:var(--muted)}
+.pager button{appearance:none;font:600 .8rem/1.5 var(--cond);text-transform:uppercase;
+letter-spacing:.06em;padding:.15rem .7rem;border:1px solid var(--line);
+border-radius:4px;background:var(--bg);color:var(--fg);cursor:pointer;
+transition:border-color .12s ease}
+.pager button:hover:not([disabled]){border-color:var(--muted)}
+.pager button[disabled]{opacity:.4;cursor:default;color:var(--muted)}
+.card{border:1px solid var(--line);border-radius:5px;background:var(--card);
+padding:.7rem 1rem .9rem;margin-bottom:.9rem}
+.chead{display:flex;align-items:center;gap:.6rem;margin-bottom:.5rem;
+font-size:.78rem;color:var(--muted)}
+.chead .idx{font-family:var(--mono);font-weight:500;color:var(--fg);
+font-variant-numeric:tabular-nums}
+.qbox,.tbox{border-left:3px solid var(--line);padding-left:.7rem;margin-bottom:.6rem}
+.outs{display:grid;gap:.6rem;
+grid-template-columns:repeat(auto-fit,minmax(min(21rem,100%),1fr))}
+.out{border:1px solid var(--line);border-radius:5px;background:var(--bg);
+padding:.45rem .6rem;min-width:0}
+.out.nothink{border-style:dashed}
+.ohead{display:flex;align-items:center;gap:.45rem;font-size:.8rem;margin-bottom:.25rem}
+.ohead .tag{font-family:var(--mono);font-weight:500}
+.ohead .cond{color:var(--muted);font-family:var(--cond);font-size:.85rem;
+text-transform:uppercase;letter-spacing:.06em}
+.ox{font-family:var(--mono);font-size:.72rem;color:var(--muted);margin-top:.3rem;
+font-variant-numeric:tabular-nums}
+.clamp{max-height:15rem;overflow:hidden;position:relative}
+.clamp::after{content:"";position:absolute;left:0;right:0;bottom:0;height:2.4rem;
+background:linear-gradient(transparent,var(--bg))}
+.qbox .clamp::after,.tbox .clamp::after{background:linear-gradient(transparent,var(--card))}
+.clamp.open{max-height:none}.clamp.open::after{display:none}
+.more{appearance:none;border:0;background:none;color:var(--link);
+font:600 .8rem/1.5 var(--cond);text-transform:uppercase;letter-spacing:.06em;
+cursor:pointer;padding:.1rem 0}
+.more:hover{text-decoration:underline}
+.strip{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:.9rem}
+.stat{border:1px solid var(--line);border-radius:5px;background:var(--card);
+padding:.45rem .75rem;flex:1 1 15rem;max-width:24rem}
+.stat .t{font-family:var(--mono);font-size:.76rem;color:var(--muted)}
+.stat .v{font-family:var(--mono);font-weight:500;font-size:1.15rem;
+font-variant-numeric:tabular-nums;line-height:1.4}
+.stat .m{font-size:.72rem;color:var(--muted)}
+/* The metric name beside the headline number is a harness key --
+   exact_match [flexible-extract] -- so it stays mono and stays in its own case.
+   Uppercasing a snake_case identifier makes it unrecognisable. */
+.stat .v .m{font-family:var(--mono);font-size:.76rem}
+.loading{color:var(--muted);padding:1rem 0}
+
+/* ── vs-published charts ─────────────────────────────────────────────────── */
+/* Sentence-length, so Condensed at normal case with no tracking: uppercase plus
+   letter-spacing at this length reads as a banner rather than a section head. */
+h3.sechead{font-family:var(--cond);font-weight:600;font-size:1.1rem;
+margin:1.6rem 0 .4rem;color:var(--muted);letter-spacing:0}
+/* These two numbers are the zoom control for every chart on the page, and they
+   work against each other: the grid minimum decides how many charts share a row,
+   the svg cap decides how large one is allowed to get. A chart carries five
+   models in two conditions plus four baselines, and at two-up on an ordinary
+   laptop its 9px labels were rendering below their drawn size. One per row up to
+   about 1760px, and never wider than 64rem, puts them back at ~1.4x the size
+   they are drawn at. Raise the cap to zoom further; lower the minimum to get two
+   columns back on narrower screens. */
+.cmpgrid{grid-template-columns:repeat(auto-fit,minmax(min(54rem,100%),1fr))}
+.ctfig{margin:0;padding:.6rem .6rem .35rem}
+.ctfig svg{display:block;width:100%;max-width:64rem;height:auto;margin:0 auto}
+.figfoot{display:flex;justify-content:flex-end;margin-top:.1rem}
+.svgdl{appearance:none;font:600 .78rem/1.5 var(--cond);text-transform:uppercase;
+letter-spacing:.06em;padding:.1rem .6rem;border:1px solid var(--line);
+border-radius:10px;background:var(--bg);color:var(--muted);cursor:pointer;
+transition:color .12s ease,border-color .12s ease}
+.svgdl:hover{color:var(--fg);border-color:var(--muted)}
+svg.ctchart { font-family:Barlow,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,sans-serif; }
+svg.ctchart text { font-variant-numeric:tabular-nums; }
+svg.ctchart .ct-title { font-family:var(--cond); font-size:13px; font-weight:600; fill:var(--fg); }
+svg.ctchart .ct-lgd { font-size:9.5px; fill:var(--muted); }
+svg.ctchart .ct-name { font-family:var(--cond); font-size:11.5px; font-weight:600; fill:var(--fg); }
+svg.ctchart .ct-cond { font-size:9px; fill:var(--muted); }
+svg.ctchart .ct-cap { font-family:var(--cond); font-size:9.5px; fill:var(--muted); }
+svg.ctchart .ct-lang { font-family:var(--mono); font-size:8.5px; fill:var(--muted); }
+svg.ctchart .ct-tick { font-family:var(--mono); font-size:8.5px; fill:var(--muted); }
+svg.ctchart .ct-val { font-family:var(--mono); font-size:9px; fill:var(--fg); }
+svg.ctchart .na { fill:var(--muted); }
+svg.ctchart .ct-grid { stroke:var(--line); stroke-width:1; }
+svg.ctchart .ct-base { stroke:var(--muted); stroke-width:1; opacity:0.45; }
+svg.ctchart .ct-band { fill:var(--line); opacity:0.35; }
+svg.ctchart .ct-track { fill:var(--line); opacity:0.5; }
+svg.ctchart .cs { fill:var(--cs); }
+svg.ctchart .en { fill:var(--en); }
+svg.ctchart .cs-pale { fill:var(--cs-pale); }
+svg.ctchart .en-pale { fill:var(--en-pale); }
+
+/* --- static build ------------------------------------------------------- */
+/* The page's one line of prose. .sub caps at 78ch, which is right for a
+   paragraph and wrong for a single sentence that should sit on one line under
+   the masthead rather than break a third of the way across the page. */
+.sub.lede { max-width:none; }
+.skel { border:1px solid var(--line); border-radius:5px; background:var(--card);
+        height:9rem; margin-bottom:.9rem; opacity:.5;
+        animation:pulse 1.4s ease-in-out infinite; }
+@keyframes pulse { 0%,100% { opacity:.35; } 50% { opacity:.6; } }
+
+/* --- slm benchmark additions ---------------------------------------------- */
+/* Radar small multiples: one panel per model, the same six axes in the same
+   order everywhere, English and Czech as two outlined polygons with a 10% wash.
+   Colour never carries the language alone -- the legend above the grid names
+   both, every vertex has a tooltip, and the table below repeats every number. */
+.radargrid{display:grid;gap:.7rem;
+grid-template-columns:repeat(auto-fill,minmax(min(19rem,100%),1fr))}
+.radargrid .ctfig svg{max-width:26rem}
+svg.ctchart .rd-en{fill:var(--en);fill-opacity:.10;stroke:var(--en);stroke-width:2;stroke-linejoin:round}
+svg.ctchart .rd-cs{fill:var(--cs);fill-opacity:.10;stroke:var(--cs);stroke-width:2;stroke-linejoin:round}
+svg.ctchart .rd-dot-en{fill:var(--en);stroke:var(--card);stroke-width:2}
+svg.ctchart .rd-dot-cs{fill:var(--cs);stroke:var(--card);stroke-width:2}
+svg.ctchart .rd-hit{fill:transparent}
+svg.ctchart .ct-axis { font-family:var(--cond); font-size:10px; font-weight:600; fill:var(--muted); }
+/* the legend for every chart on a tab, set once above them */
+.keyrow{display:flex;flex-wrap:wrap;gap:.3rem 1.1rem;align-items:center;
+font-size:.83rem;color:var(--muted);margin:.2rem 0 .6rem}
+.keyrow .sw{display:inline-block;width:.8rem;height:.6rem;border-radius:2px;
+vertical-align:baseline;margin-right:.35rem}
+.keyrow .sw.en{background:var(--en)}.keyrow .sw.cs{background:var(--cs)}
+.keyrow .sw.ref{background:var(--line)}
+td.best{font-weight:600;color:var(--fg)}
+td.gap{color:var(--muted)}

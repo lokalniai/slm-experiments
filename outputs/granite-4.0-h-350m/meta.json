@@ -1,0 +1,27 @@
+{
+ "model": "granite-4.0-h-350m",
+ "repo": "ibm-granite/granite-4.0-h-350m",
+ "revision": "3b17b717b8f2f5d305b0a92c1491e239aeda19c8",
+ "config": {
+  "max_model_len": 32768,
+  "extra_args": [],
+  "params": "0.34B",
+  "repo": "ibm-granite/granite-4.0-h-350m",
+  "tool_parser": "granite4"
+ },
+ "limit": null,
+ "startup_s": 1171,
+ "nexus.en_s": 9,
+ "nexus.cs_s": 10,
+ "jsonmode.en_s": 3,
+ "jsonmode.cs_s": 4,
+ "eurlex.en_s": 18,
+ "eurlex.cs_s": 26,
+ "minds.en_s": 4,
+ "minds.cs_s": 7,
+ "gmmlu.en_s": 2,
+ "gmmlu.cs_s": 3,
+ "ifeval.en_s": 29,
+ "ifeval.cs_s": 32,
+ "vllm": "0.31.0"
+}

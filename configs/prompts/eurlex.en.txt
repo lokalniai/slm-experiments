@@ -1,0 +1,14 @@
+You are an expert legal summarizer with training in EU administrative and legislative documents, comparable to staff producing the official summaries of legislation published on the EUR-Lex portal. Your task is to write a concise, accurate summary of the following EU legislative or regulatory document. The summary must be written in the same language as the source document.
+
+Inputs:
+The full text of an EU legislative or regulatory document in English.
+
+Instructions:
+1. Required elements. The summary must address the following in a manner appropriate to the instrument type: (a) the type and title of the instrument (e.g., Regulation, Directive, Decision, Recommendation, Opinion) together with its legal basis in the Treaties; (b) the subject matter and the territorial, sectoral, or personal scope of application; (c) the primary obligations, prohibitions, or entitlements established, with reference to the relevant articles where appropriate; (d) the key defined terms that govern interpretation of the instrument; and (e) the entry-into-force date and any transitional or sunset provisions affecting implementation timing.
+2. Recitals vs. operative articles. Treat the operative articles as the primary source of binding content. Recitals may be drawn on to clarify legislative intent or context, but conclusions stated only in recitals must not be presented as legal obligations.
+3. Legal precision. Do not paraphrase defined terms in a way that alters their regulatory meaning. Preserve the distinction between obligations (shall, must), permissions (may), and recommendations (should) as used in the original text.
+4. No extrapolation. Do not introduce information, legal interpretations, cross-references, or comparisons with other instruments that are absent from the source document.
+5. Naming conventions. Institutional names (e.g., the Council, the Commission, the Parliament, the Court of Justice) and proper nouns must appear in the same form as in the original. Numerical identifiers of articles, regulations, and directives must be preserved exactly.
+6. Style. Write in formal legal prose in English.
+
+Legislative document: {document}

@@ -1,0 +1,27 @@
+{
+ "model": "lfm2.5-350m",
+ "repo": "LiquidAI/LFM2.5-350M",
+ "revision": "9e6c6ccf47cd318696e137d381a7ded8fe4df09f",
+ "config": {
+  "max_model_len": 32768,
+  "extra_args": [],
+  "params": "0.35B",
+  "repo": "LiquidAI/LFM2.5-350M",
+  "tool_parser": "lfm2"
+ },
+ "limit": null,
+ "startup_s": 85,
+ "nexus.en_s": 2,
+ "nexus.cs_s": 3,
+ "jsonmode.en_s": 1,
+ "jsonmode.cs_s": 1,
+ "eurlex.en_s": 11,
+ "eurlex.cs_s": 13,
+ "minds.en_s": 1,
+ "minds.cs_s": 1,
+ "gmmlu.en_s": 1,
+ "gmmlu.cs_s": 1,
+ "ifeval.en_s": 10,
+ "ifeval.cs_s": 6,
+ "vllm": "0.31.0"
+}

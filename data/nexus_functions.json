@@ -1,0 +1,2421 @@
+{
+ "searchCVE": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "searchCVE",
+    "description": "Build and send GET request then return list of objects containing a collection of CVEs. For more information on the parameters available, please visit https://nvd.nist.gov/developers/vulnerabilities\n\nArgs:\ncpeName (str): Please do not confuse this with keywordSearch; this requires the argument to start with \"cpe\", whereas the keywordSearch argument allows for arbitrary keywords. This value will be compared agains the CPE Match Criteria within a CVE applicability statement. (i.e. find the vulnerabilities attached to that CPE). Partial match strings are allowed.\n\ncveId (str): Please pass in a string integer, like \"1\" or \"30\". Returns a single CVE that already exists in the NVD.\n\ncvssV2Metrics (str): This parameter returns only the CVEs that match the provided CVSSv2 vector string. Either full or partial vector strings may be used. This parameter cannot be used in requests that include cvssV3Metrics.\n\ncvssV2Severity (str): Find vulnerabilities having a LOW, MEDIUM, or HIGH version 2 severity.\n\ncvssV3Metrics (str): This parameter returns only the CVEs that match the provided CVSSv3 vector string. Either full or partial vector strings may be used. This parameter cannot be used in requests that include cvssV2Metrics.\n\ncvssV3Severity (str): Find vulnerabilities having a LOW, MEDIUM, HIGH, or CRITICAL version 3 severity.\n\ncweId (str): Please pass in a string integer, like \"1\" or \"30\". Filter collection by CWE (Common Weakness Enumeration) ID. You can find a list at https://cwe.mitre.org/. A CVE can have multiple CWE IDs assigned to it.\n\nhasCertAlerts (bool): Returns CVE that contain a Technical Alert from US-CERT.\n\nhasCertNotes (bool): Returns CVE that contain a Vulnerability Note from CERT/CC.\n\nhasOval (bool): Returns CVE that contain information from MITRE's Open Vulnerability and Assessment Language (OVAL) before this transitioned to the Center for Internet Security (CIS).\n\nisVulnerable (bool): Returns CVE associated with a specific CPE, where the CPE is also considered vulnerable. REQUIRES cpeName parameter. isVulnerable is not compatible with virtualMatchString parameter.\n\nkeywordExactMatch (bool): When keywordSearch is used along with keywordExactmatch, it will search the NVD for CVEs containing exactly what was passed to keywordSearch. REQUIRES keywordSearch.\n\nkeywordSearch (str): Searches CVEs where a word or phrase is found in the current description. If passing multiple keywords with a space character in between then each word must exist somewhere in the description, not necessarily together unless keywordExactMatch=True is passed to searchCVE.\n\nlastModStartDate (str, datetime obj): These parameters return only the CVEs that were last modified during the specified period. If a CVE has been modified more recently than the specified period, it will not be included in the response. If filtering by the last modified date, both lastModStartDate and lastModEndDate are REQUIRED. The maximum allowable range when using any date range parameters is 120 consecutive days.\n\nlastModEndDate (str, datetime obj): Required if using lastModStartDate.\n\nnoRejected (bool): Filters out all CVEs that are in a reject or rejected status. Searches without this parameter include rejected CVEs.\n\npubStartDate (str, datetime obj): These parameters return only the CVEs that were added to the NVD (i.e., published) during the specified period. If filtering by the published date, both pubStartDate and pubEndDate are REQUIRED. The maximum allowable range when using any date range parameters is 120 consecutive days.\n\npubEndDate (str, datetime obj): Required if using pubStartDate.\n\nsourceIdentifier (str): Returns CVE where the data source of the CVE is the value that is passed to sourceIdentifier.\n\nversionEnd (str): Must be combined with versionEndType and virtualMatchString. Returns only the CVEs associated with CPEs in specific version ranges.\n\nversionEndType (str): Must be combined with versionEnd and virtualMatchString. Valid values are including or excluding. Denotes to include the specified version in versionEnd, or exclude it.\n\nversionStart (str): Must be combined with versionStartType and virtualMatchString. Returns only CVEs with specific versions. Requests that include versionStart cannot include a version component in the virtualMatchString.\n\nversionStartType (str): Must be combined with versionStart and virtualMatchString. Valid values are including or excluding. Denotes to include the specified version in versionStart, or exclude it.\n\nvirtualMatchString (str): A more broad filter compared to cpeName. The cpe match string that is passed to virtualMatchString is compared against the CPE Match Criteria present on CVE applicability statements.\n\nlimit (int): Custom argument to limit the number of results of the search. Allowed any number between 1 and 2000.\n\ndelay (int): Can only be used if an API key is provided. This allows the user to define a delay. The delay must be greater than 0.6 seconds. The NVD API recommends scripts sleep for atleast 6 seconds in between requests.\n\nkey (str): NVD API Key. Allows for the user to define a delay. NVD recommends scripts sleep 6 seconds in between requests. If no valid API key is provided, requests are sent with a 6 second delay.\n\nverbose (bool): Prints the URL request for debugging purposes.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "cpeName": {
+       "type": "string",
+       "description": ""
+      },
+      "cveId": {
+       "type": "string",
+       "description": ""
+      },
+      "cvssV2Metrics": {
+       "type": "string",
+       "description": ""
+      },
+      "cvssV2Severity": {
+       "type": "string",
+       "description": ""
+      },
+      "cvssV3Metrics": {
+       "type": "string",
+       "description": ""
+      },
+      "cvssV3Severity": {
+       "type": "string",
+       "description": ""
+      },
+      "cweId": {
+       "type": "string",
+       "description": ""
+      },
+      "hasCertAlerts": {
+       "type": "boolean",
+       "description": ""
+      },
+      "hasCertNotes": {
+       "type": "boolean",
+       "description": ""
+      },
+      "hasOval": {
+       "type": "boolean",
+       "description": ""
+      },
+      "isVulnerable": {
+       "type": "boolean",
+       "description": ""
+      },
+      "keywordExactMatch": {
+       "type": "boolean",
+       "description": ""
+      },
+      "keywordSearch": {
+       "type": "string",
+       "description": ""
+      },
+      "lastModStartDate": {
+       "type": "string",
+       "description": ""
+      },
+      "lastModEndDate": {
+       "type": "string",
+       "description": ""
+      },
+      "noRejected": {
+       "type": "boolean",
+       "description": ""
+      },
+      "pubStartDate": {
+       "type": "string",
+       "description": ""
+      },
+      "pubEndDate": {
+       "type": "string",
+       "description": ""
+      },
+      "sourceIdentifier": {
+       "type": "string",
+       "description": ""
+      },
+      "versionEnd": {
+       "type": "string",
+       "description": ""
+      },
+      "versionEndType": {
+       "type": "string",
+       "description": ""
+      },
+      "versionStart": {
+       "type": "string",
+       "description": ""
+      },
+      "versionStartType": {
+       "type": "string",
+       "description": ""
+      },
+      "virtualMatchString": {
+       "type": "string",
+       "description": ""
+      },
+      "limit": {
+       "type": "integer",
+       "description": ""
+      },
+      "delay": {
+       "type": "integer",
+       "description": ""
+      },
+      "key": {
+       "type": "string",
+       "description": ""
+      },
+      "verbose": {
+       "type": "boolean",
+       "description": ""
+      }
+     },
+     "required": []
+    }
+   }
+  },
+  "required": [],
+  "defaults": {
+   "cpeName": null,
+   "cveId": null,
+   "cvssV2Metrics": null,
+   "cvssV2Severity": null,
+   "cvssV3Metrics": null,
+   "cvssV3Severity": null,
+   "cweId": null,
+   "hasCertAlerts": null,
+   "hasCertNotes": null,
+   "hasOval": null,
+   "isVulnerable": null,
+   "keywordExactMatch": null,
+   "keywordSearch": null,
+   "lastModStartDate": null,
+   "lastModEndDate": null,
+   "noRejected": null,
+   "pubStartDate": null,
+   "pubEndDate": null,
+   "sourceIdentifier": null,
+   "versionEnd": null,
+   "versionEndType": null,
+   "versionStart": null,
+   "versionStartType": null,
+   "virtualMatchString": null,
+   "limit": null,
+   "delay": null,
+   "key": null,
+   "verbose": null
+  }
+ },
+ "searchCPE": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "searchCPE",
+    "description": "Build and send GET request then return list of objects containing a collection of CPEs.\n\nArgs:\ncpeNameId (str): Returns a specific CPE record using its UUID. If a correctly formatted UUID is passed but it does not exist, it will return empty results. The UUID is the cpeNameId value when searching CPE.\n\ncpeMatchString (str): Use a partial CPE name to search for other CPE names.\n\nkeywordExactMatch (bool): Searches metadata within CPE title and reference links for an exact match of the phrase or word passed to it. Must be included with keywordSearch.\n\nkeywordSearch (str): Returns CPE records where a word or phrase is found in the metadata title or reference links. Space characters act as an AND statement.\n\nlastModStartDate (str/datetime obj): CPE last modification start date. Maximum 120 day range. A start and end date is required. All times are in UTC 00:00. A datetime object or string can be passed as a date. NVDLib will automatically parse the datetime object into the correct format. String Example: ‘2020-06-28 00:00’\n\nlastModEndDate (str/datetime obj): CPE last modification end date. Maximum 120 day range. Must be included with lastModStartDate. Example: ‘2020-06-28 00:00’\n\nlimit (int): Limits the number of results of the search.\n\nkey (str): NVD API Key. Allows for a request every 0.6 seconds instead of 6 seconds.\n\ndelay (int): Can only be used if an API key is provided. The amount of time to sleep in between requests. Must be a value above 0.6 seconds if an API key is present. delay is set to 6 seconds if no API key is passed.\n\nverbose (bool): Prints the URL request for debugging purposes.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "cpeNameId": {
+       "type": "string",
+       "description": ""
+      },
+      "cpeMatchString": {
+       "type": "string",
+       "description": ""
+      },
+      "keywordExactMatch": {
+       "type": "boolean",
+       "description": ""
+      },
+      "keywordSearch": {
+       "type": "string",
+       "description": ""
+      },
+      "lastModStartDate": {
+       "type": "string",
+       "description": ""
+      },
+      "lastModEndDate": {
+       "type": "string",
+       "description": ""
+      },
+      "limit": {
+       "type": "integer",
+       "description": ""
+      },
+      "key": {
+       "type": "string",
+       "description": ""
+      },
+      "delay": {
+       "type": "integer",
+       "description": ""
+      },
+      "verbose": {
+       "type": "boolean",
+       "description": ""
+      }
+     },
+     "required": []
+    }
+   }
+  },
+  "required": [],
+  "defaults": {
+   "cpeNameId": null,
+   "cpeMatchString": null,
+   "keywordExactMatch": null,
+   "keywordSearch": null,
+   "lastModStartDate": null,
+   "lastModEndDate": null,
+   "limit": null,
+   "key": null,
+   "delay": null,
+   "verbose": null
+  }
+ },
+ "emailrep_post": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "emailrep_post",
+    "description": "Query an email address\n\nParameters\nemail (string, required): Email address being queried",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "email": {
+       "type": "string",
+       "description": ""
+      }
+     },
+     "required": [
+      "email"
+     ]
+    }
+   }
+  },
+  "required": [
+   "email"
+  ],
+  "defaults": {}
+ },
+ "emailrep_report": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "emailrep_report",
+    "description": "Reports an email address. Date of malicious activity defaults to the current time unless otherwise specified.\n\nParameters:\nemail (string, required): Email address being reported.\nkey (string, required): The API key of the user.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "email": {
+       "type": "string",
+       "description": ""
+      },
+      "key": {
+       "type": "string",
+       "description": ""
+      }
+     },
+     "required": [
+      "email",
+      "key"
+     ]
+    }
+   }
+  },
+  "required": [
+   "email",
+   "key"
+  ],
+  "defaults": {}
+ },
+ "vt_get_dns_resolution_object": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "vt_get_dns_resolution_object",
+    "description": "This endpoint retrieves a Resolution object by its ID. A resolution object ID is made by appending the IP and the domain it resolves to together.\n\nDomain-IP resolutions. Resolution objects include the following attributes:\ndate: <integer> date when the resolution was made (UTC timestamp).\nhost_name: <string> domain or subdomain requested to the resolver.\nhost_name_last_analysis_stats: <dictionary> last detection stats from the resolution's domain. Similar to the domains's last_analysis_stats attribute.\nip_address: <string> IP address the domain was resolved to.\nip_address_last_analysis_stats: <dictionary> last detection stats from the resolution's IP address. Similar to the IP address' last_analysis_stats attribute.\nresolver: <string> source of the resolution.\n\nArgs:\n- id: string, required, Resolution object ID\n- x-apikey: string, required, Your API key",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "id": {
+       "type": "string",
+       "description": ""
+      },
+      "x_apikey": {
+       "type": "string",
+       "description": ""
+      }
+     },
+     "required": [
+      "id",
+      "x_apikey"
+     ]
+    }
+   }
+  },
+  "required": [
+   "id",
+   "x_apikey"
+  ],
+  "defaults": {}
+ },
+ "vt_get_objects_related_to_ip_address": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "vt_get_objects_related_to_ip_address",
+    "description": "IP addresses have number of relationships to other objects. This returns ALL objects that fit the relationship.\n\nThe relationships are documented here:\n- comments: The comments for the IP address. Returns a list of comments.\n- communicating_files: Files that communicate with the IP address. Returns a list of files.\n- downloaded_files: Files downloaded from the IP address. VT Enterprise users only. Returns a list of files.\n- graphs: Graphs including the IP address. Returns a list of graphs.\n- historical_ssl_certificates: SSL certificates associated with the IP. Returns a list of SSL certificates.\n- historical_whois: WHOIS information for the IP address. Retrurns a list of Whois attributes.\n- related_comments: Community posted comments in the IP's related objects. Returns a list of comments.\n- related_references: Returns the references related to the IP address. Returns a list of References.\n- related_threat_actors: Threat actors related to the IP address. Returns a list of threat actors.\n- referrer_files: Files containing the IP address. Returns a list of Files.\n- resolutions: Resolves the IP addresses. Returns a list of resolutions.\n- urls: Returns a list of URLs related to the IP address. Returns a list of URLs.\n\nArgs:\n- ip, string, required, IP address\n- relationship, string, required, Relationship name (see the list of items from above)\n- x-apikey, string, required, Your API key\n- limit, int32, optional, Maximum number of comments to retrieve\n- cursor, string, optional, Continuation cursor",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "ip": {
+       "type": "string",
+       "description": ""
+      },
+      "relationship": {
+       "type": "string",
+       "description": ""
+      },
+      "x_apikey": {
+       "type": "string",
+       "description": ""
+      },
+      "limit": {
+       "type": "integer",
+       "description": ""
+      },
+      "cursor": {
+       "type": "string",
+       "description": ""
+      }
+     },
+     "required": [
+      "ip",
+      "relationship",
+      "x_apikey"
+     ]
+    }
+   }
+  },
+  "required": [
+   "ip",
+   "relationship",
+   "x_apikey"
+  ],
+  "defaults": {
+   "limit": null,
+   "cursor": null
+  }
+ },
+ "vt_get_ip_address_report": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "vt_get_ip_address_report",
+    "description": "Retrieve an IP address report. These reports condense all of the recent activity that VirusTotal has seen for the resource under consideration, as well as contextual information about it.\nThis function specifically generates these reports using the IP address parameter.\n\nArgs:\n- ip: string, required, IP address\n- x-apikey: string, required, Your API key",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "ip": {
+       "type": "string",
+       "description": ""
+      },
+      "x_apikey": {
+       "type": "string",
+       "description": ""
+      }
+     },
+     "required": [
+      "ip",
+      "x_apikey"
+     ]
+    }
+   }
+  },
+  "required": [
+   "ip",
+   "x_apikey"
+  ],
+  "defaults": {}
+ },
+ "vt_add_votes_to_ip_address": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "vt_add_votes_to_ip_address",
+    "description": "With this function you can post a vote for a given file. The body for the POST request must be the JSON representation of a vote object. Note however that you don't need to provide an ID for the object, as they are automatically generated for new votes. The verdict attribute must have be either harmless or malicious.\n\nPlease ensure that the JSON object you provide conforms accurately to valid JSON standards.\n\nArgs:\n- ip, string, required, IP address\n- data, json, Vote object\n- x-apikey, string, required, Your API key",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "ip": {
+       "type": "string",
+       "description": ""
+      },
+      "data": {
+       "type": "object",
+       "description": ""
+      },
+      "x_apikey": {
+       "type": "string",
+       "description": ""
+      }
+     },
+     "required": [
+      "ip",
+      "data",
+      "x_apikey"
+     ]
+    }
+   }
+  },
+  "required": [
+   "ip",
+   "data",
+   "x_apikey"
+  ],
+  "defaults": {}
+ },
+ "vt_get_domain_report": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "vt_get_domain_report",
+    "description": "Retrieves a domain report. These reports contain information regarding the domain itself that VirusTotal has collected.\n\nArgs:\n- domain: string, required, Domain name\n- x-apikey: string, required, Your API key",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "domain": {
+       "type": "string",
+       "description": ""
+      },
+      "x_apikey": {
+       "type": "string",
+       "description": ""
+      }
+     },
+     "required": [
+      "domain",
+      "x_apikey"
+     ]
+    }
+   }
+  },
+  "required": [
+   "domain",
+   "x_apikey"
+  ],
+  "defaults": {}
+ },
+ "vt_get_comments_on_ip_address": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "vt_get_comments_on_ip_address",
+    "description": "Retrieves the comments on a provided IP address. Returns a list of Comment objects.\n\nArgs:\n- ip, string, required, IP address\n- x-apikey, string, required, Your API key\n- limit, int32, optional, Maximum number of comments to retrieve\n- cursor, string, optional, Continuation cursor",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "ip": {
+       "type": "string",
+       "description": ""
+      },
+      "x_apikey": {
+       "type": "string",
+       "description": ""
+      },
+      "limit": {
+       "type": "integer",
+       "description": ""
+      },
+      "cursor": {
+       "type": "string",
+       "description": ""
+      }
+     },
+     "required": [
+      "ip",
+      "x_apikey"
+     ]
+    }
+   }
+  },
+  "required": [
+   "ip",
+   "x_apikey"
+  ],
+  "defaults": {
+   "limit": null,
+   "cursor": null
+  }
+ },
+ "vt_add_comment_to_ip_address": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "vt_add_comment_to_ip_address",
+    "description": "With this function you can post a comment for a given IP address. The body for the POST request must be the JSON representation of a comment object. Notice however that you don't need to provide an ID for the object, as they are automatically generated for new comments.\nHowever, please note that you will need to provide a valid data JSON for using this function.\n\nAny word starting with # in your comment's text will be considered a tag, and added to the comment's tag attribute.\n\nReturns a Comment object.\n\nArgs:\n- ip: string, required, IP address\n- data: json, required, A comment object\n- x-apikey: string, required, Your API key",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "ip": {
+       "type": "string",
+       "description": ""
+      },
+      "data": {
+       "type": "object",
+       "description": ""
+      },
+      "x_apikey": {
+       "type": "string",
+       "description": ""
+      }
+     },
+     "required": [
+      "ip",
+      "data",
+      "x_apikey"
+     ]
+    }
+   }
+  },
+  "required": [
+   "ip",
+   "data",
+   "x_apikey"
+  ],
+  "defaults": {}
+ },
+ "vt_get_object_descriptors_related_to_ip_address": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "vt_get_object_descriptors_related_to_ip_address",
+    "description": "This specifically returns related object's IDs (and context attributes, if any). Please note that this will not return all attributes.\n\nYou are expected to provide the relationship to the object you're interested in. The valid relationships are as follows.\n\nThe relationships are documented here:\n- comments: The comments for the IP address.\n- communicating_files: Files that communicate with the IP address.\n- downloaded_files: Files downloaded from the IP address. VT Enterprise users only.\n- graphs: Graphs including the IP address.\n- historical_ssl_certificates: SSL certificates associated with the IP.\n- historical_whois: WHOIS information for the IP address. Retrurns a list of Whois attributes.\n- related_comments: Community posted comments in the IP's related objects.\n- related_references: Returns the references related to the IP address.\n- related_threat_actors: Threat actors related to the IP address.\n- referrer_files: Files containing the IP address.\n- resolutions: Resolves the IP addresses.\n- urls: Returns a list of URLs related to the IP address.\n\nHere are some useful descriptions of the arguments in this API, with the format - name of this argument: type of the data, required or optional, description of this argument.\n- ip: string, required, IP address\n- relationship: string, required, Relationship name (see table)\n- x-apikey: string, required, Your API key\n- limit: int32, optional, Maximum number of comments to retrieve\n- cursor: string, optional, Continuation cursor",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "ip": {
+       "type": "string",
+       "description": ""
+      },
+      "relationship": {
+       "type": "string",
+       "description": ""
+      },
+      "x_apikey": {
+       "type": "string",
+       "description": ""
+      },
+      "limit": {
+       "type": "integer",
+       "description": ""
+      },
+      "cursor": {
+       "type": "string",
+       "description": ""
+      }
+     },
+     "required": [
+      "ip",
+      "relationship",
+      "x_apikey"
+     ]
+    }
+   }
+  },
+  "required": [
+   "ip",
+   "relationship",
+   "x_apikey"
+  ],
+  "defaults": {
+   "limit": null,
+   "cursor": null
+  }
+ },
+ "vt_get_objects_related_to_domain": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "vt_get_objects_related_to_domain",
+    "description": "Objects are a key concept in the VirusTotal API. Each object has an identifier and a type.\nEach object has an associated URL, and each domain is associated with objects.\nThis function returns ALL of the objects related to the domain, based on the specified relationship.\n\nThe following describe the valid relationship:\n- caa_records: Records CAA for the domain.\n- cname_records: Records CNAME for the domain.\n- comments: Community posted comments about the domain.\n- communicating_files: Files that communicate with the domain.\n- downloaded_files: Files downloaded from that domain.\n- graphs: All graphs that include the domain.\n- historical_ssl_certificates: SSL certificates associated with the domain.\n- historical_whois: WHOIS information for the domain.\n- immediate_parent: Domain's immediate parent.\n- mx_records: Records MX for the domain.\n- ns_records: Records NS for the domain.\n- parent: Domain's top parent.\n- referrer_files: Refers to any and all files that contain this domain.\n- related_comments: Community posted comments in the domain's related objects.\n- related_references: Refers to the References related to the domain.\n- related_threat_actors: Refers to the threat actors related to the domain. A list of Threat Actors.\n- resolutions: DNS resolutions for the domain.\n- soa_records: Records SOA for the domain.\n- siblings: Refers to the Domain's sibling domains.\n- subdomains: Refers to the Domain's subdomains.\n- urls: Refers to the URLs that contain this domain.\n- user_votes: Refers to the current user's votes.\n\n\nArgs:\n- domain: string, required, Domain name\n- relationship, string, required, Relationship name (see table)\n- x-apikey, string, required, Your API key\n- limit, int32, optional, Maximum number of comments to retrieve\n- cursor, string, optional, Continuation cursor",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "domain": {
+       "type": "string",
+       "description": ""
+      },
+      "relationship": {
+       "type": "string",
+       "description": ""
+      },
+      "x_apikey": {
+       "type": "string",
+       "description": ""
+      },
+      "limit": {
+       "type": "integer",
+       "description": ""
+      },
+      "cursor": {
+       "type": "string",
+       "description": ""
+      }
+     },
+     "required": [
+      "domain",
+      "relationship",
+      "x_apikey"
+     ]
+    }
+   }
+  },
+  "required": [
+   "domain",
+   "relationship",
+   "x_apikey"
+  ],
+  "defaults": {
+   "limit": null,
+   "cursor": null
+  }
+ },
+ "vt_get_object_descriptors_related_to_domain": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "vt_get_object_descriptors_related_to_domain",
+    "description": "This specifically returns related object's IDs (and context attributes, if any). Please note that this will not return all attributes. This will return objects relating to a domain.\n\n- caa_records: Records CAA for the domain.\n- cname_records: Records CNAME for the domain.\n- comments: Community posted comments about the domain.\n- communicating_files: Files that communicate with the domain.\n- downloaded_files: Files downloaded from that domain.\n- graphs: All graphs that include the domain.\n- historical_ssl_certificates: SSL certificates associated with the domain.\n- historical_whois: WHOIS information for the domain.\n- immediate_parent: Domain's immediate parent.\n- mx_records: Records MX for the domain.\n- ns_records: Records NS for the domain.\n- parent: Domain's top parent.\n- referrer_files: Refers to any and all files that contain this domain.\n- related_comments: Community posted comments in the domain's related objects.\n- related_references: Refers to the References related to the domain.\n- related_threat_actors: Refers to the threat actors related to the domain. A list of Threat Actors.\n- resolutions: DNS resolutions for the domain.\n- soa_records: Records SOA for the domain.\n- siblings: Refers to the Domain's sibling domains.\n- subdomains: Refers to the Domain's subdomains.\n- urls: Refers to the URLs that contain this domain.\n- user_votes: Refers to the current user's votes.\n\nArgs:\n- domain: string, required, Domain name\n- relationship: string, required, Relationship name (see table)\n- x-apikey: string, required, Your API key\n- limit: int32, optional, Maximum number of comments to retrieve\n- cursor: string, optional, Continuation cursor",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "domain": {
+       "type": "string",
+       "description": ""
+      },
+      "relationship": {
+       "type": "string",
+       "description": ""
+      },
+      "x_apikey": {
+       "type": "string",
+       "description": ""
+      },
+      "limit": {
+       "type": "integer",
+       "description": ""
+      },
+      "cursor": {
+       "type": "string",
+       "description": ""
+      }
+     },
+     "required": [
+      "domain",
+      "relationship",
+      "x_apikey"
+     ]
+    }
+   }
+  },
+  "required": [
+   "domain",
+   "relationship",
+   "x_apikey"
+  ],
+  "defaults": {
+   "limit": null,
+   "cursor": null
+  }
+ },
+ "vt_get_comments_on_domain": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "vt_get_comments_on_domain",
+    "description": "This function will retrieve comments on a specified domain.\n\nArgs:\n- domain, string, required, Domain name\n- x-apikey, string, required, Your API key\n- limit, int32, optional, Maximum number of comments to retrieve\n- cursor, string, optional, Continuation cursor",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "domain": {
+       "type": "string",
+       "description": ""
+      },
+      "x_apikey": {
+       "type": "string",
+       "description": ""
+      },
+      "limit": {
+       "type": "integer",
+       "description": ""
+      },
+      "cursor": {
+       "type": "string",
+       "description": ""
+      }
+     },
+     "required": [
+      "domain",
+      "x_apikey"
+     ]
+    }
+   }
+  },
+  "required": [
+   "domain",
+   "x_apikey"
+  ],
+  "defaults": {
+   "limit": null,
+   "cursor": null
+  }
+ },
+ "vt_get_votes_on_ip_address": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "vt_get_votes_on_ip_address",
+    "description": "This function will retrieve votes on a provided IP address.\n\nArgs:\n- ip: string, required, ip address",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "ip": {
+       "type": "string",
+       "description": ""
+      }
+     },
+     "required": [
+      "ip"
+     ]
+    }
+   }
+  },
+  "required": [
+   "ip"
+  ],
+  "defaults": {}
+ },
+ "getRandomAxolotlImage": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "getRandomAxolotlImage",
+    "description": "Retrieve a random axolotl image with information on the image source.",
+    "parameters": {
+     "type": "object",
+     "properties": {},
+     "required": []
+    }
+   }
+  },
+  "required": [],
+  "defaults": {}
+ },
+ "searchAxolotlImages": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "searchAxolotlImages",
+    "description": "Search for axolotl images based on specific criteria such as color, gender, and size.\n\nParameters:\n    color (str) required: string. One of: [wild, leucistic, albino]. The color of the axolotl (e.g., 'wild', 'leucistic', 'albino', etc.).\n    gender (str) required: string. One of: [male, female]. The gender of the axolotl ('male', 'female').\n    size (str) required: string. One of: [small, medium, large]. The size of the axolotl ('small', 'medium', 'large').\n    page (int) required: integer. The page number for pagination purposes.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "color": {
+       "type": "string",
+       "description": ""
+      },
+      "gender": {
+       "type": "string",
+       "description": ""
+      },
+      "size": {
+       "type": "string",
+       "description": ""
+      },
+      "page": {
+       "type": "integer",
+       "description": ""
+      }
+     },
+     "required": [
+      "color",
+      "gender",
+      "size",
+      "page"
+     ]
+    }
+   }
+  },
+  "required": [
+   "color",
+   "gender",
+   "size",
+   "page"
+  ],
+  "defaults": {}
+ },
+ "getAxolotlFacts": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "getAxolotlFacts",
+    "description": "Retrieve interesting facts about axolotls such as their habits, habitats, and physical characteristics.\n\nParameters:\n    category (str) required: string. One of: [habits, habitat, physical characteristics]. The category of facts to retrieve (e.g., 'habits', 'habitat', 'physical characteristics').\n    limit (int) required: integer. The maximum number of facts to return.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "category": {
+       "type": "string",
+       "description": ""
+      },
+      "limit": {
+       "type": "integer",
+       "description": ""
+      }
+     },
+     "required": [
+      "category",
+      "limit"
+     ]
+    }
+   }
+  },
+  "required": [
+   "category",
+   "limit"
+  ],
+  "defaults": {}
+ },
+ "getAnimeDetails": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "getAnimeDetails",
+    "description": "Retrieve information about a specific anime series, movie, or episode.\n\nParameters:\n    animeId (int) required: Required. integer. The unique identifier of the anime.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "animeId": {
+       "type": "integer",
+       "description": ""
+      }
+     },
+     "required": [
+      "animeId"
+     ]
+    }
+   }
+  },
+  "required": [
+   "animeId"
+  ],
+  "defaults": {}
+ },
+ "searchAnime": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "searchAnime",
+    "description": "Search for anime based on a query string and optional filters.\n\nParameters:\n    query (str) required: Required. string. The search query.\n    filters (dict) required: Object.  Filters to apply to the search, such as genre, release year, and rating.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "query": {
+       "type": "string",
+       "description": ""
+      },
+      "filters": {
+       "type": "object",
+       "description": ""
+      }
+     },
+     "required": [
+      "query",
+      "filters"
+     ]
+    }
+   }
+  },
+  "required": [
+   "query",
+   "filters"
+  ],
+  "defaults": {}
+ },
+ "getCastAndCrew": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "getCastAndCrew",
+    "description": "Retrieve cast and crew details for a specific anime.\n\nParameters:\n    animeId (int) required: Required. integer. The unique identifier of the anime.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "animeId": {
+       "type": "integer",
+       "description": ""
+      }
+     },
+     "required": [
+      "animeId"
+     ]
+    }
+   }
+  },
+  "required": [
+   "animeId"
+  ],
+  "defaults": {}
+ },
+ "getRecommendations": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "getRecommendations",
+    "description": "Retrieve recommendations for similar anime based on a specified anime.\n\nParameters:\n    animeId (int) required: Required. integer. The unique identifier of the anime.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "animeId": {
+       "type": "integer",
+       "description": ""
+      }
+     },
+     "required": [
+      "animeId"
+     ]
+    }
+   }
+  },
+  "required": [
+   "animeId"
+  ],
+  "defaults": {}
+ },
+ "getStreamingServices": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "getStreamingServices",
+    "description": "Retrieve a list of streaming services that offer a specific anime.\n\nParameters:\n    animeId (int) required: Required. integer. The unique identifier of the anime.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "animeId": {
+       "type": "integer",
+       "description": ""
+      }
+     },
+     "required": [
+      "animeId"
+     ]
+    }
+   }
+  },
+  "required": [
+   "animeId"
+  ],
+  "defaults": {}
+ },
+ "synchronizeTracking": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "synchronizeTracking",
+    "description": "Synchronize an anime's watch progress with a tracking service.\n\nParameters:\n    animeId (int) required: Required. integer. The unique identifier of the anime.\n    trackingService (str) required: string.\n    progress (int) required: integer.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "animeId": {
+       "type": "integer",
+       "description": ""
+      },
+      "trackingService": {
+       "type": "string",
+       "description": ""
+      },
+      "progress": {
+       "type": "integer",
+       "description": ""
+      }
+     },
+     "required": [
+      "animeId",
+      "trackingService",
+      "progress"
+     ]
+    }
+   }
+  },
+  "required": [
+   "animeId",
+   "trackingService",
+   "progress"
+  ],
+  "defaults": {}
+ },
+ "reportAbusiveIP": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "reportAbusiveIP",
+    "description": "Report an abusive IP address or domain to the AbuseIPDB database.\n\nParameters:\n    ip (str) required: Required. string. The IP address or domain to report.\n    categories (list) required: Required. Array[string]. The abuse categories associated with the IP/domain.\n    comment (str) required: string. A brief description of the abuse incident.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "ip": {
+       "type": "string",
+       "description": ""
+      },
+      "categories": {
+       "type": "array",
+       "description": ""
+      },
+      "comment": {
+       "type": "string",
+       "description": ""
+      }
+     },
+     "required": [
+      "ip",
+      "categories",
+      "comment"
+     ]
+    }
+   }
+  },
+  "required": [
+   "ip",
+   "categories",
+   "comment"
+  ],
+  "defaults": {}
+ },
+ "checkIPReputation": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "checkIPReputation",
+    "description": "Query the AbuseIPDB database for the reputation score of a given IP address or domain.\n\nParameters:\n    ip (str) required: Required. string. The IP address or domain to check.\n    maxAgeInDays (int) required: integer. The maximum age of reports to consider, in days (default is 30).",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "ip": {
+       "type": "string",
+       "description": ""
+      },
+      "maxAgeInDays": {
+       "type": "integer",
+       "description": ""
+      }
+     },
+     "required": [
+      "ip",
+      "maxAgeInDays"
+     ]
+    }
+   }
+  },
+  "required": [
+   "ip",
+   "maxAgeInDays"
+  ],
+  "defaults": {}
+ },
+ "getPublishedDataFeeds": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "getPublishedDataFeeds",
+    "description": "Retrieve published data feeds from AbuseIPDB to integrate with third-party security tools.\n\nParameters:\n    feedType (str) required: Required. string. The type of data feed to retrieve (e.g., 'csv', 'json', 'xml').\n    categories (list) required: Array[string].  Filter the data feed by specific abuse categories.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "feedType": {
+       "type": "string",
+       "description": ""
+      },
+      "categories": {
+       "type": "array",
+       "description": ""
+      }
+     },
+     "required": [
+      "feedType",
+      "categories"
+     ]
+    }
+   }
+  },
+  "required": [
+   "feedType",
+   "categories"
+  ],
+  "defaults": {}
+ },
+ "searchReports": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "searchReports",
+    "description": "Search the AbuseIPDB database for abuse reports based on various criteria.\n\nParameters:\n    ip (str) required: string. The IP address or domain to search for.\n    categories (list) required: Array[string].  Filter the search by specific abuse categories.\n    startDate (str) required: string. The start date for the search (format: YYYY-MM-DD).\n    endDate (str) required: string. The end date for the search (format: YYYY-MM-DD).\n    page (int) required: integer. The page number for paginated results (default is 1).\n    perPage (int) required: integer. The number of results per page (default is 10).",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "ip": {
+       "type": "string",
+       "description": ""
+      },
+      "categories": {
+       "type": "array",
+       "description": ""
+      },
+      "startDate": {
+       "type": "string",
+       "description": ""
+      },
+      "endDate": {
+       "type": "string",
+       "description": ""
+      },
+      "page": {
+       "type": "integer",
+       "description": ""
+      },
+      "perPage": {
+       "type": "integer",
+       "description": ""
+      }
+     },
+     "required": [
+      "ip",
+      "categories",
+      "startDate",
+      "endDate",
+      "page",
+      "perPage"
+     ]
+    }
+   }
+  },
+  "required": [
+   "ip",
+   "categories",
+   "startDate",
+   "endDate",
+   "page",
+   "perPage"
+  ],
+  "defaults": {}
+ },
+ "generateAvatar": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "generateAvatar",
+    "description": "Create a unique avatar based on the user's preferences.\n\nParameters:\n    userId (str) required: string.\n    style (str) required: string.\n    format (str) required: string.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "userId": {
+       "type": "string",
+       "description": ""
+      },
+      "style": {
+       "type": "string",
+       "description": ""
+      },
+      "format": {
+       "type": "string",
+       "description": ""
+      }
+     },
+     "required": [
+      "userId",
+      "style",
+      "format"
+     ]
+    }
+   }
+  },
+  "required": [
+   "userId",
+   "style",
+   "format"
+  ],
+  "defaults": {}
+ },
+ "generateServerIcon": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "generateServerIcon",
+    "description": "Generate an icon for a Discord server based on the user's style preferences.\n\nParameters:\n    serverId (str) required: string.\n    style (str) required: string.\n    format (str) required: string.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "serverId": {
+       "type": "string",
+       "description": ""
+      },
+      "style": {
+       "type": "string",
+       "description": ""
+      },
+      "format": {
+       "type": "string",
+       "description": ""
+      }
+     },
+     "required": [
+      "serverId",
+      "style",
+      "format"
+     ]
+    }
+   }
+  },
+  "required": [
+   "serverId",
+   "style",
+   "format"
+  ],
+  "defaults": {}
+ },
+ "generateRandomImage": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "generateRandomImage",
+    "description": "Generate a custom image that matches the user's taste.\n\nParameters:\n    userId (str) required: string.\n    category (str) required: string.\n    format (str) required: string.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "userId": {
+       "type": "string",
+       "description": ""
+      },
+      "category": {
+       "type": "string",
+       "description": ""
+      },
+      "format": {
+       "type": "string",
+       "description": ""
+      }
+     },
+     "required": [
+      "userId",
+      "category",
+      "format"
+     ]
+    }
+   }
+  },
+  "required": [
+   "userId",
+   "category",
+   "format"
+  ],
+  "defaults": {}
+ },
+ "searchUser": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "searchUser",
+    "description": "Search for a Discord user by their username or ID.\n\nParameters:\n    query (str) required: Required. string. The username or ID of the Discord user.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "query": {
+       "type": "string",
+       "description": ""
+      }
+     },
+     "required": [
+      "query"
+     ]
+    }
+   }
+  },
+  "required": [
+   "query"
+  ],
+  "defaults": {}
+ },
+ "listServerMembers": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "listServerMembers",
+    "description": "List the members of a Discord server.\n\nParameters:\n    serverId (str) required: Required. string. Discord server ID.\n    limit (int) required: integer. The maximum number of members to return.\n    offset (int) required: integer. The number of members to skip before starting to return results.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "serverId": {
+       "type": "string",
+       "description": ""
+      },
+      "limit": {
+       "type": "integer",
+       "description": ""
+      },
+      "offset": {
+       "type": "integer",
+       "description": ""
+      }
+     },
+     "required": [
+      "serverId",
+      "limit",
+      "offset"
+     ]
+    }
+   }
+  },
+  "required": [
+   "serverId",
+   "limit",
+   "offset"
+  ],
+  "defaults": {}
+ },
+ "authenticateUser": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "authenticateUser",
+    "description": "Authenticate a user using their credentials and a specified identity provider.\n\nParameters:\n    provider (str) required: Required. string. The identity provider to use for authentication. One of: [google, facebook, twitter].\n    email (str) required: Required. string. The user's email address.\n    password (str) required: Required. string. The user's password.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "provider": {
+       "type": "string",
+       "description": ""
+      },
+      "email": {
+       "type": "string",
+       "description": ""
+      },
+      "password": {
+       "type": "string",
+       "description": ""
+      }
+     },
+     "required": [
+      "provider",
+      "email",
+      "password"
+     ]
+    }
+   }
+  },
+  "required": [
+   "provider",
+   "email",
+   "password"
+  ],
+  "defaults": {}
+ },
+ "getUserProfile": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "getUserProfile",
+    "description": "Retrieve the user profile for a given user ID.\n\nParameters:\n    userId (str) required: Required. string. The unique identifier for the user.\n    accessToken (str) required: Required. string. The access token for the authenticated user.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "userId": {
+       "type": "string",
+       "description": ""
+      },
+      "accessToken": {
+       "type": "string",
+       "description": ""
+      }
+     },
+     "required": [
+      "userId",
+      "accessToken"
+     ]
+    }
+   }
+  },
+  "required": [
+   "userId",
+   "accessToken"
+  ],
+  "defaults": {}
+ },
+ "updateUserProfile": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "updateUserProfile",
+    "description": "Update the user profile for a given user ID.\n\nParameters:\n    userId (str) required: Required. string. The unique identifier for the user.\n    accessToken (str) required: Required. string. The access token for the authenticated user.\n    profileData (dict) required: Required. Object. The updated user profile data.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "userId": {
+       "type": "string",
+       "description": ""
+      },
+      "accessToken": {
+       "type": "string",
+       "description": ""
+      },
+      "profileData": {
+       "type": "object",
+       "description": ""
+      }
+     },
+     "required": [
+      "userId",
+      "accessToken",
+      "profileData"
+     ]
+    }
+   }
+  },
+  "required": [
+   "userId",
+   "accessToken",
+   "profileData"
+  ],
+  "defaults": {}
+ },
+ "assignUserRole": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "assignUserRole",
+    "description": "Assign a role to a user.\n\nParameters:\n    userId (str) required: Required. string. The unique identifier for the user.\n    accessToken (str) required: Required. string. The access token for the authenticated user.\n    roleId (str) required: Required. string. The unique identifier for the role to be assigned.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "userId": {
+       "type": "string",
+       "description": ""
+      },
+      "accessToken": {
+       "type": "string",
+       "description": ""
+      },
+      "roleId": {
+       "type": "string",
+       "description": ""
+      }
+     },
+     "required": [
+      "userId",
+      "accessToken",
+      "roleId"
+     ]
+    }
+   }
+  },
+  "required": [
+   "userId",
+   "accessToken",
+   "roleId"
+  ],
+  "defaults": {}
+ },
+ "listRoles": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "listRoles",
+    "description": "List all available roles in the application.\n\nParameters:\n    accessToken (str) required: Required. string. The access token for the authenticated user.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "accessToken": {
+       "type": "string",
+       "description": ""
+      }
+     },
+     "required": [
+      "accessToken"
+     ]
+    }
+   }
+  },
+  "required": [
+   "accessToken"
+  ],
+  "defaults": {}
+ },
+ "createRole": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "createRole",
+    "description": "Create a new role in the application.\n\nParameters:\n    accessToken (str) required: Required. string. The access token for the authenticated user.\n    roleName (str) required: Required. string. The name of the new role.\n    permissions (list[dict]) required: Array[ObjectpermissionId: string. The unique identifier for the permission., permissionName: string. The name of the permission.. ]. A list of permission objects to be associated with the new role.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "accessToken": {
+       "type": "string",
+       "description": ""
+      },
+      "roleName": {
+       "type": "string",
+       "description": ""
+      },
+      "permissions": {
+       "type": "array",
+       "description": ""
+      }
+     },
+     "required": [
+      "accessToken",
+      "roleName",
+      "permissions"
+     ]
+    }
+   }
+  },
+  "required": [
+   "accessToken",
+   "roleName",
+   "permissions"
+  ],
+  "defaults": {}
+ },
+ "deleteRole": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "deleteRole",
+    "description": "Delete a role from the application.\n\nParameters:\n    accessToken (str) required: Required. string. The access token for the authenticated user.\n    roleId (str) required: Required. string. The unique identifier for the role to be deleted.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "accessToken": {
+       "type": "string",
+       "description": ""
+      },
+      "roleId": {
+       "type": "string",
+       "description": ""
+      }
+     },
+     "required": [
+      "accessToken",
+      "roleId"
+     ]
+    }
+   }
+  },
+  "required": [
+   "accessToken",
+   "roleId"
+  ],
+  "defaults": {}
+ },
+ "initiatePasswordlessAuthentication": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "initiatePasswordlessAuthentication",
+    "description": "Initiate a passwordless authentication process for a user.\n\nParameters:\n    provider (str) required: Required. string. The identity provider to use for passwordless authentication. One of: [sms, email].\n    identifier (str) required: Required. string. The user's phone number or email address, depending on the chosen provider.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "provider": {
+       "type": "string",
+       "description": ""
+      },
+      "identifier": {
+       "type": "string",
+       "description": ""
+      }
+     },
+     "required": [
+      "provider",
+      "identifier"
+     ]
+    }
+   }
+  },
+  "required": [
+   "provider",
+   "identifier"
+  ],
+  "defaults": {}
+ },
+ "verifyPasswordlessAuthentication": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "verifyPasswordlessAuthentication",
+    "description": "Verify the user's passwordless authentication using the provided verification code.\n\nParameters:\n    provider (str) required: Required. string. The identity provider used for passwordless authentication. One of: [sms, email].\n    identifier (str) required: Required. string. The user's phone number or email address, depending on the chosen provider.\n    verificationCode (str) required: Required. string. The verification code sent to the user's phone number or email address.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "provider": {
+       "type": "string",
+       "description": ""
+      },
+      "identifier": {
+       "type": "string",
+       "description": ""
+      },
+      "verificationCode": {
+       "type": "string",
+       "description": ""
+      }
+     },
+     "required": [
+      "provider",
+      "identifier",
+      "verificationCode"
+     ]
+    }
+   }
+  },
+  "required": [
+   "provider",
+   "identifier",
+   "verificationCode"
+  ],
+  "defaults": {}
+ },
+ "getHolidaysByCountry": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "getHolidaysByCountry",
+    "description": "Retrieve a list of holidays for a specific country with dates, descriptions, and types.\n\nParameters:\n    country (str) required: Required. string. The country for which holidays are to be retrieved.\n    year (int) required: integer. The year for which holidays are to be retrieved.\n    month (int) required: integer. The month for which holidays are to be retrieved.\n    day (int) required: integer. The day for which holidays are to be retrieved.\n    language (str) required: string. The language in which holiday descriptions should be returned.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "country": {
+       "type": "string",
+       "description": ""
+      },
+      "year": {
+       "type": "integer",
+       "description": ""
+      },
+      "month": {
+       "type": "integer",
+       "description": ""
+      },
+      "day": {
+       "type": "integer",
+       "description": ""
+      },
+      "language": {
+       "type": "string",
+       "description": ""
+      }
+     },
+     "required": [
+      "country",
+      "year",
+      "month",
+      "day",
+      "language"
+     ]
+    }
+   }
+  },
+  "required": [
+   "country",
+   "year",
+   "month",
+   "day",
+   "language"
+  ],
+  "defaults": {}
+ },
+ "getHolidayDetails": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "getHolidayDetails",
+    "description": "Retrieve detailed information on a specific holiday, including its history, purpose, and traditions.\n\nParameters:\n    holidayId (str) required: Required. string. The unique identifier of the holiday for which detailed information is to be retrieved.\n    language (str) required: string. The language in which holiday descriptions should be returned.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "holidayId": {
+       "type": "string",
+       "description": ""
+      },
+      "language": {
+       "type": "string",
+       "description": ""
+      }
+     },
+     "required": [
+      "holidayId",
+      "language"
+     ]
+    }
+   }
+  },
+  "required": [
+   "holidayId",
+   "language"
+  ],
+  "defaults": {}
+ },
+ "searchHolidays": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "searchHolidays",
+    "description": "Search for holidays based on keywords, country, and date range.\n\nParameters:\n    keywords (str) required: string. Keywords to search for in holiday names and descriptions.\n    country (str) required: string. The country for which holidays are to be searched.\n    startDate (str) required: string. The start date of the date range for which holidays are to be searched (format: YYYY-MM-DD).\n    endDate (str) required: string. The end date of the date range for which holidays are to be searched (format: YYYY-MM-DD).\n    language (str) required: string. The language in which holiday descriptions should be returned.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "keywords": {
+       "type": "string",
+       "description": ""
+      },
+      "country": {
+       "type": "string",
+       "description": ""
+      },
+      "startDate": {
+       "type": "string",
+       "description": ""
+      },
+      "endDate": {
+       "type": "string",
+       "description": ""
+      },
+      "language": {
+       "type": "string",
+       "description": ""
+      }
+     },
+     "required": [
+      "keywords",
+      "country",
+      "startDate",
+      "endDate",
+      "language"
+     ]
+    }
+   }
+  },
+  "required": [
+   "keywords",
+   "country",
+   "startDate",
+   "endDate",
+   "language"
+  ],
+  "defaults": {}
+ },
+ "listCountries": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "listCountries",
+    "description": "Retrieve a list of countries supported by the API.",
+    "parameters": {
+     "type": "object",
+     "properties": {},
+     "required": []
+    }
+   }
+  },
+  "required": [],
+  "defaults": {}
+ },
+ "listLanguages": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "listLanguages",
+    "description": "Retrieve a list of languages supported by the API for holiday descriptions.",
+    "parameters": {
+     "type": "object",
+     "properties": {},
+     "required": []
+    }
+   }
+  },
+  "required": [],
+  "defaults": {}
+ },
+ "getSpecificVerse": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "getSpecificVerse",
+    "description": "Retrieve a specific verse from a particular book and chapter of the Bible.\n\nParameters:\n    book (str) required: Required. string. The name of the book in the Bible.\n    chapter (int) required: Required. integer. The chapter number in the book.\n    verse (int) required: Required. integer. The verse number in the chapter.\n    version (str) required: string. The version of the Bible you want to retrieve the verse from.\n    language (str) required: string. The language you want the verse to be displayed in.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "book": {
+       "type": "string",
+       "description": ""
+      },
+      "chapter": {
+       "type": "integer",
+       "description": ""
+      },
+      "verse": {
+       "type": "integer",
+       "description": ""
+      },
+      "version": {
+       "type": "string",
+       "description": ""
+      },
+      "language": {
+       "type": "string",
+       "description": ""
+      }
+     },
+     "required": [
+      "book",
+      "chapter",
+      "verse",
+      "version",
+      "language"
+     ]
+    }
+   }
+  },
+  "required": [
+   "book",
+   "chapter",
+   "verse",
+   "version",
+   "language"
+  ],
+  "defaults": {}
+ },
+ "getAllVersesFromChapter": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "getAllVersesFromChapter",
+    "description": "Retrieve all verses from a specific chapter of a given book of the Bible.\n\nParameters:\n    book (str) required: Required. string. The name of the book in the Bible.\n    chapter (int) required: Required. integer. The chapter number in the book.\n    version (str) required: string. The version of the Bible you want to retrieve the verses from.\n    language (str) required: string. The language you want the verses to be displayed in.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "book": {
+       "type": "string",
+       "description": ""
+      },
+      "chapter": {
+       "type": "integer",
+       "description": ""
+      },
+      "version": {
+       "type": "string",
+       "description": ""
+      },
+      "language": {
+       "type": "string",
+       "description": ""
+      }
+     },
+     "required": [
+      "book",
+      "chapter",
+      "version",
+      "language"
+     ]
+    }
+   }
+  },
+  "required": [
+   "book",
+   "chapter",
+   "version",
+   "language"
+  ],
+  "defaults": {}
+ },
+ "getBookMetadata": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "getBookMetadata",
+    "description": "Retrieve metadata for a specific book of the Bible.\n\nParameters:\n    book (str) required: Required. string. The name of the book in the Bible.\n    version (str) required: string. The version of the Bible you want to retrieve metadata from.\n    language (str) required: string. The language you want the metadata to be displayed in.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "book": {
+       "type": "string",
+       "description": ""
+      },
+      "version": {
+       "type": "string",
+       "description": ""
+      },
+      "language": {
+       "type": "string",
+       "description": ""
+      }
+     },
+     "required": [
+      "book",
+      "version",
+      "language"
+     ]
+    }
+   }
+  },
+  "required": [
+   "book",
+   "version",
+   "language"
+  ],
+  "defaults": {}
+ },
+ "getBibleVersionList": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "getBibleVersionList",
+    "description": "Retrieve a list of all available versions of the Bible in a specific language.\n\nParameters:\n    language (str) required: Required. string. The language you want to retrieve the list of Bible versions in.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "language": {
+       "type": "string",
+       "description": ""
+      }
+     },
+     "required": [
+      "language"
+     ]
+    }
+   }
+  },
+  "required": [
+   "language"
+  ],
+  "defaults": {}
+ },
+ "getBibleLanguages": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "getBibleLanguages",
+    "description": "Retrieve a list of all languages available for Bible versions.",
+    "parameters": {
+     "type": "object",
+     "properties": {},
+     "required": []
+    }
+   }
+  },
+  "required": [],
+  "defaults": {}
+ },
+ "searchVerses": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "searchVerses",
+    "description": "Search for verses in the Bible containing a specific text.\n\nParameters:\n    text (str) required: Required. string. The text to search for in the Bible.\n    version (str) required: string. The version of the Bible you want to search in.\n    language (str) required: string. The language you want to search in.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "text": {
+       "type": "string",
+       "description": ""
+      },
+      "version": {
+       "type": "string",
+       "description": ""
+      },
+      "language": {
+       "type": "string",
+       "description": ""
+      }
+     },
+     "required": [
+      "text",
+      "version",
+      "language"
+     ]
+    }
+   }
+  },
+  "required": [
+   "text",
+   "version",
+   "language"
+  ],
+  "defaults": {}
+ },
+ "createDashboard": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "createDashboard",
+    "description": "Create a new dashboard\n\nParameters:\n    dashboardName (str) required: string. The name of the new dashboard.\n    description (str) required: string. A brief description of the dashboard.\n    charts (list) required: Array[string]. A list of charts to be included in the dashboard initially.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "dashboardName": {
+       "type": "string",
+       "description": ""
+      },
+      "description": {
+       "type": "string",
+       "description": ""
+      },
+      "charts": {
+       "type": "array",
+       "description": ""
+      }
+     },
+     "required": [
+      "dashboardName",
+      "description",
+      "charts"
+     ]
+    }
+   }
+  },
+  "required": [
+   "dashboardName",
+   "description",
+   "charts"
+  ],
+  "defaults": {}
+ },
+ "updateDashboard": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "updateDashboard",
+    "description": "Modify an existing dashboard\n\nParameters:\n    dashboardId (int) required: integer. The unique ID of the dashboard to be modified.\n    dashboardName (str) required: string. The new name of the dashboard.\n    description (str) required: string. A new description for the dashboard.\n    charts (list) required: Array[string]. A list of charts to be added or removed from the dashboard.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "dashboardId": {
+       "type": "integer",
+       "description": ""
+      },
+      "dashboardName": {
+       "type": "string",
+       "description": ""
+      },
+      "description": {
+       "type": "string",
+       "description": ""
+      },
+      "charts": {
+       "type": "array",
+       "description": ""
+      }
+     },
+     "required": [
+      "dashboardId",
+      "dashboardName",
+      "description",
+      "charts"
+     ]
+    }
+   }
+  },
+  "required": [
+   "dashboardId",
+   "dashboardName",
+   "description",
+   "charts"
+  ],
+  "defaults": {}
+ },
+ "deleteDashboard": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "deleteDashboard",
+    "description": "Delete an existing dashboard\n\nParameters:\n    dashboardId (int) required: Required. integer. The unique ID of the dashboard to be deleted.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "dashboardId": {
+       "type": "integer",
+       "description": ""
+      }
+     },
+     "required": [
+      "dashboardId"
+     ]
+    }
+   }
+  },
+  "required": [
+   "dashboardId"
+  ],
+  "defaults": {}
+ },
+ "createDataSource": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "createDataSource",
+    "description": "Create a new data source\n\nParameters:\n    sourceName (str) required: string. The name of the new data source.\n    connectionString (str) required: string. The connection string to connect to the data source.\n    type (str) required: string. The type of the data source (e.g., 'mysql', 'postgresql', etc.).",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "sourceName": {
+       "type": "string",
+       "description": ""
+      },
+      "connectionString": {
+       "type": "string",
+       "description": ""
+      },
+      "type": {
+       "type": "string",
+       "description": ""
+      }
+     },
+     "required": [
+      "sourceName",
+      "connectionString",
+      "type"
+     ]
+    }
+   }
+  },
+  "required": [
+   "sourceName",
+   "connectionString",
+   "type"
+  ],
+  "defaults": {}
+ },
+ "updateDataSource": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "updateDataSource",
+    "description": "Modify an existing data source\n\nParameters:\n    sourceId (int) required: integer. The unique ID of the data source to be modified.\n    sourceName (str) required: string. The new name of the data source.\n    connectionString (str) required: string. The new connection string to connect to the data source.\n    type (str) required: string. The new type of the data source.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "sourceId": {
+       "type": "integer",
+       "description": ""
+      },
+      "sourceName": {
+       "type": "string",
+       "description": ""
+      },
+      "connectionString": {
+       "type": "string",
+       "description": ""
+      },
+      "type": {
+       "type": "string",
+       "description": ""
+      }
+     },
+     "required": [
+      "sourceId",
+      "sourceName",
+      "connectionString",
+      "type"
+     ]
+    }
+   }
+  },
+  "required": [
+   "sourceId",
+   "sourceName",
+   "connectionString",
+   "type"
+  ],
+  "defaults": {}
+ },
+ "deleteDataSource": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "deleteDataSource",
+    "description": "Delete an existing data source\n\nParameters:\n    sourceId (int) required: Required. integer. The unique ID of the data source to be deleted.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "sourceId": {
+       "type": "integer",
+       "description": ""
+      }
+     },
+     "required": [
+      "sourceId"
+     ]
+    }
+   }
+  },
+  "required": [
+   "sourceId"
+  ],
+  "defaults": {}
+ },
+ "managePermissions": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "managePermissions",
+    "description": "Manage permissions for dashboards and data sources\n\nParameters:\n    targetId (int) required: integer. The unique ID of the dashboard or data source for which permissions are to be managed.\n    targetType (str) required: string. The type of the target ('dashboard' or 'data source').\n    permissions (list) required: Array[string]. A list of permissions to be granted or revoked.\n    users (list) required: Array[string]. A list of users for which the permissions are to be managed.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "targetId": {
+       "type": "integer",
+       "description": ""
+      },
+      "targetType": {
+       "type": "string",
+       "description": ""
+      },
+      "permissions": {
+       "type": "array",
+       "description": ""
+      },
+      "users": {
+       "type": "array",
+       "description": ""
+      }
+     },
+     "required": [
+      "targetId",
+      "targetType",
+      "permissions",
+      "users"
+     ]
+    }
+   }
+  },
+  "required": [
+   "targetId",
+   "targetType",
+   "permissions",
+   "users"
+  ],
+  "defaults": {}
+ },
+ "configureAlerts": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "configureAlerts",
+    "description": "Configure email notifications for data alerts and updates\n\nParameters:\n    email (str) required: string. The email address to which notifications are to be sent.\n    frequency (str) required: string. The frequency at which notifications are to be sent ('daily', 'weekly', 'monthly', etc.).",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "email": {
+       "type": "string",
+       "description": ""
+      },
+      "frequency": {
+       "type": "string",
+       "description": ""
+      }
+     },
+     "required": [
+      "email",
+      "frequency"
+     ]
+    }
+   }
+  },
+  "required": [
+   "email",
+   "frequency"
+  ],
+  "defaults": {}
+ },
+ "embedDashboard": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "embedDashboard",
+    "description": "Embed a dashboard into another application\n\nParameters:\n    dashboardId (int) required: integer. The unique ID of the dashboard to be embedded.\n    targetApp (str) required: string. The name of the application into which the dashboard is to be embedded.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "dashboardId": {
+       "type": "integer",
+       "description": ""
+      },
+      "targetApp": {
+       "type": "string",
+       "description": ""
+      }
+     },
+     "required": [
+      "dashboardId",
+      "targetApp"
+     ]
+    }
+   }
+  },
+  "required": [
+   "dashboardId",
+   "targetApp"
+  ],
+  "defaults": {}
+ },
+ "verifyUSAddress": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "verifyUSAddress",
+    "description": "Verify a given US address to ensure it meets USPS standards and is deliverable.\n\nParameters:\n    addressLine1 (str) required: Required. string. The primary address line, including street number and name.\n    addressLine2 (str) required: string. The secondary address line, such as apartment or suite number.\n    city (str) required: Required. string. The city of the address.\n    state (str) required: Required. string. The state or territory of the address.\n    zipCode (str) required: Required. string. The 5-digit ZIP code of the address.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "addressLine1": {
+       "type": "string",
+       "description": ""
+      },
+      "addressLine2": {
+       "type": "string",
+       "description": ""
+      },
+      "city": {
+       "type": "string",
+       "description": ""
+      },
+      "state": {
+       "type": "string",
+       "description": ""
+      },
+      "zipCode": {
+       "type": "string",
+       "description": ""
+      }
+     },
+     "required": [
+      "addressLine1",
+      "addressLine2",
+      "city",
+      "state",
+      "zipCode"
+     ]
+    }
+   }
+  },
+  "required": [
+   "addressLine1",
+   "addressLine2",
+   "city",
+   "state",
+   "zipCode"
+  ],
+  "defaults": {}
+ },
+ "standardizeUSAddress": {
+  "tool": {
+   "type": "function",
+   "function": {
+    "name": "standardizeUSAddress",
+    "description": "Standardize a given US address to create consistency and accuracy in addressing.\n\nParameters:\n    addressLine1 (str) required: Required. string. The primary address line, including street number and name.\n    addressLine2 (str) required: string. The secondary address line, such as apartment or suite number.\n    city (str) required: Required. string. The city of the address.\n    state (str) required: Required. string. The state or territory of the address.\n    zipCode (str) required: Required. string. The 5-digit ZIP code of the address.",
+    "parameters": {
+     "type": "object",
+     "properties": {
+      "addressLine1": {
+       "type": "string",
+       "description": ""
+      },
+      "addressLine2": {
+       "type": "string",
+       "description": ""
+      },
+      "city": {
+       "type": "string",
+       "description": ""
+      },
+      "state": {
+       "type": "string",
+       "description": ""
+      },
+      "zipCode": {
+       "type": "string",
+       "description": ""
+      }
+     },
+     "required": [
+      "addressLine1",
+      "addressLine2",
+      "city",
+      "state",
+      "zipCode"
+     ]
+    }
+   }
+  },
+  "required": [
+   "addressLine1",
+   "addressLine2",
+   "city",
+   "state",
+   "zipCode"
+  ],
+  "defaults": {}
+ }
+}

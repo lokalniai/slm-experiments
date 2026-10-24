@@ -1,0 +1,68 @@
+# Models under test. All are instruction-tuned BF16 checkpoints, served by vLLM with thinking disabled.
+#   tool_parser:   vLLM --tool-call-parser; null = the chat template has no tool support, so tools
+#                  are described in the system prompt and the reply is parsed as JSON (BenchMAX-style)
+#   max_model_len: context used for serving; longer EUR-Lex documents are truncated to fit
+#   include:       snapshot_download allow_patterns (default: everything except duplicate weights)
+#   chat_template_kwargs: false = do not send enable_thinking (model has no thinking mode)
+#   params:        display size for the viewer (total parameters incl. embeddings; Gemma: effective)
+
+defaults:
+  max_model_len: 32768
+  extra_args: []
+
+models:
+  functiongemma-270m:
+    params: "0.27B"
+    repo: google/functiongemma-270m-it
+    tool_parser: functiongemma
+  granite-4.0-h-350m:
+    params: "0.34B"
+    repo: ibm-granite/granite-4.0-h-350m
+    tool_parser: granite4
+  lfm2.5-350m:
+    params: "0.35B"
+    repo: LiquidAI/LFM2.5-350M
+    tool_parser: lfm2
+  qwen3.5-0.8b:
+    params: "0.87B"
+    repo: Qwen/Qwen3.5-0.8B
+    tool_parser: qwen3_coder
+    extra_args: [--language-model-only]
+  lfm2.5-1.2b:
+    params: "1.2B"
+    repo: LiquidAI/LFM2.5-1.2B-Instruct
+    tool_parser: lfm2
+  qwen3.5-2b:
+    params: "2.3B"
+    repo: Qwen/Qwen3.5-2B
+    tool_parser: qwen3_coder
+    extra_args: [--language-model-only]
+  gemma-4-e2b:
+    params: "2B eff. (5.1B)"
+    repo: google/gemma-4-E2B-it
+    tool_parser: gemma4
+    extra_args: [--language-model-only]
+  smollm3-3b:
+    params: "3.1B"
+    repo: HuggingFaceTB/SmolLM3-3B
+    tool_parser: hermes
+  tiny-aya-global:
+    params: "3.3B"
+    repo: CohereLabs/tiny-aya-global
+    tool_parser: null
+    max_model_len: 8192
+  granite-4.2-3b:
+    params: "3.7B"
+    repo: ibm-granite/granite-4.2-3b
+    tool_parser: qwen3_coder
+  ministral-3-3b:
+    params: "3.8B"
+    repo: mistralai/Ministral-3-3B-Instruct-2512-BF16
+    tool_parser: mistral
+    chat_template_kwargs: false  # rejected in Mistral tokenizer mode
+    include: [consolidated.safetensors, params.json, tekken.json, "*.jinja", "*.txt", config.json, generation_config.json, processor_config.json, tokenizer_config.json, special_tokens_map.json, tokenizer.json]
+    extra_args: [--tokenizer-mode, mistral, --config-format, mistral, --load-format, mistral, --language-model-only]
+  nemotron-3-nano-4b:
+    params: "4.0B"
+    repo: nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16
+    tool_parser: qwen3_coder

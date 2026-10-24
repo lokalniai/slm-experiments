@@ -1,0 +1,27 @@
+{
+ "model": "functiongemma-270m",
+ "repo": "google/functiongemma-270m-it",
+ "revision": "39eccb091651513a5dfb56892d3714c1b5b8276c",
+ "config": {
+  "max_model_len": 32768,
+  "extra_args": [],
+  "params": "0.27B",
+  "repo": "google/functiongemma-270m-it",
+  "tool_parser": "functiongemma"
+ },
+ "limit": null,
+ "startup_s": 1151,
+ "nexus.en_s": 4,
+ "nexus.cs_s": 4,
+ "jsonmode.en_s": 3,
+ "jsonmode.cs_s": 3,
+ "eurlex.en_s": 7,
+ "eurlex.cs_s": 9,
+ "minds.en_s": 3,
+ "minds.cs_s": 3,
+ "gmmlu.en_s": 3,
+ "gmmlu.cs_s": 3,
+ "ifeval.en_s": 7,
+ "ifeval.cs_s": 9,
+ "vllm": "0.31.0"
+}

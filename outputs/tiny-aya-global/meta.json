@@ -1,0 +1,27 @@
+{
+ "model": "tiny-aya-global",
+ "repo": "CohereLabs/tiny-aya-global",
+ "revision": "af89d219b53ed9b13b8a4645f9c8028973510324",
+ "config": {
+  "max_model_len": 8192,
+  "extra_args": [],
+  "params": "3.3B",
+  "repo": "CohereLabs/tiny-aya-global",
+  "tool_parser": null
+ },
+ "limit": null,
+ "startup_s": 100,
+ "nexus.en_s": 15,
+ "nexus.cs_s": 16,
+ "jsonmode.en_s": 6,
+ "jsonmode.cs_s": 8,
+ "eurlex.en_s": 46,
+ "eurlex.cs_s": 45,
+ "minds.en_s": 2,
+ "minds.cs_s": 2,
+ "gmmlu.en_s": 2,
+ "gmmlu.cs_s": 2,
+ "ifeval.en_s": 55,
+ "ifeval.cs_s": 63,
+ "vllm": "0.31.0"
+}

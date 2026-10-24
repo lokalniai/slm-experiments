@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.claude/
+.venv
+logs/
+outputs_smoke/
+results_smoke/
+outputs/*/vllm.log
+data/kimi_cache/
+viewer/site/
+*.tmp

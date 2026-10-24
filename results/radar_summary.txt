@@ -1,0 +1,13 @@
+functiongemma-270m     nexus.en=  9.4  nexus.cs=  5.0  jsonmode.en= 40.7  jsonmode.cs= 20.3  eurlex.en=  3.7  eurlex.cs=  4.0  minds.en=  6.9  minds.cs=  0.9  gmmlu.en= 20.8  gmmlu.cs= 10.2  ifeval.en= 21.4  ifeval.cs= 17.1
+granite-4.0-h-350m     nexus.en= 50.6  nexus.cs= 32.7  jsonmode.en= 94.1  jsonmode.cs= 78.8  eurlex.en= 21.2  eurlex.cs=  1.0  minds.en= 53.8  minds.cs=  4.9  gmmlu.en= 30.5  gmmlu.cs= 22.0  ifeval.en= 64.1  ifeval.cs= 36.5
+lfm2.5-350m            nexus.en= 36.8  nexus.cs= 16.4  jsonmode.en= 71.3  jsonmode.cs= 47.8  eurlex.en= 15.6  eurlex.cs=  1.0  minds.en= 70.0  minds.cs=  0.9  gmmlu.en= 42.2  gmmlu.cs= 29.2  ifeval.en= 77.8  ifeval.cs= 26.5
+qwen3.5-0.8b           nexus.en= 45.6  nexus.cs= 27.4  jsonmode.en= 94.7  jsonmode.cs= 55.9  eurlex.en= 53.0  eurlex.cs= 38.5  minds.en= 86.0  minds.cs= 88.7  gmmlu.en= 47.0  gmmlu.cs= 35.0  ifeval.en= 60.5  ifeval.cs= 38.9
+lfm2.5-1.2b            nexus.en= 34.0  nexus.cs=  9.7  jsonmode.en= 74.3  jsonmode.cs= 63.1  eurlex.en= 45.7  eurlex.cs=  1.5  minds.en= 74.1  minds.cs= 17.6  gmmlu.en= 53.2  gmmlu.cs= 26.8  ifeval.en= 86.0  ifeval.cs= 38.7
+qwen3.5-2b             nexus.en= 67.3  nexus.cs= 51.3  jsonmode.en= 95.7  jsonmode.cs= 95.5  eurlex.en= 72.0  eurlex.cs= 62.8  minds.en= 85.6  minds.cs= 87.6  gmmlu.en= 63.8  gmmlu.cs= 47.8  ifeval.en= 71.3  ifeval.cs= 51.7
+gemma-4-e2b            nexus.en= 62.0  nexus.cs= 54.7  jsonmode.en= 95.2  jsonmode.cs= 95.0  eurlex.en= 80.3  eurlex.cs= 79.3  minds.en= 94.0  minds.cs= 92.3  gmmlu.en= 58.2  gmmlu.cs= 54.2  ifeval.en= 85.0  ifeval.cs= 69.8
+smollm3-3b             nexus.en= 56.6  nexus.cs= 51.3  jsonmode.en= 90.8  jsonmode.cs= 85.9  eurlex.en= 64.5  eurlex.cs= 24.5  minds.en= 90.9  minds.cs= 70.6  gmmlu.en= 65.5  gmmlu.cs= 40.0  ifeval.en= 74.8  ifeval.cs= 48.0
+tiny-aya-global        nexus.en= 49.1  nexus.cs= 43.7  jsonmode.en= 90.0  jsonmode.cs= 92.3  eurlex.en= 48.6  eurlex.cs= 49.8  minds.en= 89.5  minds.cs= 92.0  gmmlu.en= 59.8  gmmlu.cs= 55.0  ifeval.en= 84.9  ifeval.cs= 74.5
+granite-4.2-3b         nexus.en= 33.0  nexus.cs= 19.8  jsonmode.en= 96.3  jsonmode.cs= 96.2  eurlex.en= 60.7  eurlex.cs= 50.8  minds.en= 91.3  minds.cs= 89.4  gmmlu.en= 65.2  gmmlu.cs= 46.8  ifeval.en= 82.0  ifeval.cs= 63.3
+ministral-3-3b         nexus.en= 64.5  nexus.cs= 57.2  jsonmode.en= 78.5  jsonmode.cs= 60.2  eurlex.en= 60.6  eurlex.cs= 69.5  minds.en= 92.4  minds.cs= 91.1  gmmlu.en= 70.8  gmmlu.cs= 57.8  ifeval.en= 64.0  ifeval.cs= 55.7
+nemotron-3-nano-4b     nexus.en= 54.7  nexus.cs= 37.1  jsonmode.en= 97.3  jsonmode.cs= 96.6  eurlex.en= 58.1  eurlex.cs= 32.3  minds.en= 92.4  minds.cs= 92.9  gmmlu.en= 67.2  gmmlu.cs= 49.2  ifeval.en= 88.6  ifeval.cs= 67.9
+human                  eurlex.en= 71.4  eurlex.cs= 81.0

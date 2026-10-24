@@ -1,0 +1,400 @@
+{"id": "astronomy/test/58", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 132, "completion_tokens": 8, "seconds": 0.25}
+{"id": "astronomy/test/107", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 112, "completion_tokens": 8, "seconds": 0.2}
+{"id": "business_ethics/test/10", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 166, "completion_tokens": 8, "seconds": 0.2}
+{"id": "business_ethics/test/14", "content": "Odpověď: D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 138, "completion_tokens": 8, "seconds": 0.2}
+{"id": "business_ethics/test/25", "content": "Odpovědnost pouze písmenem správné jest D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 161, "completion_tokens": 18, "seconds": 0.26}
+{"id": "business_ethics/test/27", "content": "Odpovědná správná odpověď je **B**.\n\n**Jaké jsou procesy, kterými organizace implementují environmentální cíle, zásady a odpovědnosti a zajišťují pravidelné audity a podávání zpráv?**", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 193, "completion_tokens": 65, "seconds": 0.66}
+{"id": "business_ethics/test/44", "content": "Odpovědná správná odpověď je D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 122, "completion_tokens": 15, "seconds": 0.25}
+{"id": "business_ethics/test/52", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 142, "completion_tokens": 8, "seconds": 0.2}
+{"id": "business_ethics/test/54", "content": "Odpovědná odpověď je **D**.\n\n**Explanation:**  \nThe question asks about the two theories based on the **principles of universality**, which are grounded in **universalism**, and these principles are based on **universal logic**. The correct option is **D**, as it matches the description provided.\n\n**Answer:**  \nD", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 175, "completion_tokens": 82, "seconds": 0.81}
+{"id": "business_ethics/test/57", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 171, "completion_tokens": 7, "seconds": 0.19}
+{"id": "business_ethics/test/65", "content": "Odpovědná odpověď: **D**.\n\n**Explanation:**  \nThe question asks about the factors influencing the product's meaning, production process, and profitability. Among the options:  \n- **A, B, C** are vague and do not directly address any of the three key elements.  \n- **C** includes \"globální produkční sítě\" (global product), which is a specific type of product, but the question focuses on the broader factors.  \n- **D** explicitly includes \"Redesign\" (a common process in product development) and \"Profit\" (a core financial metric), making it the most comprehensive and relevant choice.  \n\nThus, **D** best captures the essence of the question.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 187, "completion_tokens": 156, "seconds": 1.0}
+{"id": "business_ethics/test/72", "content": "Odpověď: D\n\nExplanation:\n\n* **Snižováním** (A) - Snížováním je zvyšováním.\n* **Zainteresovanost** (B) - Zainteresovanost je druhá.\n* **Autonomie** (C) - Autonomie je benefitity.\n* **Kompenzace** (D) - Kompenzace je zbenefity.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 253, "completion_tokens": 94, "seconds": 0.9}
+{"id": "business_ethics/test/74", "content": "Odpovědná myslka je D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 148, "completion_tokens": 12, "seconds": 0.24}
+{"id": "business_ethics/test/75", "content": "Odpověď: **D**.\n\n**Explanation:**  \nThe question asks about the types of transactions that require a hryptý majetek (a type of investment). Among the options, **D** corresponds to this category, as it emphasizes \"jistý\" (certain), \"zajištěný\" (transaction), and \"hmotný\" (many) in the context of financial products. The other options either focus on speculative activities (A) or do not align with the typical structure of such questions.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 230, "completion_tokens": 113, "seconds": 0.93}
+{"id": "business_ethics/test/83", "content": "Odpověď: D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 186, "completion_tokens": 8, "seconds": 0.19}
+{"id": "business_ethics/test/85", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 182, "completion_tokens": 8, "seconds": 0.19}
+{"id": "business_ethics/test/86", "content": "Odpověď: C\n\nA", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 319, "completion_tokens": 9, "seconds": 0.21}
+{"id": "business_ethics/test/98", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 227, "completion_tokens": 7, "seconds": 0.19}
+{"id": "college_biology/test/80", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 160, "completion_tokens": 8, "seconds": 0.19}
+{"id": "college_biology/test/138", "content": "Odpověď: B.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 160, "completion_tokens": 8, "seconds": 0.19}
+{"id": "college_chemistry/test/20", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 107, "completion_tokens": 8, "seconds": 0.2}
+{"id": "college_chemistry/test/22", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 185, "completion_tokens": 8, "seconds": 0.19}
+{"id": "college_mathematics/test/6", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 226, "completion_tokens": 7, "seconds": 0.19}
+{"id": "college_mathematics/test/48", "content": "Pouze (B)", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 161, "completion_tokens": 7, "seconds": 0.19}
+{"id": "college_medicine/test/124", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 130, "completion_tokens": 8, "seconds": 0.19}
+{"id": "college_medicine/test/143", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 197, "completion_tokens": 8, "seconds": 0.19}
+{"id": "electrical_engineering/test/22", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 142, "completion_tokens": 8, "seconds": 0.19}
+{"id": "electrical_engineering/test/73", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 97, "completion_tokens": 8, "seconds": 0.19}
+{"id": "electrical_engineering/test/78", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 114, "completion_tokens": 7, "seconds": 0.19}
+{"id": "electrical_engineering/test/108", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 109, "completion_tokens": 8, "seconds": 0.2}
+{"id": "elementary_mathematics/test/8", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 103, "completion_tokens": 8, "seconds": 0.2}
+{"id": "elementary_mathematics/test/18", "content": "Odpověď: B.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 120, "completion_tokens": 8, "seconds": 0.2}
+{"id": "elementary_mathematics/test/99", "content": "Mözenspo písmenem správné možnosti (A, B, C) jsou:\n\nD", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 135, "completion_tokens": 25, "seconds": 0.32}
+{"id": "elementary_mathematics/test/126", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 113, "completion_tokens": 8, "seconds": 0.19}
+{"id": "elementary_mathematics/test/132", "content": "Odpověď: D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 105, "completion_tokens": 8, "seconds": 0.19}
+{"id": "elementary_mathematics/test/267", "content": "Odpověď: C", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 93, "completion_tokens": 7, "seconds": 0.19}
+{"id": "elementary_mathematics/test/298", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 117, "completion_tokens": 8, "seconds": 0.19}
+{"id": "elementary_mathematics/test/326", "content": "C", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 191, "completion_tokens": 2, "seconds": 0.14}
+{"id": "global_facts/test/7", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 193, "completion_tokens": 8, "seconds": 0.19}
+{"id": "global_facts/test/9", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 109, "completion_tokens": 8, "seconds": 0.19}
+{"id": "global_facts/test/11", "content": "Odpověď: D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 117, "completion_tokens": 8, "seconds": 0.19}
+{"id": "global_facts/test/13", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 133, "completion_tokens": 8, "seconds": 0.19}
+{"id": "global_facts/test/14", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 100, "completion_tokens": 8, "seconds": 0.19}
+{"id": "global_facts/test/24", "content": "Odpověď: C", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 276, "completion_tokens": 7, "seconds": 0.19}
+{"id": "global_facts/test/57", "content": "Odpověď: D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 108, "completion_tokens": 8, "seconds": 0.19}
+{"id": "global_facts/test/59", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 248, "completion_tokens": 8, "seconds": 0.19}
+{"id": "global_facts/test/60", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 118, "completion_tokens": 8, "seconds": 0.19}
+{"id": "global_facts/test/70", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 124, "completion_tokens": 8, "seconds": 0.21}
+{"id": "global_facts/test/75", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 126, "completion_tokens": 8, "seconds": 0.21}
+{"id": "global_facts/test/77", "content": "Odpověď: B.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 111, "completion_tokens": 8, "seconds": 0.21}
+{"id": "global_facts/test/95", "content": "Odbědu pouze písmenem správné možnosti (A, B, C) nebo D.\n\nA", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 111, "completion_tokens": 28, "seconds": 0.35}
+{"id": "global_facts/test/96", "content": "Odpověď: C", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 234, "completion_tokens": 7, "seconds": 0.19}
+{"id": "high_school_chemistry/test/82", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 357, "completion_tokens": 7, "seconds": 0.21}
+{"id": "high_school_chemistry/test/98", "content": "Odpověď: C", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 188, "completion_tokens": 7, "seconds": 0.18}
+{"id": "high_school_computer_science/test/17", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 270, "completion_tokens": 7, "seconds": 0.18}
+{"id": "high_school_computer_science/test/54", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 349, "completion_tokens": 2, "seconds": 0.14}
+{"id": "high_school_european_history/test/9", "content": "B", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 438, "completion_tokens": 2, "seconds": 0.14}
+{"id": "high_school_european_history/test/11", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 538, "completion_tokens": 7, "seconds": 0.21}
+{"id": "high_school_european_history/test/30", "content": "Pozdespočku pouze písmenem správné možnosti (A).", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 855, "completion_tokens": 21, "seconds": 0.29}
+{"id": "high_school_european_history/test/37", "content": "Pouze", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 906, "completion_tokens": 4, "seconds": 0.18}
+{"id": "high_school_european_history/test/43", "content": "Odpověď: C", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 372, "completion_tokens": 7, "seconds": 0.2}
+{"id": "high_school_european_history/test/55", "content": "Odpověď: D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 503, "completion_tokens": 8, "seconds": 0.21}
+{"id": "high_school_european_history/test/66", "content": "Pozduch: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 864, "completion_tokens": 7, "seconds": 0.2}
+{"id": "high_school_european_history/test/93", "content": "Odpověď: C", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 348, "completion_tokens": 7, "seconds": 0.21}
+{"id": "high_school_european_history/test/122", "content": "Odpověď: B.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 370, "completion_tokens": 8, "seconds": 0.09}
+{"id": "high_school_european_history/test/138", "content": "Ktorý národ v roce 1848 experimentoval s využitím myšlenek Fouriera a jemu podobných k vytvoření národních dílen?\n\n—Charles Fourier, O vzdělání, 1838", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 600, "completion_tokens": 53, "seconds": 0.48}
+{"id": "high_school_geography/test/27", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 159, "completion_tokens": 8, "seconds": 0.1}
+{"id": "high_school_geography/test/60", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 120, "completion_tokens": 8, "seconds": 0.11}
+{"id": "high_school_geography/test/61", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 138, "completion_tokens": 8, "seconds": 0.11}
+{"id": "high_school_geography/test/92", "content": "Odpověď: D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 110, "completion_tokens": 8, "seconds": 0.11}
+{"id": "high_school_geography/test/98", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 129, "completion_tokens": 8, "seconds": 0.11}
+{"id": "high_school_geography/test/102", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 141, "completion_tokens": 8, "seconds": 0.11}
+{"id": "high_school_geography/test/124", "content": "Odpověď: B.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 148, "completion_tokens": 8, "seconds": 0.12}
+{"id": "high_school_geography/test/125", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 145, "completion_tokens": 7, "seconds": 0.1}
+{"id": "high_school_geography/test/145", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 127, "completion_tokens": 8, "seconds": 0.11}
+{"id": "high_school_geography/test/148", "content": "Odpověď: C", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 130, "completion_tokens": 7, "seconds": 0.11}
+{"id": "high_school_geography/test/150", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 92, "completion_tokens": 8, "seconds": 0.11}
+{"id": "high_school_geography/test/152", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 106, "completion_tokens": 8, "seconds": 0.12}
+{"id": "high_school_government_and_politics/test/81", "content": "Odpověď: B.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 169, "completion_tokens": 8, "seconds": 0.11}
+{"id": "high_school_government_and_politics/test/131", "content": "Odpověď: C", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 123, "completion_tokens": 7, "seconds": 0.11}
+{"id": "high_school_government_and_politics/test/159", "content": "Odpověď: B", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 167, "completion_tokens": 7, "seconds": 0.1}
+{"id": "high_school_government_and_politics/test/173", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 233, "completion_tokens": 7, "seconds": 0.1}
+{"id": "high_school_macroeconomics/test/17", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 275, "completion_tokens": 7, "seconds": 0.1}
+{"id": "high_school_macroeconomics/test/18", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 127, "completion_tokens": 7, "seconds": 0.11}
+{"id": "high_school_macroeconomics/test/43", "content": "Odpověď: D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 197, "completion_tokens": 8, "seconds": 0.12}
+{"id": "high_school_macroeconomics/test/133", "content": "Odpověď: B.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 148, "completion_tokens": 8, "seconds": 0.12}
+{"id": "high_school_macroeconomics/test/185", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 170, "completion_tokens": 7, "seconds": 0.12}
+{"id": "high_school_macroeconomics/test/210", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 149, "completion_tokens": 8, "seconds": 0.13}
+{"id": "high_school_macroeconomics/test/266", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 140, "completion_tokens": 8, "seconds": 0.13}
+{"id": "high_school_macroeconomics/test/298", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 162, "completion_tokens": 8, "seconds": 0.13}
+{"id": "high_school_macroeconomics/test/313", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 166, "completion_tokens": 8, "seconds": 0.13}
+{"id": "high_school_macroeconomics/test/365", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 163, "completion_tokens": 7, "seconds": 0.12}
+{"id": "high_school_mathematics/test/122", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 175, "completion_tokens": 8, "seconds": 0.13}
+{"id": "high_school_mathematics/test/145", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 120, "completion_tokens": 8, "seconds": 0.13}
+{"id": "high_school_microeconomics/test/139", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 122, "completion_tokens": 8, "seconds": 0.13}
+{"id": "high_school_microeconomics/test/169", "content": "Odpověď: D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 183, "completion_tokens": 8, "seconds": 0.13}
+{"id": "high_school_physics/test/10", "content": "Odpověď: D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 290, "completion_tokens": 8, "seconds": 0.13}
+{"id": "high_school_physics/test/12", "content": "Odpověď: C", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 347, "completion_tokens": 7, "seconds": 0.12}
+{"id": "high_school_physics/test/16", "content": "Odpověď: **D**\n\n**Explanation:**  \nThe magnetic moment of an electron is given by \\( \\mu = g \\mu_B \\cdot m_e \\), where \\( \\mu_B \\) is the Bohr magneton and \\( m_e \\) is the electron mass. The Bohr magneton \\( \\mu_B \\) is \\( 9.274 \\times 10^{-24} \\, \\text{J/T} \\), and the electron mass \\( m_e \\) is \\( 9.109 \\times 10^{-31} \\, \\text{kg} \\).  \n\nThe magnetic moment \\( \\mu \\) is:  \n\\[\n\\mu = (9.274 \\times 10^{-24}) \\cdot (9.109 \\times 10^{-31}) \\approx 8.20 \\times 10^{-55} \\, \\text{kg} \\cdot \\text{T}^2.\n\\]  \n\nThe radius \\( r \\) of the electron in the magnetic field \\( B \\) is:  \n\\[\nr = \\frac{\\mu}{g \\mu_B} = \\frac{8.20 \\times 10^{-55}}{(9.274 \\times 10^{-24})(9.", "tool_calls": [], "finish_reason": "length", "prompt_tokens": 152, "completion_tokens": 256, "seconds": 0.95}
+{"id": "high_school_physics/test/55", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 145, "completion_tokens": 8, "seconds": 0.13}
+{"id": "high_school_physics/test/72", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 209, "completion_tokens": 8, "seconds": 0.13}
+{"id": "high_school_physics/test/79", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 140, "completion_tokens": 8, "seconds": 0.13}
+{"id": "high_school_physics/test/85", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 157, "completion_tokens": 8, "seconds": 0.13}
+{"id": "high_school_physics/test/88", "content": "Odpověď: B.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 161, "completion_tokens": 8, "seconds": 0.13}
+{"id": "high_school_physics/test/105", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 229, "completion_tokens": 8, "seconds": 0.13}
+{"id": "high_school_physics/test/119", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 179, "completion_tokens": 8, "seconds": 0.13}
+{"id": "high_school_physics/test/140", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 181, "completion_tokens": 8, "seconds": 0.13}
+{"id": "high_school_physics/test/147", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 259, "completion_tokens": 7, "seconds": 0.12}
+{"id": "high_school_psychology/test/82", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 137, "completion_tokens": 2, "seconds": 0.08}
+{"id": "high_school_psychology/test/168", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 160, "completion_tokens": 8, "seconds": 0.12}
+{"id": "high_school_psychology/test/238", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 360, "completion_tokens": 7, "seconds": 0.13}
+{"id": "high_school_psychology/test/281", "content": "Odpověď: D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 220, "completion_tokens": 8, "seconds": 0.14}
+{"id": "high_school_psychology/test/309", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 142, "completion_tokens": 7, "seconds": 0.12}
+{"id": "high_school_psychology/test/314", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 119, "completion_tokens": 8, "seconds": 0.13}
+{"id": "high_school_psychology/test/404", "content": "Odpověď: A.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 132, "completion_tokens": 8, "seconds": 0.13}
+{"id": "high_school_psychology/test/419", "content": "Odpověď: C", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 346, "completion_tokens": 7, "seconds": 0.12}
+{"id": "high_school_psychology/test/496", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 103, "completion_tokens": 8, "seconds": 0.14}
+{"id": "high_school_psychology/test/501", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 115, "completion_tokens": 7, "seconds": 0.12}
+{"id": "high_school_statistics/test/15", "content": "Odpověď: D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 159, "completion_tokens": 8, "seconds": 0.13}
+{"id": "high_school_statistics/test/25", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 221, "completion_tokens": 2, "seconds": 0.08}
+{"id": "high_school_statistics/test/33", "content": "Odpověď: B", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 316, "completion_tokens": 7, "seconds": 0.11}
+{"id": "high_school_statistics/test/63", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 354, "completion_tokens": 7, "seconds": 0.1}
+{"id": "high_school_statistics/test/107", "content": "Odpověď: **C**.\n\n**Explanation:**  \n- 96% psů skutečně dirofilariózu (A)  \n- 98% psů skutečně dirofilariózu (B)  \n- 10% psů skutečně dirofilárie vyskytuje (D)  \n- Překladní nález dirofilárie (C) je pravděpodobně 10% (D)  \n\nDodatky: **C**", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 214, "completion_tokens": 118, "seconds": 0.69}
+{"id": "high_school_statistics/test/124", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 249, "completion_tokens": 8, "seconds": 0.09}
+{"id": "high_school_statistics/test/158", "content": "Směrodatná odchylka = 10 476 - 48 815 = 13 761 dolarů.\n\nPouze odpověď: D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 166, "completion_tokens": 39, "seconds": 0.36}
+{"id": "high_school_statistics/test/191", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 123, "completion_tokens": 8, "seconds": 0.13}
+{"id": "high_school_us_history/test/8", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 506, "completion_tokens": 7, "seconds": 0.12}
+{"id": "high_school_us_history/test/10", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 492, "completion_tokens": 8, "seconds": 0.13}
+{"id": "high_school_us_history/test/13", "content": "Odpověď: D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 594, "completion_tokens": 8, "seconds": 0.12}
+{"id": "high_school_us_history/test/17", "content": "Odpovědzie pouze písmenem správné možnosti D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 542, "completion_tokens": 19, "seconds": 0.22}
+{"id": "high_school_us_history/test/88", "content": "Odpověď: D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 547, "completion_tokens": 8, "seconds": 0.13}
+{"id": "high_school_us_history/test/89", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 592, "completion_tokens": 2, "seconds": 0.08}
+{"id": "high_school_us_history/test/115", "content": "Odpověď: A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 747, "completion_tokens": 7, "seconds": 0.13}
+{"id": "high_school_us_history/test/123", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 596, "completion_tokens": 7, "seconds": 0.12}
+{"id": "high_school_us_history/test/130", "content": "Odpověď: D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 582, "completion_tokens": 8, "seconds": 0.14}
+{"id": "high_school_us_history/test/187", "content": "Odpovědzie pouze písmenem správné možnosti D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 536, "completion_tokens": 19, "seconds": 0.22}
+{"id": "high_school_world_history/test/33", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 368, "completion_tokens": 2, "seconds": 0.07}
+{"id": "high_school_world_history/test/58", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 576, "completion_tokens": 7, "seconds": 0.12}
+{"id": "high_school_world_history/test/67", "content": "Odpověď: D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 539, "completion_tokens": 8, "seconds": 0.14}
+{"id": "high_school_world_history/test/87", "content": "Odpověď: B.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 654, "completion_tokens": 8, "seconds": 0.13}
+{"id": "high_school_world_history/test/93", "content": "Ralph Fitch, zpráva o jeho cestach na Dálný východ, 1599 n.l.\n\nD", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 568, "completion_tokens": 30, "seconds": 0.31}
+{"id": "high_school_world_history/test/115", "content": "Odpověď: A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 229, "completion_tokens": 7, "seconds": 0.13}
+{"id": "high_school_world_history/test/145", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 350, "completion_tokens": 7, "seconds": 0.13}
+{"id": "high_school_world_history/test/157", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 411, "completion_tokens": 7, "seconds": 0.13}
+{"id": "high_school_world_history/test/187", "content": "Odpověď: D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 557, "completion_tokens": 8, "seconds": 0.13}
+{"id": "high_school_world_history/test/225", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 628, "completion_tokens": 7, "seconds": 0.12}
+{"id": "human_aging/test/21", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 112, "completion_tokens": 8, "seconds": 0.12}
+{"id": "human_aging/test/26", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 139, "completion_tokens": 7, "seconds": 0.13}
+{"id": "human_aging/test/56", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 134, "completion_tokens": 7, "seconds": 0.12}
+{"id": "human_aging/test/59", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 180, "completion_tokens": 7, "seconds": 0.12}
+{"id": "human_aging/test/107", "content": "Odpověď: B.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 110, "completion_tokens": 8, "seconds": 0.13}
+{"id": "human_aging/test/114", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 149, "completion_tokens": 8, "seconds": 0.12}
+{"id": "human_aging/test/121", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 105, "completion_tokens": 8, "seconds": 0.13}
+{"id": "human_aging/test/123", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 146, "completion_tokens": 8, "seconds": 0.12}
+{"id": "human_aging/test/148", "content": "Odpověď: C", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 137, "completion_tokens": 7, "seconds": 0.12}
+{"id": "human_aging/test/155", "content": "Odpovědná pořádka: D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 167, "completion_tokens": 13, "seconds": 0.16}
+{"id": "human_aging/test/167", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 165, "completion_tokens": 7, "seconds": 0.11}
+{"id": "human_aging/test/173", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 190, "completion_tokens": 7, "seconds": 0.11}
+{"id": "human_aging/test/181", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 113, "completion_tokens": 8, "seconds": 0.12}
+{"id": "human_aging/test/186", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 131, "completion_tokens": 8, "seconds": 0.12}
+{"id": "human_aging/test/196", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 130, "completion_tokens": 8, "seconds": 0.12}
+{"id": "human_aging/test/201", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 133, "completion_tokens": 8, "seconds": 0.12}
+{"id": "human_sexuality/test/9", "content": "Odpověď: B.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 116, "completion_tokens": 8, "seconds": 0.12}
+{"id": "human_sexuality/test/13", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 147, "completion_tokens": 8, "seconds": 0.12}
+{"id": "human_sexuality/test/23", "content": "Odpověď: D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 163, "completion_tokens": 8, "seconds": 0.12}
+{"id": "human_sexuality/test/24", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 212, "completion_tokens": 8, "seconds": 0.12}
+{"id": "human_sexuality/test/74", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 229, "completion_tokens": 7, "seconds": 0.11}
+{"id": "human_sexuality/test/101", "content": "Odpověď: C", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 131, "completion_tokens": 7, "seconds": 0.11}
+{"id": "human_sexuality/test/104", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 120, "completion_tokens": 7, "seconds": 0.11}
+{"id": "human_sexuality/test/106", "content": "Póze správné možnosti (A)", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 173, "completion_tokens": 12, "seconds": 0.15}
+{"id": "human_sexuality/test/107", "content": "Odpověď: B.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 137, "completion_tokens": 8, "seconds": 0.12}
+{"id": "human_sexuality/test/128", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 165, "completion_tokens": 7, "seconds": 0.11}
+{"id": "international_law/test/7", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 218, "completion_tokens": 8, "seconds": 0.12}
+{"id": "international_law/test/17", "content": "Póze správné možnosti to D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 195, "completion_tokens": 12, "seconds": 0.15}
+{"id": "international_law/test/19", "content": "Odpověď: C", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 292, "completion_tokens": 7, "seconds": 0.12}
+{"id": "international_law/test/42", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 217, "completion_tokens": 7, "seconds": 0.12}
+{"id": "international_law/test/50", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 165, "completion_tokens": 8, "seconds": 0.12}
+{"id": "international_law/test/51", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 187, "completion_tokens": 8, "seconds": 0.12}
+{"id": "international_law/test/63", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 278, "completion_tokens": 8, "seconds": 0.12}
+{"id": "international_law/test/76", "content": "Odpovědzie pouze písmenem správné jest D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 225, "completion_tokens": 18, "seconds": 0.19}
+{"id": "international_law/test/100", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 275, "completion_tokens": 7, "seconds": 0.11}
+{"id": "international_law/test/110", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 206, "completion_tokens": 8, "seconds": 0.11}
+{"id": "jurisprudence/test/7", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 161, "completion_tokens": 8, "seconds": 0.09}
+{"id": "jurisprudence/test/10", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 105, "completion_tokens": 8, "seconds": 0.09}
+{"id": "jurisprudence/test/33", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 181, "completion_tokens": 8, "seconds": 0.1}
+{"id": "jurisprudence/test/40", "content": "Odpověď: D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 185, "completion_tokens": 8, "seconds": 0.1}
+{"id": "jurisprudence/test/42", "content": "Odpověď: B.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 105, "completion_tokens": 8, "seconds": 0.1}
+{"id": "jurisprudence/test/62", "content": "Odpověď: C", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 136, "completion_tokens": 7, "seconds": 0.09}
+{"id": "jurisprudence/test/69", "content": "Odpověď: D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 161, "completion_tokens": 8, "seconds": 0.1}
+{"id": "jurisprudence/test/73", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 150, "completion_tokens": 8, "seconds": 0.1}
+{"id": "jurisprudence/test/81", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 167, "completion_tokens": 8, "seconds": 0.09}
+{"id": "jurisprudence/test/101", "content": "Odpověď: D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 161, "completion_tokens": 8, "seconds": 0.1}
+{"id": "logical_fallacies/test/23", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 207, "completion_tokens": 7, "seconds": 0.09}
+{"id": "logical_fallacies/test/32", "content": "Odpovědná požadava: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 153, "completion_tokens": 12, "seconds": 0.14}
+{"id": "logical_fallacies/test/34", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 108, "completion_tokens": 8, "seconds": 0.1}
+{"id": "logical_fallacies/test/53", "content": "Odpovědná požadavka správná je D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 146, "completion_tokens": 17, "seconds": 0.17}
+{"id": "logical_fallacies/test/68", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 153, "completion_tokens": 8, "seconds": 0.1}
+{"id": "logical_fallacies/test/90", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 148, "completion_tokens": 7, "seconds": 0.09}
+{"id": "logical_fallacies/test/130", "content": "Odpověď: C", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 148, "completion_tokens": 7, "seconds": 0.1}
+{"id": "logical_fallacies/test/134", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 119, "completion_tokens": 8, "seconds": 0.1}
+{"id": "logical_fallacies/test/138", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 143, "completion_tokens": 8, "seconds": 0.1}
+{"id": "logical_fallacies/test/156", "content": "Odpověď: B.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 178, "completion_tokens": 8, "seconds": 0.1}
+{"id": "management/test/5", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 117, "completion_tokens": 8, "seconds": 0.1}
+{"id": "management/test/6", "content": "Odpověď: B.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 162, "completion_tokens": 8, "seconds": 0.1}
+{"id": "management/test/7", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 106, "completion_tokens": 8, "seconds": 0.1}
+{"id": "management/test/9", "content": "Odpověď: B.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 99, "completion_tokens": 8, "seconds": 0.11}
+{"id": "management/test/11", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 103, "completion_tokens": 8, "seconds": 0.11}
+{"id": "management/test/12", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 108, "completion_tokens": 8, "seconds": 0.11}
+{"id": "management/test/26", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 94, "completion_tokens": 8, "seconds": 0.11}
+{"id": "management/test/49", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 117, "completion_tokens": 8, "seconds": 0.11}
+{"id": "management/test/52", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 106, "completion_tokens": 8, "seconds": 0.11}
+{"id": "management/test/59", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 96, "completion_tokens": 7, "seconds": 0.08}
+{"id": "management/test/63", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 136, "completion_tokens": 8, "seconds": 0.11}
+{"id": "management/test/70", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 105, "completion_tokens": 8, "seconds": 0.11}
+{"id": "management/test/79", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 129, "completion_tokens": 8, "seconds": 0.1}
+{"id": "management/test/86", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 98, "completion_tokens": 8, "seconds": 0.11}
+{"id": "management/test/96", "content": "Odpověď: D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 138, "completion_tokens": 8, "seconds": 0.11}
+{"id": "management/test/98", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 161, "completion_tokens": 8, "seconds": 0.11}
+{"id": "marketing/test/4", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 252, "completion_tokens": 7, "seconds": 0.1}
+{"id": "marketing/test/33", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 157, "completion_tokens": 7, "seconds": 0.1}
+{"id": "marketing/test/34", "content": "Odpovědná požadavka je D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 114, "completion_tokens": 14, "seconds": 0.15}
+{"id": "marketing/test/65", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 146, "completion_tokens": 8, "seconds": 0.11}
+{"id": "marketing/test/99", "content": "Odpověď: B.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 191, "completion_tokens": 8, "seconds": 0.1}
+{"id": "marketing/test/132", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 127, "completion_tokens": 7, "seconds": 0.09}
+{"id": "marketing/test/141", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 111, "completion_tokens": 8, "seconds": 0.1}
+{"id": "marketing/test/149", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 139, "completion_tokens": 8, "seconds": 0.1}
+{"id": "marketing/test/173", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 116, "completion_tokens": 8, "seconds": 0.1}
+{"id": "marketing/test/184", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 135, "completion_tokens": 8, "seconds": 0.11}
+{"id": "miscellaneous/test/3", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 108, "completion_tokens": 8, "seconds": 0.11}
+{"id": "miscellaneous/test/15", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 105, "completion_tokens": 8, "seconds": 0.11}
+{"id": "miscellaneous/test/26", "content": "Odpověď: B.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 92, "completion_tokens": 8, "seconds": 0.1}
+{"id": "miscellaneous/test/39", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 139, "completion_tokens": 8, "seconds": 0.09}
+{"id": "miscellaneous/test/45", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 151, "completion_tokens": 7, "seconds": 0.09}
+{"id": "miscellaneous/test/51", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 109, "completion_tokens": 8, "seconds": 0.09}
+{"id": "miscellaneous/test/92", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 106, "completion_tokens": 8, "seconds": 0.09}
+{"id": "miscellaneous/test/173", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 153, "completion_tokens": 8, "seconds": 0.1}
+{"id": "miscellaneous/test/174", "content": "Odpověď: D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 117, "completion_tokens": 8, "seconds": 0.11}
+{"id": "miscellaneous/test/210", "content": "Odpověď: A.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 111, "completion_tokens": 8, "seconds": 0.11}
+{"id": "miscellaneous/test/217", "content": "Nývůdajme: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 225, "completion_tokens": 10, "seconds": 0.13}
+{"id": "miscellaneous/test/219", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 93, "completion_tokens": 8, "seconds": 0.11}
+{"id": "miscellaneous/test/268", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 109, "completion_tokens": 8, "seconds": 0.1}
+{"id": "miscellaneous/test/269", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 223, "completion_tokens": 7, "seconds": 0.09}
+{"id": "miscellaneous/test/271", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 104, "completion_tokens": 8, "seconds": 0.1}
+{"id": "miscellaneous/test/287", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 129, "completion_tokens": 8, "seconds": 0.1}
+{"id": "miscellaneous/test/309", "content": "Pouze", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 159, "completion_tokens": 4, "seconds": 0.07}
+{"id": "miscellaneous/test/322", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 107, "completion_tokens": 8, "seconds": 0.1}
+{"id": "miscellaneous/test/367", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 97, "completion_tokens": 8, "seconds": 0.1}
+{"id": "miscellaneous/test/430", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 116, "completion_tokens": 8, "seconds": 0.1}
+{"id": "miscellaneous/test/460", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 97, "completion_tokens": 8, "seconds": 0.1}
+{"id": "miscellaneous/test/469", "content": "Odpověď: D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 114, "completion_tokens": 8, "seconds": 0.1}
+{"id": "miscellaneous/test/473", "content": "Odepověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 262, "completion_tokens": 8, "seconds": 0.1}
+{"id": "miscellaneous/test/498", "content": "Odpověď: B.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 108, "completion_tokens": 8, "seconds": 0.09}
+{"id": "miscellaneous/test/504", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 110, "completion_tokens": 8, "seconds": 0.11}
+{"id": "miscellaneous/test/550", "content": "Odpověď: C", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 183, "completion_tokens": 7, "seconds": 0.11}
+{"id": "miscellaneous/test/570", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 238, "completion_tokens": 7, "seconds": 0.1}
+{"id": "miscellaneous/test/577", "content": "Odpověď: B.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 148, "completion_tokens": 8, "seconds": 0.11}
+{"id": "miscellaneous/test/579", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 146, "completion_tokens": 8, "seconds": 0.11}
+{"id": "miscellaneous/test/602", "content": "Odpověď: D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 177, "completion_tokens": 8, "seconds": 0.11}
+{"id": "miscellaneous/test/612", "content": "Odpověď: A.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 110, "completion_tokens": 8, "seconds": 0.11}
+{"id": "miscellaneous/test/624", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 110, "completion_tokens": 8, "seconds": 0.11}
+{"id": "miscellaneous/test/627", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 109, "completion_tokens": 7, "seconds": 0.1}
+{"id": "miscellaneous/test/629", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 114, "completion_tokens": 8, "seconds": 0.11}
+{"id": "miscellaneous/test/641", "content": "Pat Conroy která z následujících možností nejlépe popisuje organizaci pasáže?\n\nD", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 419, "completion_tokens": 28, "seconds": 0.29}
+{"id": "miscellaneous/test/647", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 117, "completion_tokens": 8, "seconds": 0.11}
+{"id": "miscellaneous/test/648", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 113, "completion_tokens": 8, "seconds": 0.11}
+{"id": "miscellaneous/test/662", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 107, "completion_tokens": 8, "seconds": 0.11}
+{"id": "miscellaneous/test/668", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 98, "completion_tokens": 8, "seconds": 0.11}
+{"id": "miscellaneous/test/708", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 104, "completion_tokens": 8, "seconds": 0.11}
+{"id": "miscellaneous/test/755", "content": "Odpověď: B.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 101, "completion_tokens": 8, "seconds": 0.12}
+{"id": "miscellaneous/test/760", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 116, "completion_tokens": 8, "seconds": 0.11}
+{"id": "moral_disputes/test/14", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 116, "completion_tokens": 8, "seconds": 0.12}
+{"id": "moral_disputes/test/30", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 160, "completion_tokens": 8, "seconds": 0.11}
+{"id": "moral_disputes/test/48", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 177, "completion_tokens": 7, "seconds": 0.11}
+{"id": "moral_disputes/test/60", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 136, "completion_tokens": 8, "seconds": 0.12}
+{"id": "moral_disputes/test/153", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 171, "completion_tokens": 8, "seconds": 0.12}
+{"id": "moral_disputes/test/162", "content": "Působní správné odpověď je D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 202, "completion_tokens": 15, "seconds": 0.18}
+{"id": "moral_disputes/test/182", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 125, "completion_tokens": 8, "seconds": 0.12}
+{"id": "moral_disputes/test/221", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 196, "completion_tokens": 8, "seconds": 0.13}
+{"id": "moral_disputes/test/285", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 174, "completion_tokens": 7, "seconds": 0.12}
+{"id": "moral_disputes/test/321", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 174, "completion_tokens": 8, "seconds": 0.13}
+{"id": "nutrition/test/14", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 302, "completion_tokens": 7, "seconds": 0.11}
+{"id": "nutrition/test/19", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 125, "completion_tokens": 8, "seconds": 0.12}
+{"id": "nutrition/test/88", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 115, "completion_tokens": 8, "seconds": 0.12}
+{"id": "nutrition/test/140", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 138, "completion_tokens": 7, "seconds": 0.11}
+{"id": "nutrition/test/209", "content": "Odpověď: C", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 168, "completion_tokens": 7, "seconds": 0.11}
+{"id": "nutrition/test/223", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 193, "completion_tokens": 7, "seconds": 0.12}
+{"id": "nutrition/test/243", "content": "Odpověď: B.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 149, "completion_tokens": 8, "seconds": 0.12}
+{"id": "nutrition/test/252", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 261, "completion_tokens": 7, "seconds": 0.12}
+{"id": "philosophy/test/26", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 274, "completion_tokens": 7, "seconds": 0.1}
+{"id": "philosophy/test/42", "content": "Odpověď: D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 176, "completion_tokens": 8, "seconds": 0.1}
+{"id": "philosophy/test/45", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 131, "completion_tokens": 8, "seconds": 0.11}
+{"id": "philosophy/test/128", "content": "Odpověď: B.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 121, "completion_tokens": 8, "seconds": 0.11}
+{"id": "philosophy/test/138", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 137, "completion_tokens": 7, "seconds": 0.1}
+{"id": "philosophy/test/139", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 155, "completion_tokens": 7, "seconds": 0.11}
+{"id": "philosophy/test/163", "content": "Mobiny správné možnosti są D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 148, "completion_tokens": 12, "seconds": 0.15}
+{"id": "philosophy/test/194", "content": "Odpověď: B.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 118, "completion_tokens": 8, "seconds": 0.11}
+{"id": "philosophy/test/263", "content": "Odpověď: B.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 123, "completion_tokens": 8, "seconds": 0.11}
+{"id": "philosophy/test/277", "content": "Odpověď: D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 137, "completion_tokens": 8, "seconds": 0.11}
+{"id": "philosophy/test/290", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 169, "completion_tokens": 8, "seconds": 0.11}
+{"id": "philosophy/test/305", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 183, "completion_tokens": 8, "seconds": 0.11}
+{"id": "prehistory/test/63", "content": "Odpověď: B.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 119, "completion_tokens": 8, "seconds": 0.11}
+{"id": "prehistory/test/80", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 141, "completion_tokens": 8, "seconds": 0.11}
+{"id": "prehistory/test/182", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 138, "completion_tokens": 8, "seconds": 0.11}
+{"id": "prehistory/test/187", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 262, "completion_tokens": 7, "seconds": 0.1}
+{"id": "prehistory/test/195", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 303, "completion_tokens": 7, "seconds": 0.1}
+{"id": "prehistory/test/211", "content": "Odpověď: C", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 235, "completion_tokens": 7, "seconds": 0.1}
+{"id": "prehistory/test/255", "content": "Odpověď: D\n\nExplanation: The question provides a sequence of events and names, and the correct answer is the one that fits the most logically. The sequence mentions the formation of an island (Jáva), the spread of Austrashlavy, Novou Guineu, and Tasmánii, which are all part of the Wallacea biogeographic region. The correct answer is therefore:\n\nD. Sunda; Sahul", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 147, "completion_tokens": 97, "seconds": 0.35}
+{"id": "prehistory/test/261", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 100, "completion_tokens": 8, "seconds": 0.11}
+{"id": "prehistory/test/265", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 163, "completion_tokens": 8, "seconds": 0.11}
+{"id": "prehistory/test/285", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 142, "completion_tokens": 7, "seconds": 0.1}
+{"id": "professional_accounting/test/18", "content": "Odpověď: C", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 317, "completion_tokens": 7, "seconds": 0.09}
+{"id": "professional_accounting/test/24", "content": "Odpověď: A", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 381, "completion_tokens": 7, "seconds": 0.09}
+{"id": "professional_accounting/test/36", "content": "Odpověď: C", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 249, "completion_tokens": 7, "seconds": 0.1}
+{"id": "professional_accounting/test/84", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 186, "completion_tokens": 8, "seconds": 0.11}
+{"id": "professional_accounting/test/106", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 232, "completion_tokens": 7, "seconds": 0.1}
+{"id": "professional_accounting/test/127", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 196, "completion_tokens": 8, "seconds": 0.12}
+{"id": "professional_accounting/test/142", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 238, "completion_tokens": 7, "seconds": 0.11}
+{"id": "professional_accounting/test/151", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 143, "completion_tokens": 8, "seconds": 0.12}
+{"id": "professional_accounting/test/156", "content": "Odpověď: B", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 247, "completion_tokens": 7, "seconds": 0.11}
+{"id": "professional_accounting/test/168", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 121, "completion_tokens": 8, "seconds": 0.12}
+{"id": "professional_accounting/test/175", "content": "Odpověď: C", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 240, "completion_tokens": 7, "seconds": 0.09}
+{"id": "professional_accounting/test/198", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 284, "completion_tokens": 8, "seconds": 0.11}
+{"id": "professional_accounting/test/216", "content": "Mozne správné odpověď: D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 183, "completion_tokens": 13, "seconds": 0.16}
+{"id": "professional_accounting/test/224", "content": "Odpověď: C", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 251, "completion_tokens": 7, "seconds": 0.11}
+{"id": "professional_accounting/test/228", "content": "Odpověď: C", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 173, "completion_tokens": 7, "seconds": 0.11}
+{"id": "professional_accounting/test/265", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 159, "completion_tokens": 8, "seconds": 0.12}
+{"id": "professional_law/test/36", "content": "D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 657, "completion_tokens": 2, "seconds": 0.07}
+{"id": "professional_law/test/108", "content": "Odpověď: B.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 528, "completion_tokens": 8, "seconds": 0.11}
+{"id": "professional_law/test/273", "content": "Ktorý z následujících argumentů byl nejpřesvědčivější na podporu tvrzení tvůrce videa, že když byla uzavřena písemná smlouva, muž souhlasil s tím, že zaplatí tvůrci videa 5 000 USD za použití zařízení s vysokým rozlišením navíc k poplatku 10 000 USD?\n\nA.\n\nD", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 798, "completion_tokens": 106, "seconds": 0.33}
+{"id": "professional_law/test/352", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 525, "completion_tokens": 7, "seconds": 0.12}
+{"id": "professional_law/test/494", "content": "Odpovědná pozečka (D)", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 531, "completion_tokens": 13, "seconds": 0.17}
+{"id": "professional_law/test/527", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 436, "completion_tokens": 7, "seconds": 0.12}
+{"id": "professional_law/test/1096", "content": "Odpovědná pouze: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 865, "completion_tokens": 10, "seconds": 0.15}
+{"id": "professional_law/test/1131", "content": "Odpověď: D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 397, "completion_tokens": 8, "seconds": 0.13}
+{"id": "professional_law/test/1204", "content": "Odpověď: D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 534, "completion_tokens": 8, "seconds": 0.12}
+{"id": "professional_law/test/1255", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 504, "completion_tokens": 7, "seconds": 0.11}
+{"id": "professional_medicine/test/146", "content": "Odpověď: D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 251, "completion_tokens": 8, "seconds": 0.12}
+{"id": "professional_medicine/test/254", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 314, "completion_tokens": 8, "seconds": 0.13}
+{"id": "professional_psychology/test/41", "content": "Odpověď: B.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 175, "completion_tokens": 8, "seconds": 0.14}
+{"id": "professional_psychology/test/134", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 271, "completion_tokens": 8, "seconds": 0.13}
+{"id": "professional_psychology/test/170", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 182, "completion_tokens": 8, "seconds": 0.13}
+{"id": "professional_psychology/test/179", "content": "Praxe je:\n\nC.\n\n", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 171, "completion_tokens": 10, "seconds": 0.14}
+{"id": "professional_psychology/test/224", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 177, "completion_tokens": 8, "seconds": 0.13}
+{"id": "professional_psychology/test/260", "content": "Odpověď: B.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 112, "completion_tokens": 8, "seconds": 0.12}
+{"id": "professional_psychology/test/313", "content": "Odpověď: B", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 330, "completion_tokens": 7, "seconds": 0.12}
+{"id": "professional_psychology/test/427", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 155, "completion_tokens": 8, "seconds": 0.13}
+{"id": "professional_psychology/test/475", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 206, "completion_tokens": 8, "seconds": 0.12}
+{"id": "professional_psychology/test/536", "content": "Odpověď: B.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 195, "completion_tokens": 8, "seconds": 0.12}
+{"id": "professional_psychology/test/565", "content": "Odpověď: C", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 318, "completion_tokens": 7, "seconds": 0.12}
+{"id": "professional_psychology/test/579", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 148, "completion_tokens": 7, "seconds": 0.12}
+{"id": "public_relations/test/3", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 96, "completion_tokens": 8, "seconds": 0.11}
+{"id": "public_relations/test/9", "content": "Odpověď: D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 133, "completion_tokens": 8, "seconds": 0.11}
+{"id": "public_relations/test/15", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 243, "completion_tokens": 7, "seconds": 0.11}
+{"id": "public_relations/test/16", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 112, "completion_tokens": 8, "seconds": 0.11}
+{"id": "public_relations/test/18", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 176, "completion_tokens": 7, "seconds": 0.1}
+{"id": "public_relations/test/62", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 313, "completion_tokens": 7, "seconds": 0.11}
+{"id": "public_relations/test/69", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 120, "completion_tokens": 8, "seconds": 0.11}
+{"id": "public_relations/test/84", "content": "Odpověď: B.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 118, "completion_tokens": 8, "seconds": 0.11}
+{"id": "public_relations/test/96", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 116, "completion_tokens": 8, "seconds": 0.11}
+{"id": "public_relations/test/103", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 138, "completion_tokens": 8, "seconds": 0.11}
+{"id": "security_studies/test/36", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 414, "completion_tokens": 7, "seconds": 0.11}
+{"id": "security_studies/test/37", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 194, "completion_tokens": 7, "seconds": 0.1}
+{"id": "security_studies/test/73", "content": "Odpověď: D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 366, "completion_tokens": 8, "seconds": 0.11}
+{"id": "security_studies/test/86", "content": "Odpověď: D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 550, "completion_tokens": 8, "seconds": 0.11}
+{"id": "security_studies/test/110", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 575, "completion_tokens": 7, "seconds": 0.1}
+{"id": "security_studies/test/133", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 164, "completion_tokens": 8, "seconds": 0.1}
+{"id": "security_studies/test/145", "content": "Odpověď: D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 611, "completion_tokens": 8, "seconds": 0.11}
+{"id": "security_studies/test/151", "content": "Pouze", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 649, "completion_tokens": 4, "seconds": 0.07}
+{"id": "security_studies/test/198", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 429, "completion_tokens": 7, "seconds": 0.09}
+{"id": "security_studies/test/221", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 389, "completion_tokens": 7, "seconds": 0.1}
+{"id": "sociology/test/45", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 140, "completion_tokens": 8, "seconds": 0.1}
+{"id": "sociology/test/52", "content": "Odpověď: D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 165, "completion_tokens": 8, "seconds": 0.1}
+{"id": "sociology/test/102", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 161, "completion_tokens": 8, "seconds": 0.1}
+{"id": "sociology/test/118", "content": "Odpověď: C", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 148, "completion_tokens": 7, "seconds": 0.09}
+{"id": "sociology/test/126", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 180, "completion_tokens": 8, "seconds": 0.09}
+{"id": "sociology/test/127", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 166, "completion_tokens": 7, "seconds": 0.08}
+{"id": "sociology/test/145", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 178, "completion_tokens": 8, "seconds": 0.09}
+{"id": "sociology/test/159", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 169, "completion_tokens": 7, "seconds": 0.08}
+{"id": "sociology/test/160", "content": "Odpověď: B.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 164, "completion_tokens": 8, "seconds": 0.08}
+{"id": "sociology/test/168", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 196, "completion_tokens": 8, "seconds": 0.08}
+{"id": "sociology/test/173", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 109, "completion_tokens": 8, "seconds": 0.08}
+{"id": "sociology/test/183", "content": "Odpověď: C", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 132, "completion_tokens": 7, "seconds": 0.08}
+{"id": "us_foreign_policy/test/5", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 174, "completion_tokens": 8, "seconds": 0.08}
+{"id": "us_foreign_policy/test/21", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 134, "completion_tokens": 8, "seconds": 0.08}
+{"id": "us_foreign_policy/test/31", "content": "Odpověď: C", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 141, "completion_tokens": 7, "seconds": 0.07}
+{"id": "us_foreign_policy/test/40", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 121, "completion_tokens": 8, "seconds": 0.06}
+{"id": "us_foreign_policy/test/46", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 124, "completion_tokens": 7, "seconds": 0.06}
+{"id": "us_foreign_policy/test/52", "content": "Odpověď: C", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 205, "completion_tokens": 7, "seconds": 0.06}
+{"id": "us_foreign_policy/test/62", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 132, "completion_tokens": 8, "seconds": 0.06}
+{"id": "us_foreign_policy/test/83", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 157, "completion_tokens": 8, "seconds": 0.06}
+{"id": "us_foreign_policy/test/87", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 167, "completion_tokens": 8, "seconds": 0.06}
+{"id": "us_foreign_policy/test/98", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 169, "completion_tokens": 7, "seconds": 0.06}
+{"id": "virology/test/72", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 95, "completion_tokens": 8, "seconds": 0.06}
+{"id": "virology/test/91", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 103, "completion_tokens": 8, "seconds": 0.06}
+{"id": "virology/test/99", "content": "Hlavní charakteristika rodiny bunyavirů są:\n\nA. Amplifikují se přetrvávající infekcí komárů, moskytů, much, klíšťat\n\nD", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 161, "completion_tokens": 49, "seconds": 0.11}
+{"id": "virology/test/106", "content": "Odpověď: D.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 138, "completion_tokens": 8, "seconds": 0.05}
+{"id": "virology/test/122", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 137, "completion_tokens": 8, "seconds": 0.05}
+{"id": "virology/test/135", "content": "Odpověď: C.", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 171, "completion_tokens": 8, "seconds": 0.05}
+{"id": "virology/test/142", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 127, "completion_tokens": 7, "seconds": 0.05}
+{"id": "virology/test/145", "content": "Odpověď: D", "tool_calls": [], "finish_reason": "stop", "prompt_tokens": 131, "completion_tokens": 7, "seconds": 0.05}

@@ -1,0 +1,27 @@
+{
+ "model": "nemotron-3-nano-4b",
+ "repo": "nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16",
+ "revision": "dfaf35de3e30f1867dd8dbc38a7fc9fb52d3914f",
+ "config": {
+  "max_model_len": 32768,
+  "extra_args": [],
+  "params": "4.0B",
+  "repo": "nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16",
+  "tool_parser": "qwen3_coder"
+ },
+ "limit": null,
+ "startup_s": 185,
+ "nexus.en_s": 16,
+ "nexus.cs_s": 27,
+ "jsonmode.en_s": 7,
+ "jsonmode.cs_s": 7,
+ "eurlex.en_s": 56,
+ "eurlex.cs_s": 101,
+ "minds.en_s": 6,
+ "minds.cs_s": 8,
+ "gmmlu.en_s": 3,
+ "gmmlu.cs_s": 4,
+ "ifeval.en_s": 72,
+ "ifeval.cs_s": 108,
+ "vllm": "0.31.0"
+}

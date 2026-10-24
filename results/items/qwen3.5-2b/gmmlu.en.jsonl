@@ -1,0 +1,400 @@
+{"id": "astronomy/test/58", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CS", "category": "STEM"}
+{"id": "astronomy/test/107", "finish_reason": "stop", "score": 0.0, "pred": "D", "cultural": "CA", "category": "STEM"}
+{"id": "business_ethics/test/10", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CA", "category": "Business"}
+{"id": "business_ethics/test/14", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CS", "category": "Business"}
+{"id": "business_ethics/test/25", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CS", "category": "Business"}
+{"id": "business_ethics/test/27", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CS", "category": "Business"}
+{"id": "business_ethics/test/44", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CS", "category": "Business"}
+{"id": "business_ethics/test/52", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CA", "category": "Business"}
+{"id": "business_ethics/test/54", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CS", "category": "Business"}
+{"id": "business_ethics/test/57", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CS", "category": "Business"}
+{"id": "business_ethics/test/65", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CA", "category": "Business"}
+{"id": "business_ethics/test/72", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CA", "category": "Business"}
+{"id": "business_ethics/test/74", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CS", "category": "Business"}
+{"id": "business_ethics/test/75", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CS", "category": "Business"}
+{"id": "business_ethics/test/83", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CA", "category": "Business"}
+{"id": "business_ethics/test/85", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CA", "category": "Business"}
+{"id": "business_ethics/test/86", "finish_reason": "stop", "score": 0.0, "pred": "A", "cultural": "CA", "category": "Business"}
+{"id": "business_ethics/test/98", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CA", "category": "Business"}
+{"id": "college_biology/test/80", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CA", "category": "STEM"}
+{"id": "college_biology/test/138", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CS", "category": "STEM"}
+{"id": "college_chemistry/test/20", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CA", "category": "STEM"}
+{"id": "college_chemistry/test/22", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CS", "category": "STEM"}
+{"id": "college_mathematics/test/6", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CS", "category": "STEM"}
+{"id": "college_mathematics/test/48", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CA", "category": "STEM"}
+{"id": "college_medicine/test/124", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Medical"}
+{"id": "college_medicine/test/143", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CS", "category": "Medical"}
+{"id": "electrical_engineering/test/22", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CS", "category": "STEM"}
+{"id": "electrical_engineering/test/73", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CA", "category": "STEM"}
+{"id": "electrical_engineering/test/78", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CA", "category": "STEM"}
+{"id": "electrical_engineering/test/108", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CS", "category": "STEM"}
+{"id": "elementary_mathematics/test/8", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CA", "category": "STEM"}
+{"id": "elementary_mathematics/test/18", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CS", "category": "STEM"}
+{"id": "elementary_mathematics/test/99", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CS", "category": "STEM"}
+{"id": "elementary_mathematics/test/126", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CS", "category": "STEM"}
+{"id": "elementary_mathematics/test/132", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "STEM"}
+{"id": "elementary_mathematics/test/267", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CA", "category": "STEM"}
+{"id": "elementary_mathematics/test/298", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CS", "category": "STEM"}
+{"id": "elementary_mathematics/test/326", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CA", "category": "STEM"}
+{"id": "global_facts/test/7", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CS", "category": "Other"}
+{"id": "global_facts/test/9", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CS", "category": "Other"}
+{"id": "global_facts/test/11", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Other"}
+{"id": "global_facts/test/13", "finish_reason": "stop", "score": 0.0, "pred": "D", "cultural": "CA", "category": "Other"}
+{"id": "global_facts/test/14", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Other"}
+{"id": "global_facts/test/24", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CA", "category": "Other"}
+{"id": "global_facts/test/57", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CS", "category": "Other"}
+{"id": "global_facts/test/59", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CS", "category": "Other"}
+{"id": "global_facts/test/60", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CA", "category": "Other"}
+{"id": "global_facts/test/70", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CS", "category": "Other"}
+{"id": "global_facts/test/75", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CS", "category": "Other"}
+{"id": "global_facts/test/77", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CS", "category": "Other"}
+{"id": "global_facts/test/95", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Other"}
+{"id": "global_facts/test/96", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CA", "category": "Other"}
+{"id": "high_school_chemistry/test/82", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CS", "category": "STEM"}
+{"id": "high_school_chemistry/test/98", "finish_reason": "stop", "score": 0.0, "pred": "D", "cultural": "CA", "category": "STEM"}
+{"id": "high_school_computer_science/test/17", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CS", "category": "STEM"}
+{"id": "high_school_computer_science/test/54", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CA", "category": "STEM"}
+{"id": "high_school_european_history/test/9", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CA", "category": "Humanities"}
+{"id": "high_school_european_history/test/11", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CS", "category": "Humanities"}
+{"id": "high_school_european_history/test/30", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CA", "category": "Humanities"}
+{"id": "high_school_european_history/test/37", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Humanities"}
+{"id": "high_school_european_history/test/43", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CA", "category": "Humanities"}
+{"id": "high_school_european_history/test/55", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CS", "category": "Humanities"}
+{"id": "high_school_european_history/test/66", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CA", "category": "Humanities"}
+{"id": "high_school_european_history/test/93", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CS", "category": "Humanities"}
+{"id": "high_school_european_history/test/122", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CS", "category": "Humanities"}
+{"id": "high_school_european_history/test/138", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CS", "category": "Humanities"}
+{"id": "high_school_geography/test/27", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Social Sciences"}
+{"id": "high_school_geography/test/60", "finish_reason": "stop", "score": 0.0, "pred": "A", "cultural": "CA", "category": "Social Sciences"}
+{"id": "high_school_geography/test/61", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CS", "category": "Social Sciences"}
+{"id": "high_school_geography/test/92", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CA", "category": "Social Sciences"}
+{"id": "high_school_geography/test/98", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Social Sciences"}
+{"id": "high_school_geography/test/102", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Social Sciences"}
+{"id": "high_school_geography/test/124", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CS", "category": "Social Sciences"}
+{"id": "high_school_geography/test/125", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CS", "category": "Social Sciences"}
+{"id": "high_school_geography/test/145", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CA", "category": "Social Sciences"}
+{"id": "high_school_geography/test/148", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CS", "category": "Social Sciences"}
+{"id": "high_school_geography/test/150", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CS", "category": "Social Sciences"}
+{"id": "high_school_geography/test/152", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CS", "category": "Social Sciences"}
+{"id": "high_school_government_and_politics/test/81", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CS", "category": "Social Sciences"}
+{"id": "high_school_government_and_politics/test/131", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CS", "category": "Social Sciences"}
+{"id": "high_school_government_and_politics/test/159", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CA", "category": "Social Sciences"}
+{"id": "high_school_government_and_politics/test/173", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CA", "category": "Social Sciences"}
+{"id": "high_school_macroeconomics/test/17", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Social Sciences"}
+{"id": "high_school_macroeconomics/test/18", "finish_reason": "stop", "score": 0.0, "pred": "D", "cultural": "CA", "category": "Social Sciences"}
+{"id": "high_school_macroeconomics/test/43", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CS", "category": "Social Sciences"}
+{"id": "high_school_macroeconomics/test/133", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CS", "category": "Social Sciences"}
+{"id": "high_school_macroeconomics/test/185", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CA", "category": "Social Sciences"}
+{"id": "high_school_macroeconomics/test/210", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CS", "category": "Social Sciences"}
+{"id": "high_school_macroeconomics/test/266", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CA", "category": "Social Sciences"}
+{"id": "high_school_macroeconomics/test/298", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CS", "category": "Social Sciences"}
+{"id": "high_school_macroeconomics/test/313", "finish_reason": "stop", "score": 0.0, "pred": "A", "cultural": "CA", "category": "Social Sciences"}
+{"id": "high_school_macroeconomics/test/365", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CS", "category": "Social Sciences"}
+{"id": "high_school_mathematics/test/122", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CS", "category": "STEM"}
+{"id": "high_school_mathematics/test/145", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CA", "category": "STEM"}
+{"id": "high_school_microeconomics/test/139", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Social Sciences"}
+{"id": "high_school_microeconomics/test/169", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CS", "category": "Social Sciences"}
+{"id": "high_school_physics/test/10", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CA", "category": "STEM"}
+{"id": "high_school_physics/test/12", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CA", "category": "STEM"}
+{"id": "high_school_physics/test/16", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CS", "category": "STEM"}
+{"id": "high_school_physics/test/55", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CS", "category": "STEM"}
+{"id": "high_school_physics/test/72", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CA", "category": "STEM"}
+{"id": "high_school_physics/test/79", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CS", "category": "STEM"}
+{"id": "high_school_physics/test/85", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CS", "category": "STEM"}
+{"id": "high_school_physics/test/88", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CA", "category": "STEM"}
+{"id": "high_school_physics/test/105", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "STEM"}
+{"id": "high_school_physics/test/119", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CS", "category": "STEM"}
+{"id": "high_school_physics/test/140", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CA", "category": "STEM"}
+{"id": "high_school_physics/test/147", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CS", "category": "STEM"}
+{"id": "high_school_psychology/test/82", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CA", "category": "Social Sciences"}
+{"id": "high_school_psychology/test/168", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CS", "category": "Social Sciences"}
+{"id": "high_school_psychology/test/238", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CS", "category": "Social Sciences"}
+{"id": "high_school_psychology/test/281", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CS", "category": "Social Sciences"}
+{"id": "high_school_psychology/test/309", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CA", "category": "Social Sciences"}
+{"id": "high_school_psychology/test/314", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CS", "category": "Social Sciences"}
+{"id": "high_school_psychology/test/404", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CA", "category": "Social Sciences"}
+{"id": "high_school_psychology/test/419", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Social Sciences"}
+{"id": "high_school_psychology/test/496", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CS", "category": "Social Sciences"}
+{"id": "high_school_psychology/test/501", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Social Sciences"}
+{"id": "high_school_statistics/test/15", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CA", "category": "STEM"}
+{"id": "high_school_statistics/test/25", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CS", "category": "STEM"}
+{"id": "high_school_statistics/test/33", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CS", "category": "STEM"}
+{"id": "high_school_statistics/test/63", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CS", "category": "STEM"}
+{"id": "high_school_statistics/test/107", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CA", "category": "STEM"}
+{"id": "high_school_statistics/test/124", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CS", "category": "STEM"}
+{"id": "high_school_statistics/test/158", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "STEM"}
+{"id": "high_school_statistics/test/191", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CA", "category": "STEM"}
+{"id": "high_school_us_history/test/8", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CS", "category": "Humanities"}
+{"id": "high_school_us_history/test/10", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CA", "category": "Humanities"}
+{"id": "high_school_us_history/test/13", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CA", "category": "Humanities"}
+{"id": "high_school_us_history/test/17", "finish_reason": "stop", "score": 0.0, "pred": "D", "cultural": "CS", "category": "Humanities"}
+{"id": "high_school_us_history/test/88", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CS", "category": "Humanities"}
+{"id": "high_school_us_history/test/89", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CS", "category": "Humanities"}
+{"id": "high_school_us_history/test/115", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CS", "category": "Humanities"}
+{"id": "high_school_us_history/test/123", "finish_reason": "stop", "score": 0.0, "pred": "D", "cultural": "CA", "category": "Humanities"}
+{"id": "high_school_us_history/test/130", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CA", "category": "Humanities"}
+{"id": "high_school_us_history/test/187", "finish_reason": "stop", "score": 0.0, "pred": "A", "cultural": "CA", "category": "Humanities"}
+{"id": "high_school_world_history/test/33", "finish_reason": "stop", "score": 0.0, "pred": "A", "cultural": "CS", "category": "Humanities"}
+{"id": "high_school_world_history/test/58", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CA", "category": "Humanities"}
+{"id": "high_school_world_history/test/67", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CA", "category": "Humanities"}
+{"id": "high_school_world_history/test/87", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CA", "category": "Humanities"}
+{"id": "high_school_world_history/test/93", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CA", "category": "Humanities"}
+{"id": "high_school_world_history/test/115", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CS", "category": "Humanities"}
+{"id": "high_school_world_history/test/145", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CS", "category": "Humanities"}
+{"id": "high_school_world_history/test/157", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CA", "category": "Humanities"}
+{"id": "high_school_world_history/test/187", "finish_reason": "stop", "score": 0.0, "pred": "A", "cultural": "CS", "category": "Humanities"}
+{"id": "high_school_world_history/test/225", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CS", "category": "Humanities"}
+{"id": "human_aging/test/21", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CA", "category": "Medical"}
+{"id": "human_aging/test/26", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CA", "category": "Medical"}
+{"id": "human_aging/test/56", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CS", "category": "Medical"}
+{"id": "human_aging/test/59", "finish_reason": "stop", "score": 0.0, "pred": "D", "cultural": "CS", "category": "Medical"}
+{"id": "human_aging/test/107", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CS", "category": "Medical"}
+{"id": "human_aging/test/114", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Medical"}
+{"id": "human_aging/test/121", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CS", "category": "Medical"}
+{"id": "human_aging/test/123", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CA", "category": "Medical"}
+{"id": "human_aging/test/148", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Medical"}
+{"id": "human_aging/test/155", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CA", "category": "Medical"}
+{"id": "human_aging/test/167", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CS", "category": "Medical"}
+{"id": "human_aging/test/173", "finish_reason": "stop", "score": 0.0, "pred": "A", "cultural": "CS", "category": "Medical"}
+{"id": "human_aging/test/181", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Medical"}
+{"id": "human_aging/test/186", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CS", "category": "Medical"}
+{"id": "human_aging/test/196", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CS", "category": "Medical"}
+{"id": "human_aging/test/201", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CA", "category": "Medical"}
+{"id": "human_sexuality/test/9", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CS", "category": "Social Sciences"}
+{"id": "human_sexuality/test/13", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CS", "category": "Social Sciences"}
+{"id": "human_sexuality/test/23", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CS", "category": "Social Sciences"}
+{"id": "human_sexuality/test/24", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CA", "category": "Social Sciences"}
+{"id": "human_sexuality/test/74", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CA", "category": "Social Sciences"}
+{"id": "human_sexuality/test/101", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CA", "category": "Social Sciences"}
+{"id": "human_sexuality/test/104", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CS", "category": "Social Sciences"}
+{"id": "human_sexuality/test/106", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CS", "category": "Social Sciences"}
+{"id": "human_sexuality/test/107", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CA", "category": "Social Sciences"}
+{"id": "human_sexuality/test/128", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CA", "category": "Social Sciences"}
+{"id": "international_law/test/7", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CA", "category": "Humanities"}
+{"id": "international_law/test/17", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CS", "category": "Humanities"}
+{"id": "international_law/test/19", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CS", "category": "Humanities"}
+{"id": "international_law/test/42", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CA", "category": "Humanities"}
+{"id": "international_law/test/50", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CS", "category": "Humanities"}
+{"id": "international_law/test/51", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CS", "category": "Humanities"}
+{"id": "international_law/test/63", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Humanities"}
+{"id": "international_law/test/76", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CS", "category": "Humanities"}
+{"id": "international_law/test/100", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CA", "category": "Humanities"}
+{"id": "international_law/test/110", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CA", "category": "Humanities"}
+{"id": "jurisprudence/test/7", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CS", "category": "Humanities"}
+{"id": "jurisprudence/test/10", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CS", "category": "Humanities"}
+{"id": "jurisprudence/test/33", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Humanities"}
+{"id": "jurisprudence/test/40", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CS", "category": "Humanities"}
+{"id": "jurisprudence/test/42", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Humanities"}
+{"id": "jurisprudence/test/62", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CA", "category": "Humanities"}
+{"id": "jurisprudence/test/69", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CS", "category": "Humanities"}
+{"id": "jurisprudence/test/73", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Humanities"}
+{"id": "jurisprudence/test/81", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CA", "category": "Humanities"}
+{"id": "jurisprudence/test/101", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CS", "category": "Humanities"}
+{"id": "logical_fallacies/test/23", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Humanities"}
+{"id": "logical_fallacies/test/32", "finish_reason": "stop", "score": 0.0, "pred": "D", "cultural": "CS", "category": "Humanities"}
+{"id": "logical_fallacies/test/34", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CA", "category": "Humanities"}
+{"id": "logical_fallacies/test/53", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CA", "category": "Humanities"}
+{"id": "logical_fallacies/test/68", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CA", "category": "Humanities"}
+{"id": "logical_fallacies/test/90", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CS", "category": "Humanities"}
+{"id": "logical_fallacies/test/130", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CS", "category": "Humanities"}
+{"id": "logical_fallacies/test/134", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CA", "category": "Humanities"}
+{"id": "logical_fallacies/test/138", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CS", "category": "Humanities"}
+{"id": "logical_fallacies/test/156", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CS", "category": "Humanities"}
+{"id": "management/test/5", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Business"}
+{"id": "management/test/6", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CS", "category": "Business"}
+{"id": "management/test/7", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CS", "category": "Business"}
+{"id": "management/test/9", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CS", "category": "Business"}
+{"id": "management/test/11", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CS", "category": "Business"}
+{"id": "management/test/12", "finish_reason": "stop", "score": 0.0, "pred": "D", "cultural": "CA", "category": "Business"}
+{"id": "management/test/26", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CS", "category": "Business"}
+{"id": "management/test/49", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Business"}
+{"id": "management/test/52", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CA", "category": "Business"}
+{"id": "management/test/59", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CA", "category": "Business"}
+{"id": "management/test/63", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CS", "category": "Business"}
+{"id": "management/test/70", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CS", "category": "Business"}
+{"id": "management/test/79", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CA", "category": "Business"}
+{"id": "management/test/86", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CA", "category": "Business"}
+{"id": "management/test/96", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CA", "category": "Business"}
+{"id": "management/test/98", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CS", "category": "Business"}
+{"id": "marketing/test/4", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CS", "category": "Business"}
+{"id": "marketing/test/33", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CA", "category": "Business"}
+{"id": "marketing/test/34", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CA", "category": "Business"}
+{"id": "marketing/test/65", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CS", "category": "Business"}
+{"id": "marketing/test/99", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CS", "category": "Business"}
+{"id": "marketing/test/132", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CA", "category": "Business"}
+{"id": "marketing/test/141", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Business"}
+{"id": "marketing/test/149", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CS", "category": "Business"}
+{"id": "marketing/test/173", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CA", "category": "Business"}
+{"id": "marketing/test/184", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CS", "category": "Business"}
+{"id": "miscellaneous/test/3", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CA", "category": "Other"}
+{"id": "miscellaneous/test/15", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CS", "category": "Other"}
+{"id": "miscellaneous/test/26", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CA", "category": "Other"}
+{"id": "miscellaneous/test/39", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Other"}
+{"id": "miscellaneous/test/45", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Other"}
+{"id": "miscellaneous/test/51", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CA", "category": "Other"}
+{"id": "miscellaneous/test/92", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CS", "category": "Other"}
+{"id": "miscellaneous/test/173", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CA", "category": "Other"}
+{"id": "miscellaneous/test/174", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CS", "category": "Other"}
+{"id": "miscellaneous/test/210", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CS", "category": "Other"}
+{"id": "miscellaneous/test/217", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Other"}
+{"id": "miscellaneous/test/219", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CS", "category": "Other"}
+{"id": "miscellaneous/test/268", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CS", "category": "Other"}
+{"id": "miscellaneous/test/269", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Other"}
+{"id": "miscellaneous/test/271", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CS", "category": "Other"}
+{"id": "miscellaneous/test/287", "finish_reason": "stop", "score": 0.0, "pred": "A", "cultural": "CS", "category": "Other"}
+{"id": "miscellaneous/test/309", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CS", "category": "Other"}
+{"id": "miscellaneous/test/322", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CS", "category": "Other"}
+{"id": "miscellaneous/test/367", "finish_reason": "stop", "score": 0.0, "pred": "A", "cultural": "CS", "category": "Other"}
+{"id": "miscellaneous/test/430", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CA", "category": "Other"}
+{"id": "miscellaneous/test/460", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Other"}
+{"id": "miscellaneous/test/469", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CS", "category": "Other"}
+{"id": "miscellaneous/test/473", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Other"}
+{"id": "miscellaneous/test/498", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CS", "category": "Other"}
+{"id": "miscellaneous/test/504", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CS", "category": "Other"}
+{"id": "miscellaneous/test/550", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CS", "category": "Other"}
+{"id": "miscellaneous/test/570", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Other"}
+{"id": "miscellaneous/test/577", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Other"}
+{"id": "miscellaneous/test/579", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CA", "category": "Other"}
+{"id": "miscellaneous/test/602", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CA", "category": "Other"}
+{"id": "miscellaneous/test/612", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CA", "category": "Other"}
+{"id": "miscellaneous/test/624", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CA", "category": "Other"}
+{"id": "miscellaneous/test/627", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CA", "category": "Other"}
+{"id": "miscellaneous/test/629", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Other"}
+{"id": "miscellaneous/test/641", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Other"}
+{"id": "miscellaneous/test/647", "finish_reason": "stop", "score": 0.0, "pred": "A", "cultural": "CS", "category": "Other"}
+{"id": "miscellaneous/test/648", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CS", "category": "Other"}
+{"id": "miscellaneous/test/662", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CS", "category": "Other"}
+{"id": "miscellaneous/test/668", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CS", "category": "Other"}
+{"id": "miscellaneous/test/708", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CS", "category": "Other"}
+{"id": "miscellaneous/test/755", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CS", "category": "Other"}
+{"id": "miscellaneous/test/760", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CA", "category": "Other"}
+{"id": "moral_disputes/test/14", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CS", "category": "Humanities"}
+{"id": "moral_disputes/test/30", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CS", "category": "Humanities"}
+{"id": "moral_disputes/test/48", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Humanities"}
+{"id": "moral_disputes/test/60", "finish_reason": "stop", "score": 0.0, "pred": "A", "cultural": "CA", "category": "Humanities"}
+{"id": "moral_disputes/test/153", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CA", "category": "Humanities"}
+{"id": "moral_disputes/test/162", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CA", "category": "Humanities"}
+{"id": "moral_disputes/test/182", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CS", "category": "Humanities"}
+{"id": "moral_disputes/test/221", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CS", "category": "Humanities"}
+{"id": "moral_disputes/test/285", "finish_reason": "stop", "score": 0.0, "pred": "D", "cultural": "CS", "category": "Humanities"}
+{"id": "moral_disputes/test/321", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CA", "category": "Humanities"}
+{"id": "nutrition/test/14", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CA", "category": "Medical"}
+{"id": "nutrition/test/19", "finish_reason": "stop", "score": 0.0, "pred": "A", "cultural": "CA", "category": "Medical"}
+{"id": "nutrition/test/88", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CS", "category": "Medical"}
+{"id": "nutrition/test/140", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CA", "category": "Medical"}
+{"id": "nutrition/test/209", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CS", "category": "Medical"}
+{"id": "nutrition/test/223", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Medical"}
+{"id": "nutrition/test/243", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CS", "category": "Medical"}
+{"id": "nutrition/test/252", "finish_reason": "stop", "score": 0.0, "pred": "D", "cultural": "CS", "category": "Medical"}
+{"id": "philosophy/test/26", "finish_reason": "stop", "score": 0.0, "pred": "D", "cultural": "CA", "category": "Humanities"}
+{"id": "philosophy/test/42", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CS", "category": "Humanities"}
+{"id": "philosophy/test/45", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CS", "category": "Humanities"}
+{"id": "philosophy/test/128", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Humanities"}
+{"id": "philosophy/test/138", "finish_reason": "stop", "score": 0.0, "pred": "D", "cultural": "CS", "category": "Humanities"}
+{"id": "philosophy/test/139", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CA", "category": "Humanities"}
+{"id": "philosophy/test/163", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CS", "category": "Humanities"}
+{"id": "philosophy/test/194", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CS", "category": "Humanities"}
+{"id": "philosophy/test/263", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CA", "category": "Humanities"}
+{"id": "philosophy/test/277", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CS", "category": "Humanities"}
+{"id": "philosophy/test/290", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CA", "category": "Humanities"}
+{"id": "philosophy/test/305", "finish_reason": "stop", "score": 0.0, "pred": "A", "cultural": "CA", "category": "Humanities"}
+{"id": "prehistory/test/63", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CA", "category": "Humanities"}
+{"id": "prehistory/test/80", "finish_reason": "stop", "score": 0.0, "pred": "A", "cultural": "CS", "category": "Humanities"}
+{"id": "prehistory/test/182", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Humanities"}
+{"id": "prehistory/test/187", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CS", "category": "Humanities"}
+{"id": "prehistory/test/195", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CA", "category": "Humanities"}
+{"id": "prehistory/test/211", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CA", "category": "Humanities"}
+{"id": "prehistory/test/255", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CS", "category": "Humanities"}
+{"id": "prehistory/test/261", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CS", "category": "Humanities"}
+{"id": "prehistory/test/265", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CS", "category": "Humanities"}
+{"id": "prehistory/test/285", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CA", "category": "Humanities"}
+{"id": "professional_accounting/test/18", "finish_reason": "stop", "score": 0.0, "pred": "A", "cultural": "CS", "category": "Business"}
+{"id": "professional_accounting/test/24", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CS", "category": "Business"}
+{"id": "professional_accounting/test/36", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Business"}
+{"id": "professional_accounting/test/84", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CS", "category": "Business"}
+{"id": "professional_accounting/test/106", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CS", "category": "Business"}
+{"id": "professional_accounting/test/127", "finish_reason": "stop", "score": 0.0, "pred": "D", "cultural": "CA", "category": "Business"}
+{"id": "professional_accounting/test/142", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CA", "category": "Business"}
+{"id": "professional_accounting/test/151", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CS", "category": "Business"}
+{"id": "professional_accounting/test/156", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CA", "category": "Business"}
+{"id": "professional_accounting/test/168", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CA", "category": "Business"}
+{"id": "professional_accounting/test/175", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CS", "category": "Business"}
+{"id": "professional_accounting/test/198", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CS", "category": "Business"}
+{"id": "professional_accounting/test/216", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Business"}
+{"id": "professional_accounting/test/224", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CA", "category": "Business"}
+{"id": "professional_accounting/test/228", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CS", "category": "Business"}
+{"id": "professional_accounting/test/265", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CA", "category": "Business"}
+{"id": "professional_law/test/36", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CS", "category": "Humanities"}
+{"id": "professional_law/test/108", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CS", "category": "Humanities"}
+{"id": "professional_law/test/273", "finish_reason": "stop", "score": 0.0, "pred": "D", "cultural": "CA", "category": "Humanities"}
+{"id": "professional_law/test/352", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CA", "category": "Humanities"}
+{"id": "professional_law/test/494", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CA", "category": "Humanities"}
+{"id": "professional_law/test/527", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CA", "category": "Humanities"}
+{"id": "professional_law/test/1096", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CS", "category": "Humanities"}
+{"id": "professional_law/test/1131", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CA", "category": "Humanities"}
+{"id": "professional_law/test/1204", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CS", "category": "Humanities"}
+{"id": "professional_law/test/1255", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CS", "category": "Humanities"}
+{"id": "professional_medicine/test/146", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Medical"}
+{"id": "professional_medicine/test/254", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CS", "category": "Medical"}
+{"id": "professional_psychology/test/41", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CA", "category": "Social Sciences"}
+{"id": "professional_psychology/test/134", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CS", "category": "Social Sciences"}
+{"id": "professional_psychology/test/170", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CS", "category": "Social Sciences"}
+{"id": "professional_psychology/test/179", "finish_reason": "stop", "score": 0.0, "pred": "D", "cultural": "CS", "category": "Social Sciences"}
+{"id": "professional_psychology/test/224", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CS", "category": "Social Sciences"}
+{"id": "professional_psychology/test/260", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Social Sciences"}
+{"id": "professional_psychology/test/313", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CA", "category": "Social Sciences"}
+{"id": "professional_psychology/test/427", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CS", "category": "Social Sciences"}
+{"id": "professional_psychology/test/475", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CA", "category": "Social Sciences"}
+{"id": "professional_psychology/test/536", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Social Sciences"}
+{"id": "professional_psychology/test/565", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CS", "category": "Social Sciences"}
+{"id": "professional_psychology/test/579", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CA", "category": "Social Sciences"}
+{"id": "public_relations/test/3", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CS", "category": "Social Sciences"}
+{"id": "public_relations/test/9", "finish_reason": "stop", "score": 0.0, "pred": "D", "cultural": "CS", "category": "Social Sciences"}
+{"id": "public_relations/test/15", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CA", "category": "Social Sciences"}
+{"id": "public_relations/test/16", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CS", "category": "Social Sciences"}
+{"id": "public_relations/test/18", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CA", "category": "Social Sciences"}
+{"id": "public_relations/test/62", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Social Sciences"}
+{"id": "public_relations/test/69", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CA", "category": "Social Sciences"}
+{"id": "public_relations/test/84", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CA", "category": "Social Sciences"}
+{"id": "public_relations/test/96", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CS", "category": "Social Sciences"}
+{"id": "public_relations/test/103", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CS", "category": "Social Sciences"}
+{"id": "security_studies/test/36", "finish_reason": "stop", "score": 0.0, "pred": "D", "cultural": "CS", "category": "Social Sciences"}
+{"id": "security_studies/test/37", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CA", "category": "Social Sciences"}
+{"id": "security_studies/test/73", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CS", "category": "Social Sciences"}
+{"id": "security_studies/test/86", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CS", "category": "Social Sciences"}
+{"id": "security_studies/test/110", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CA", "category": "Social Sciences"}
+{"id": "security_studies/test/133", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CS", "category": "Social Sciences"}
+{"id": "security_studies/test/145", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CS", "category": "Social Sciences"}
+{"id": "security_studies/test/151", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CA", "category": "Social Sciences"}
+{"id": "security_studies/test/198", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CA", "category": "Social Sciences"}
+{"id": "security_studies/test/221", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CA", "category": "Social Sciences"}
+{"id": "sociology/test/45", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CS", "category": "Social Sciences"}
+{"id": "sociology/test/52", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CA", "category": "Social Sciences"}
+{"id": "sociology/test/102", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CA", "category": "Social Sciences"}
+{"id": "sociology/test/118", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Social Sciences"}
+{"id": "sociology/test/126", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CS", "category": "Social Sciences"}
+{"id": "sociology/test/127", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CS", "category": "Social Sciences"}
+{"id": "sociology/test/145", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CA", "category": "Social Sciences"}
+{"id": "sociology/test/159", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CS", "category": "Social Sciences"}
+{"id": "sociology/test/160", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CA", "category": "Social Sciences"}
+{"id": "sociology/test/168", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CS", "category": "Social Sciences"}
+{"id": "sociology/test/173", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CS", "category": "Social Sciences"}
+{"id": "sociology/test/183", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CA", "category": "Social Sciences"}
+{"id": "us_foreign_policy/test/5", "finish_reason": "stop", "score": 1.0, "pred": "D", "cultural": "CS", "category": "Social Sciences"}
+{"id": "us_foreign_policy/test/21", "finish_reason": "stop", "score": 0.0, "pred": "D", "cultural": "CA", "category": "Social Sciences"}
+{"id": "us_foreign_policy/test/31", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CA", "category": "Social Sciences"}
+{"id": "us_foreign_policy/test/40", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Social Sciences"}
+{"id": "us_foreign_policy/test/46", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CS", "category": "Social Sciences"}
+{"id": "us_foreign_policy/test/52", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CA", "category": "Social Sciences"}
+{"id": "us_foreign_policy/test/62", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CA", "category": "Social Sciences"}
+{"id": "us_foreign_policy/test/83", "finish_reason": "stop", "score": 1.0, "pred": "A", "cultural": "CS", "category": "Social Sciences"}
+{"id": "us_foreign_policy/test/87", "finish_reason": "stop", "score": 1.0, "pred": "C", "cultural": "CS", "category": "Social Sciences"}
+{"id": "us_foreign_policy/test/98", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CS", "category": "Social Sciences"}
+{"id": "virology/test/72", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CS", "category": "Medical"}
+{"id": "virology/test/91", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CS", "category": "Medical"}
+{"id": "virology/test/99", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CA", "category": "Medical"}
+{"id": "virology/test/106", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CS", "category": "Medical"}
+{"id": "virology/test/122", "finish_reason": "stop", "score": 1.0, "pred": "B", "cultural": "CA", "category": "Medical"}
+{"id": "virology/test/135", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CA", "category": "Medical"}
+{"id": "virology/test/142", "finish_reason": "stop", "score": 0.0, "pred": "B", "cultural": "CS", "category": "Medical"}
+{"id": "virology/test/145", "finish_reason": "stop", "score": 0.0, "pred": "C", "cultural": "CA", "category": "Medical"}
