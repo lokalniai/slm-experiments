@@ -5,8 +5,7 @@ on-device use. Each model is tested on six practical skills, each in English and
 MetaCentrum GPUs.
 
 - [💻 **Interactive viewer**](https://lokalniai.github.io/slm-experiments/):
-  - one radar of the six skills where you pick up to four models and switch between English and Czech
-  - all results: per-model radars, the full table and the means
+  - all results: per-model radars of the six skills, the full table and the means
   - per-skill charts and tables, and every model answer next to its input and reference
 - [🖋 **Blogpost (in Czech)**](https://lokalni.ai/blog/male-modely/)
 - [📄 **Report**](REPORT.md): setup, results and caveats

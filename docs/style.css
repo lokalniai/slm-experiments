@@ -361,51 +361,6 @@ vertical-align:baseline;margin-right:.35rem}
 td.best{font-weight:600;color:var(--fg)}
 td.gap{color:var(--muted)}
 
-/* --- overall: one interactive radar ---------------------------------------- */
-/* Here colour means model, not language, so the house teal/purple stay out of it.
-   Four slots from the reference categorical palette, the largest set that clears the
-   all-pairs checks of validate_palette.js (light: worst CVD dE 13.0, NV 19.6; dark:
-   CVD 6.9, which is legal only with a second channel, hence one marker shape per
-   slot). A model keeps its slot while it stays selected. */
-:root{--m1:#2a78d6;--m2:#e87ba4;--m3:#008300;--m4:#eda100}
-:root[data-theme='dark']{--m1:#3987e5;--m2:#d55181;--m3:#008300;--m4:#c98500}
-.ovctl{display:flex;flex-direction:column;gap:.45rem;margin:.1rem 0 .8rem}
-.ovctl .controls{margin:0}
-.ovgrid{display:grid;gap:.7rem;align-items:start;
-grid-template-columns:minmax(0,3fr) minmax(15rem,1fr)}
-@media (max-width:62rem){.ovgrid{grid-template-columns:minmax(0,1fr)}}
-.ovfig{position:relative;margin:0;padding:.6rem .6rem .4rem}
-.ovfig svg{display:block;width:100%;max-width:44rem;height:auto;margin:0 auto}
-svg.ctchart .ov-axis { font-family:var(--cond); font-size:13px; font-weight:600; fill:var(--fg); }
-svg.ctchart .ov-axis:focus { outline:none; text-decoration:underline; }
-svg.ctchart .ov-poly { fill-opacity:.05; stroke-width:2; stroke-linejoin:round; }
-svg.ctchart .ov-mk { stroke:var(--card); stroke-width:2; }
-svg.ctchart .ov-hit { fill:transparent; cursor:default; }
-svg.ctchart .ov-hot { stroke:var(--fg); stroke-width:1.5; }
-svg.ctchart .ov-empty { font-family:var(--cond); font-size:14px; fill:var(--muted); }
-.ovtip{position:absolute;pointer-events:none;z-index:4;background:var(--bg);
-border:1px solid var(--line);border-radius:5px;padding:.4rem .6rem;font-size:.8rem;
-box-shadow:0 2px 8px rgba(0,0,0,.12);min-width:11rem}
-.ovtip .h{font-family:var(--cond);font-weight:600;color:var(--muted);text-transform:uppercase;
-letter-spacing:.05em;font-size:.75rem;margin-bottom:.15rem}
-.ovtip .r{display:flex;align-items:center;gap:.45rem;white-space:nowrap}
-.ovtip .r b{font-family:var(--mono);font-weight:500;min-width:2.6rem;text-align:right}
-.ovtip .r span{color:var(--muted)}
-.ovtip .k{display:inline-block;width:.9rem;height:2px;border-radius:1px}
-.ovside{border:1px solid var(--line);border-radius:5px;background:var(--card);padding:.6rem .8rem}
-.ovside .lbl{display:block;margin-bottom:.35rem}
-.ovside .row{display:grid;grid-template-columns:1.1rem 1fr auto;gap:.1rem .5rem;align-items:center;
-padding:.3rem 0;border-bottom:1px solid var(--line)}
-.ovside .row:last-of-type{border-bottom:0}
-.ovside .nm{font-family:var(--mono);font-size:.8rem}
-.ovside .sz{grid-column:2;font-size:.72rem;color:var(--muted)}
-.ovside .mn{grid-row:1 / span 2;grid-column:3;text-align:right;font-family:var(--mono);font-size:1.05rem}
-.ovside .mn small{display:block;font-size:.7rem;color:var(--muted)}
-.ovside .note{font-size:.78rem;color:var(--muted);margin:.5rem 0 0}
-.chip .mkr{display:inline-block;vertical-align:-1px;margin-right:.3rem}
-.chip[disabled]{opacity:.45;cursor:not-allowed}
-.chip[disabled]:hover{color:var(--muted);border-color:var(--line)}
-
 /* --- per-skill tabs: compact chart beside its table -------------------------- */
 .taskgrid{display:grid;gap:.7rem;align-items:start;
 grid-template-columns:minmax(0,5fr) minmax(0,7fr)}
@@ -433,4 +388,4 @@ svg.ctchart g.tip.hot path.en, svg.ctchart g.tip.hot path.cs,
 svg.ctchart g.tip.hot rect.en, svg.ctchart g.tip.hot rect.cs{stroke:var(--fg);stroke-width:1}
 .taskgrid .ctfig.compact svg .ct-val { font-size:8.5px; }
 .tasktable td:first-child code{white-space:nowrap}
-.taskgrid > *, .ovgrid > *{min-width:0}
+.taskgrid > *{min-width:0}

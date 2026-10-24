@@ -489,16 +489,9 @@ def build(outputs: Path, results: Path, site: Path):
 
     page = [HEAD.replace("{v}", v), MAST.format(url=esc(POST_URL), title=esc(POST_TITLE)),
             f"<div class='sub lede'>{esc(LEDE)}</div>", "<nav class='tabs'>",
-            "<button class='tabbtn' data-tab='overall'>overall</button>",
             "<button class='tabbtn' data-tab='all'>all results</button>"]
     page += [f"<button class='tabbtn' data-tab='{t}'>{esc(BENCH[t][0])}</button>" for t in TASKS]
     page.append("</nav><main>")
-
-    # overall: one interactive radar, drawn by app.js from index.js
-    page.append("<section class='tabpane' data-tab='overall'><div class='ovctl'></div><div class='ovgrid'>"
-                "<figure class='chartblock ovfig'><svg class='ctchart ovradar' viewBox='0 0 560 470' role='img' "
-                "aria-label='Score per skill for the selected models'></svg><div class='ovtip' hidden></div></figure>"
-                "<div class='ovside'></div></div></section>")
 
     # all results: small multiples, the full table, means, method
     page.append("<section class='tabpane' data-tab='all'>" + KEYROW + "<div class='radargrid'>")
@@ -541,11 +534,6 @@ def build(outputs: Path, results: Path, site: Path):
                     sc_idx[t][l][m] = d
     index = {"models": [{"tag": m, "params": cfgs[m].get("params", "")} for m in models], "order": models,
              "default_models": DEFAULT_MODELS, "benches": bench_meta, "scores": sc_idx,
-             "axes": [{"id": t, "label": BENCH[t][1], "name": BENCH[t][0]} for t in TASKS],
-             # rounded here, so the browser shows exactly the numbers of the tables (JS rounds ties differently)
-             "radar": {m: {t: {l: None if rv[m][t][l] is None else float(f1(rv[m][t][l])) for l in LANGS}
-                           for t in TASKS} for m in models},
-             "radar_mean": {m: {l: float(f1(mean(rv[m][t][l] for t in TASKS))) for l in LANGS} for m in models},
              "svg_export": {"styles": SVG_STYLES, "font": "Barlow, Helvetica, Arial, sans-serif"}}
     write_js(site / "data" / "index.js", "index", index)
     n_files = sum(1 for _ in (site / "data").rglob("*.js"))
